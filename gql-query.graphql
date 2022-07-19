@@ -1,0 +1,55 @@
+query ($urlname: String!) {
+  groupByUrlname(urlname: $urlname) {
+    name
+    description
+    foundedDate
+    link
+    topics {
+      name
+    }
+    sponsors {
+      edges {
+        node {
+          id
+          name
+          url
+          logo
+        }
+      }
+    }
+    pastEvents(input: {first: 300}) {
+      count
+      pageInfo {
+        endCursor
+      }
+      edges {
+        node {
+          id
+          title
+          eventUrl
+          description
+          shortDescription
+          host {
+            id
+            name
+          }
+          dateTime
+          eventType
+          image {
+            baseUrl
+            id
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+{
+  "urlname": "liferay-spain-user-group"
+}
+
+# image URL example
+# https://secure-content.meetupstatic.com/images/classic-events/504659792/676x380.webp
