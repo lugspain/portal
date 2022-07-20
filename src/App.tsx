@@ -1,4 +1,3 @@
-const App = () => <p>cleaning</p>;
+const App = () => <p>cleaning</p>
 
-
-export default App;
+export default App

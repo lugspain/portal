@@ -17,7 +17,7 @@ query ($urlname: String!) {
         }
       }
     }
-    pastEvents(input: {first: 300}) {
+    pastEvents(input: { first: 300 }) {
       count
       pageInfo {
         endCursor
@@ -45,11 +45,7 @@ query ($urlname: String!) {
   }
 }
 
-
-
-{
-  "urlname": "liferay-spain-user-group"
-}
+# {"urlname": "liferay-spain-user-group"}
 
 # image URL example
 # https://secure-content.meetupstatic.com/images/classic-events/504659792/676x380.webp
