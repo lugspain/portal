@@ -1,3 +1,8 @@
+# Please visit https://www.meetup.com/api/playground/#graphQl-playground
+# Paste this query in query box
+# Paste the params in query variable box
+# Execute and copy the response in ./data.json
+
 query ($urlname: String!) {
   groupByUrlname(urlname: $urlname) {
     name
