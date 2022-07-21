@@ -1,0 +1,1386 @@
+{
+  "data": {
+    "groupByUrlname": {
+      "name": "Liferay Spain User Group",
+      "description": "<p>Este grupo es el lugar de encuentro de usuarios, desarrolladores, administradores de sistemas y entusiastas en general de productos y proyectos de Liferay en España.</p>",
+      "foundedDate": "2017-10-16T12:09:29+02:00",
+      "link": "https://www.meetup.com/liferay-spain-user-group",
+      "topics": [
+        {
+          "name": "Open Source"
+        },
+        {
+          "name": "Software Development"
+        },
+        {
+          "name": "Web Development"
+        },
+        {
+          "name": "Business Development"
+        },
+        {
+          "name": "Android Development Operating Systems Technology"
+        },
+        {
+          "name": "Product Development"
+        },
+        {
+          "name": "iOS Development"
+        },
+        {
+          "name": "Liferay"
+        }
+      ],
+      "sponsors": {
+        "edges": [
+          {
+            "node": {
+              "id": "ch6992070",
+              "name": "Liferay",
+              "url": "http://liferay.com",
+              "logo": "https://secure.meetupstatic.com/photos/sponsor/d/4/e/b/iab120x90_2694507.jpeg"
+            }
+          }
+        ]
+      },
+      "pastEvents": {
+        "count": 70,
+        "pageInfo": {
+          "endCursor": "Mjg2NDA3MzY2OjE2NTU0MjA0MDAwMDA="
+        },
+        "edges": [
+          {
+            "node": {
+              "id": "244254392",
+              "title": "Encuentro con la comunidad",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/244254392",
+              "description": "Coincidiendo con el Liferay Symposium de España 2017 celebraremos un encuentro con la comunidad.\n\nAdemás de ingenieros de Liferay, contaremos con la presencia de Zeno Rocha, Principal Developer Advocate, que el jueves ofrecerá una keynote sobre novedades de la comunidad.\n\nEl registro se hará a través de esta URL (https://forms.liferay.com/web/forms/shared/-/form/169634/)\n\nEl punto de encuentro será la zona de registro dentro del Teatro Goya.",
+              "shortDescription": null,
+              "host": {
+                "id": "92298422",
+                "name": "Javier Gamarra"
+              },
+              "dateTime": "2017-10-25T19:30+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "486018749"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "244925522",
+              "title": "Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/244925522",
+              "description": "https://secure.meetupstatic.com/photos/event/9/4/a/3/600_465998051.jpeg\n\nLa agenda del evento es la siguiente:\n\n19:00 Llegada, anuncios\n19:15 Manuel de la Peña: Docker nightly builds de Liferay Portal CE\n19:45 Alejandro Hernández: Desarrollo de nuevas APIs en Liferay\n20:15 Elección del co-organizador del LSUG y otros temas/preguntas específicas del LSUG\n20:30 Pizzas\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!\n\nPublicaremos la agenda definitiva una semana antes del evento 🚀 (https://emojipedia.org/rocket/).",
+              "shortDescription": null,
+              "host": {
+                "id": "239022203",
+                "name": "Eduardo Garcia"
+              },
+              "dateTime": "2017-11-29T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "486018749"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "246207734",
+              "title": "Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/246207734",
+              "description": "¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!\n\nPublicaremos la agenda definitiva unas semanas antes del evento 🚀 (https://emojipedia.org/rocket/).",
+              "shortDescription": null,
+              "host": {
+                "id": "239022203",
+                "name": "Eduardo Garcia"
+              },
+              "dateTime": "2018-01-31T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "467142710"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "246207736",
+              "title": "Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/246207736",
+              "description": "¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!\n\nEsta es la agenda para el encuentro:\n\n19:00 - Llegada y anuncios\n19:15 - Presentación sobre los resultados la encuesta sobre el estado de la Comunidad Liferay a nivel global y para España\n19:30 - Debate sobre los resultados\n20:15 - Elección de la temática de las presentaciones del siguiente encuentro\n20:30 - Pizzas",
+              "shortDescription": null,
+              "host": {
+                "id": "239022203",
+                "name": "Eduardo Garcia"
+              },
+              "dateTime": "2018-01-31T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "467142710"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "246715851",
+              "title": "Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/246715851",
+              "description": "¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!\n\nPublicaremos la agenda definitiva unas semanas antes del evento 🚀 (https://emojipedia.org/rocket/).",
+              "shortDescription": null,
+              "host": {
+                "id": "92298422",
+                "name": "Javier Gamarra"
+              },
+              "dateTime": "2018-01-31T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "467142710"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "246562214",
+              "title": "Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/246562214",
+              "description": "¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!\n\n¡Ya tenemos agenda para el encuentro!\n\n19:00 - 19:10 Recepción y anuncios\n19:10 - 20:10 Soluciones de Movilidad en Liferay (Víctor Galán y Sarai Díaz)\n20:10 - 20:20 Preguntas sobre la charla\n20:20 - 20:30 Propuestas sobre temas para futuros meetups y otros asuntos del grupo.\n20:30 - 21:00 Pizzas 🍕",
+              "shortDescription": null,
+              "host": {
+                "id": "239022203",
+                "name": "Eduardo Garcia"
+              },
+              "dateTime": "2018-02-28T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "467142710"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "246562219",
+              "title": "Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/246562219",
+              "description": "¡Ya tenemos agenda para el encuentro del 4 de abril! En esta ocasión tendremos una sesión monográfica e interactiva sobre actualizaciones de Liferay:\n\n19:00-19:15 Recepción y anuncios\n19:15-20:30 Herramientas y buenas prácticas en la actualización de Liferay.\n\nLa charla será dirigida por Alberto Chaparro, Lead Software Engineer en el equipo de Soporte de Liferay España. Pretendemos que sea muy participativa, y que los asistentes tengan ocasión de compartir sus experiencias, plantear sus dudas y proponer mejoras.\n\nAdemás de recordar las herramientas y buenas prácticas para migrar tanto datos como desarrollos desde Liferay 6.2 a Liferay 7.0, incluiremos en primicia las novedades sobre actualizaciones que trae Liferay 7.1.\n\n20:30-20:40 Cuestiones sobre el Grupo de Usuarios y propuestas para la agenda del próximo encuentro.\n20:40-21:00 Networking + Pizzas 🍕\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "239022203",
+                "name": "Eduardo Garcia"
+              },
+              "dateTime": "2018-04-04T19:00+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "467142710"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "246562224",
+              "title": "Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/246562224",
+              "description": "Haremos un recorrido por las novedades de la próxima release de Liferay Portal v7.1\n* Bienvenida, novedades e introducción, por Eduardo García) (10 min aprox.)\n* Visión general de Liferay Portal 7.1, por Rafa Lluis (20 min aprox)\n* Modern Site Building\n* Formularios\n* Adaptive Media\n* Búsquedas\n* Ecommerce (CE)\n* Mobile\n* Liferay Screens (Desarrollo híbrido: Xamarin y Apache Cordova)\n* En detalle\n* Modern Site Building, by Javier Ahedo (10 min aprox)\n* Forms, por Javier Ahedo (10 min aprox)\n* Búsqueda por Javier Ahedo (10 min aprox)\n* Adaptive Media, por Sergio González, (20 min aprox)\n* Liferay 7.1 Beta Program (10 min aprox)\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "239022203",
+                "name": "Eduardo Garcia"
+              },
+              "dateTime": "2018-04-25T19:00+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "467142710"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "246562227",
+              "title": "Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/246562227",
+              "description": "En esta ocasión, como habíamos hablado, tendremos una sesión participativa en la que podremos todos compartir nuestras experiencias y consejos para las buenas prácticas en el día a día del desarrollo con Liferay.\n\nTodos tenemos en mayor o menor grado experiencia desarrollando proyectos con Liferay. Lo que significa que todos tendremos nuestra opinión y consejos que aportar sobre lo que nos funciona y sobre lo que no nos funciona.\n\nPara guiar un poco la sesión, la dividiremos en los siguientes bloques principales:\n\n1.- Herramientas. ¿qué herramientas utilizamos para desarrollar y nos facilitán el trabajo diario?\n2.- Errores comunes. Donde podremos compartir esas dichosas piedras en las que tropezamos más de una vez para así poder identificarlas, evitarlas o proponer soluciones que las quiten del camino en el futuro.\n3.- Buenas prácticas, para acabar compartiendo aquellos consejos, trucos y hábitos que nos permiten evitar errores y mejorar tanto el proceso como el resultado de nuestro trabajo diario.\n\nComo siempre, empezaremos con una breve introducción con anuncios y presentaciones, si caben; y acabaremos con una pequeña conclusión para resumir todo lo tratado.\n\nComo siempre, es importante la aportación de cada uno, así que te esperamos.",
+              "shortDescription": null,
+              "host": {
+                "id": "239022203",
+                "name": "Eduardo Garcia"
+              },
+              "dateTime": "2018-06-06T19:00+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "467142710"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "247380422",
+              "title": "Encuentro del Grupo de Usuarios de Liferay en España: Temas con Marcos Castro",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/247380422",
+              "description": "*Temas en Liferay*!\n\nMarcos Castro (@marcoscava) nos contará *Cómo crear un tema y todos los trucos, características y diferencias entre 6.2, 7.0 y 7.1*.\n\nSabemos que los temas (o bootstrap) suelen ser complicados para los desarrolladores que trabajan con Liferay y no se suelen aplicar buenas prácticas o hay muchas dudas de cómo crearlos. Marcos es nuestro experto y os resolverá todas las dudas :slightly_smiling_face:\n\nDespués de la charla nos iremos a tomar unas cañas y a celebrar la *última sesión antes del verano* del grupo de usuarios que nos tomaremos vacaciones hasta septiembre (que normalmente hay poca actividad en verano).\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "92298422",
+                "name": "Javier Gamarra"
+              },
+              "dateTime": "2018-06-27T19:00+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "467142710"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "251989642",
+              "title": "Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/251989642",
+              "description": "Aprovechando la visita a Madrid de Marco Leo, Software Engineer y Team Lead de Liferay Commerce, le hemos pedido que nos acompañe una tarde en el Liferay Spain User Group para hablarnos y presentarnos uno de los nuevos proyectos de Liferay que se acaba de liberar.\n\nEsta es una oportunidad perfecta para conocer Liferay Commerce directamente de la mano de uno de sus creadores.",
+              "shortDescription": null,
+              "host": {
+                "id": "260719800",
+                "name": "Marco Leo"
+              },
+              "dateTime": "2018-09-12T19:00+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "467142710"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "252186776",
+              "title": "Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/252186776",
+              "description": "Los próximos 17 y 18 de octubre se celebrará en Madrid el Symposium anual de Liferay España (https://www.liferay.com/es/web/events-symposium-spain). Son unas fechas muy destacadas para Liferay, pero también para el Grupo de Usuarios de Liferay (LUG) ya que se cumple un año desde que retomamos los encuentros de forma periódica. Gracias a vosotros, en estos meses hemos avanzado enormemente en la consolidación de la Comunidad de usuarios y queremos aprovechar esta ocasión para celebrarlo.\n\nPor este motivo, hemos decidido trasladar el meetup de octubre (inicialmente programado para la tarde del miércoles 31 de octubre) a la tarde del miércoles 17 de octubre, primer día del Symposium. Como ya ocurriese el año pasado, se tratará de un encuentro informal con una primera parte de balance y anuncios en el mismo recinto del Symposium, y una segunda parte en la que saldremos a tomar algo por la zona. Desde Liferay se va a dar aún más relevancia a este encuentro, incluyéndolo en la agenda del Symposium e invitando a los asistentes a quedarse al meetup.\n\nNo obstante, desde el LUG no queremos limitar la presencia de la Comunidad al encuentro de por la tarde, sino que queremos que toméis parte en el contenido del Symposium. Con este objetivo, os invitamos a que participéis en el Call For Paper abierto (https://forms.liferay.com/web/forms/shared/-/form/451796) para que presentéis vuestros casos de uso o experiencias con Liferay. A cambio, solo por presentar una propuesta se os enviará un descuento del 50% en el precio de la entrada del Symposium. Y obviamente los ponentes seleccionados recibirán una entrada gratuita.\n\nSiempre insistimos en que nuestra Comunidad tiene mucho que enseñarnos, y creemos que ésta es una oportunidad excelente para demostrarlo. ¡Os animamos a todos a participar! 🚀🚀🚀\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "92298422",
+                "name": "Javier Gamarra"
+              },
+              "dateTime": "2018-10-17T19:00+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "467142710"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "252186778",
+              "title": "Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/252186778",
+              "description": "¡Ya tenemos agenda para el evento de noviembre! En este caso, traeremos temas tratados en el Symposium de España y la DevCon para que puedan ser tratados y debatidos por la comunidad:\n\n- Resumen de DEVCON (vs Symposium)\n- Charla: investigación en eHealth en el Instituto de la salud Carlos III por Santiago Pérez de la Cámara\n- Evolución de comunidad y los perfiles (síntesis de la charla de David Gómez en la DevCon).\n- Cuestiones sobre la comunidad\n\nY como ya es tradición, terminaremos con unas pizzas 🍕 para comentar la sesión y hacer networking.\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "92298422",
+                "name": "Javier Gamarra"
+              },
+              "dateTime": "2018-11-28T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "467142710"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "256493458",
+              "title": "Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/256493458",
+              "description": "Adelantamos el último meetup Diciembre un par de semanas para cerrar el año antes de empezar con los compromisos festivos, familiares y personales.\n\nEn esta ocasión, tendremos un meetup especial, por dos motivos. El primero, porque aprovecharemos la visita de Milen Dyankov a Madrid para invitarle a unirse a nosotros y charlar sobre grandes aplicaciones Java, modularidad (en su término más amplio) y cómo descomponer aplicaciones Java.\n\nEsta sesión, además, será una convocatoria conjunta con MadridJUG, dado que el tema es de interés general.\n\nLa agenda será la siguiente:\n\n1.- Bienvenida\n2.- \"Decomposing Java Applications\" by Milen Dyankov\n3.- \"Sorteo\" de una licencia anual de IntelliJ (por MadridJUG)\n3.- Networking, pizza y bebidas.\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "92298422",
+                "name": "Javier Gamarra"
+              },
+              "dateTime": "2018-12-12T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "467142710"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "257167612",
+              "title": "#MAD - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/257167612",
+              "description": "LUGSpain vuelve y lo hacemos a nuestra fecha habitual, el último miércoles del mes. En este primer evento del año abrimos con un meetup muy especial. ¡¡Realizamos nuestro primer meetup en Asturias!!\n\nComienza la comunidad en Asturias con dos presentaciones muy interesantes por parte de Javier Lora, de la que ya pudimos ver un anticipo en el Symposium.\n\nLa agenda será la siguiente:\n1.- Bienvenida y presentación del nuevo grupo en Asturias.\n2.- \"Conectividad entre diferentes actores mediante el uso de tecnología VC con Liferay DXP\", Javier Lora, Ricoh.\n3.- \"¿Qué son y cómo podemos aprovecharnos de la Automatización Robótica de Procesos?\", Javier Lora, Ricoh\n4.- Presentación de la iniciativa #AsturiasPower, Luisma Hernández Valencia.\n5.- Anuncios para la comunidad.\n6.- Networking y cervezas.\n\nDesde la comunidad de LUGSpain de Madrid, podremos conectarnos en directo desde las oficinas de Liferay y posteriormente disfrutar del networking (y las pizzas).\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "92298422",
+                "name": "Javier Gamarra"
+              },
+              "dateTime": "2019-01-30T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "467142710"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "258099052",
+              "title": "#AST - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/258099052",
+              "description": "LUGSpain vuelve y lo hacemos a nuestra fecha habitual, el último miércoles del mes. En este primer evento del año abrimos con un meetup muy especial. ¡¡Realizamos nuestro primer meetup en Asturias!!\n\nComienza la comunidad en Asturias con dos presentaciones muy interesantes por parte de Javier Lora, de la que ya pudimos ver un anticipo en el Symposium.\n\nLa agenda será la siguiente:\n1.- Bienvenida y presentación del nuevo grupo en Asturias.\n2.- \"Conectividad entre diferentes actores mediante el uso de tecnología VC con Liferay DXP\", Javier Lora, Ricoh.\n3.- \"¿Qué son y cómo podemos aprovecharnos de la Automatización Robótica de Procesos?\", Javier Lora, Ricoh\n4.- Presentación de la iniciativa #AsturiasPower, Luisma Hernández Valencia.\n5.- Anuncios para la comunidad.\n6.- Networking y cervezas. Iremos a la Cervecería Entrecalles. ¡Allí nos vemos!\n\nSi no podéis llegar al meetup, no dudéis en pasaros al networking en la Cervecería Entrecalles (a un par de minutos).\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2019-01-30T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "486018749"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "258099302",
+              "title": "#MAD - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/258099302",
+              "description": "¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!\n\nPublicaremos la agenda definitiva unas semanas antes del evento 🚀 (https://emojipedia.org/rocket/).",
+              "shortDescription": null,
+              "host": {
+                "id": "239022203",
+                "name": "Eduardo Garcia"
+              },
+              "dateTime": "2019-01-30T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "467142710"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "258351585",
+              "title": "#MAD - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/258351585",
+              "description": "LUGSpain vuelve tras el primer meetup en Asturias. En esta ocasión será un meetup compartido, siendo la primera sesión desde Asturias y la segunda desde Madrid. En ambos casos se seguirán las dos sesiones en directo.\n\nLa agenda será la siguiente:\n19:00 - Bienvenida y anuncios\n19:15 - \"Erase una vez .... un Liferay\". Con la release de Liferay Portal CE 7.2 cerca, Alberto Martinez dará un repaso a la evolución de Liferay Portal a lo largo de sus distintas versiones desde el punto de vista de un desarrollador que trabaja con la plataforma. Alegrias y frustraciones a partes iguales\n19:50 - \"Securizando APIs Web con JAX-RS y Oauth2\". Carlos Sierra nos mostrará como conjugar APIs REST desarrolladas con JAX-RS en un contenedor OSGi y nos demostrará como enganchar la securización con Liferay Portal a través del soporte de OAuth2.\n20:30: Despedida y networking.\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "239022203",
+                "name": "Eduardo Garcia"
+              },
+              "dateTime": "2019-02-27T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "467142710"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "259061006",
+              "title": "#AST - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/259061006",
+              "description": "Encuentro del Grupo en Asturias.\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!\n\nPublicaremos la agenda definitiva unas semanas antes del evento 🚀 (https://emojipedia.org/rocket/).",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2019-02-27T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "486018749"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "259125392",
+              "title": "#AST - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/259125392",
+              "description": "LUGSpain vuelve tras el primer meetup en Asturias. En esta ocasión será un meetup compartido, siendo la primera sesión desde Asturias y la segunda desde Madrid. En ambos casos se seguirán las dos sesiones en directo.\n\nLa agenda será la siguiente:\n19:00 - Bienvenida y anuncios\n19:15 - \"Erase una vez .... un Liferay\". Con la release de Liferay Portal CE 7.2 cerca, Alberto Martinez dará un repaso a la evolución de Liferay Portal a lo largo de sus distintas versiones desde el punto de vista de un desarrollador que trabaja con la plataforma. Alegrias y frustraciones a partes iguales\n19:50 - \"Securizando APIs Web con JAX-RS y Oauth2\". Carlos Sierra nos mostrará como conjugar APIs REST desarrolladas con JAX-RS en un contenedor OSGi y nos demostrará como enganchar la securización con Liferay Portal a través del soporte de OAuth2.\n20:30: Despedida y networking.\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2019-02-27T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "486018749"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "258351594",
+              "title": "#MAD - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/258351594",
+              "description": "En esta sesión, empezamos a conocer en algo más de profundidad las novedades de la Liferay Portal 7.2 y de Liferay Commerce 1.1\n\nLa agenda de esta sesión será la siguiente:\n\n19:00 - Bienvenida y anuncios\n19:15 - \"Qué esperar de 'Colaboración' en Liferay Portal 7.2\". Empezamos a ver qué nos traerá la próxima versión de Liferay Portal 7.2, en este caso, Pablo Agulla nos introducirá las nuevas funcionalidades en los módulos de colaboración. Funcionalidades que ya están accesibles en la versión Beta.\n19:50 - \"Commerce 1.1\". Daniel de Francisco nos acercará al nuevo Liferay commerce, y aprovecharemos para centrarnos en los cambios y novedades de la versión 1.1 frente a la 1.0\n20:30: Despedida y networking.\n\nEsta sesión será en conexión con Asturias.\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!\n\nPublicaremos la agenda definitiva unas semanas antes del evento 🚀 (https://emojipedia.org/rocket/).",
+              "shortDescription": null,
+              "host": {
+                "id": "239022203",
+                "name": "Eduardo Garcia"
+              },
+              "dateTime": "2019-03-27T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "467142710"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "259894354",
+              "title": "#AST - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/259894354",
+              "description": "Encuentro del Grupo en Asturias.\n\nEn esta sesión, empezamos a conocer en algo más de profundidad las novedades de la Liferay Portal 7.2 y de Liferay Commerce 1.1\n\nLa agenda de esta sesión será la siguiente:\n\n19:00 - Bienvenida y anuncios\n19:15 - \"Qué esperar de 'Colaboración' en Liferay Portal 7.2\". Empezamos a ver qué nos traerá la próxima versión de Liferay Portal 7.2, en este caso, Pablo Agulla nos introducirá las nuevas funcionalidades en los módulos de colaboración. Funcionalidades que ya están accesibles en la versión Beta.\n19:50 - \"Commerce 1.1\". Daniel de Francisco nos acercará al nuevo Liferay commerce, y aprovecharemos para centrarnos en los cambios y novedades de la versión 1.1 frente a la 1.0\n20:30: Despedida y networking.\n\nEsta sesión se hará en conexión con el Grupo de usuarios en Madrid.\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!\n\nPublicaremos la agenda definitiva unas semanas antes del evento 🚀 (https://emojipedia.org/rocket/).",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2019-03-27T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "486018749"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "260346530",
+              "title": "#MAD - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/260346530",
+              "description": "Encuentro del grupo de usuarios de Liferay en Madrid.\n\nVolvemos para la sesión de Abril con dos charlas, desde Madrid, veremos las novedades de Personalización y Segmentación que trae la próxima release y, desde Asturias, cómo indexar y monitorizar los Logs de Liferay con Elastic.\n\nLa agenda será la siguiente:\n\n19:00 - Bienvenida y anuncios\n19:15 - #MAD - \"Creando experiencias personalizadas con Liferay Portal 7.2\", Eduardo García nos contará cómo la Personalización y Segmentación de Liferay 7.2 nos permiten adaptar los contenidos a los visitantes de nuestros sitios.\n19:50 - #AST. \"Monitoriza tus logs de Liferay con Elastic Stack\". Patricia Hevia nos contará como realizar indexación, tratamiento y visualización de logs de Liferay utilizando Elastic Stack\n20:30: Despedida y networking.\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!\n\nPublicaremos la agenda definitiva unas semanas antes del evento 🚀 (https://emojipedia.org/rocket/).",
+              "shortDescription": null,
+              "host": {
+                "id": "239022203",
+                "name": "Eduardo Garcia"
+              },
+              "dateTime": "2019-04-24T19:00+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "467142710"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "260504886",
+              "title": "#AST - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/260504886",
+              "description": "Encuentro del Grupo en Asturias.\n\nVolvemos para la sesión de Abril con dos charlas, desde Madrid, veremos las novedades de Personalización y Segmentación que trae la próxima release y, desde Asturias, cómo indexar y monitorizar los Logs de Liferay con Elastic.\n\nLa agenda será la siguiente:\n\n19:00 - Bienvenida y anuncios\n19:15 - #MAD - \"Creando experiencias personalizadas con Liferay Portal 7.2\", Eduardo García nos contará cómo la Personalización y Segmentación de Liferay 7.2 nos permiten adaptar los contenidos a los visitantes de nuestros sitios.\n19:50 - #AST. \"Monitoriza tus logs de Liferay con Elastic Stack\". Patricia Hevia nos contará como realizar indexación, tratamiento y visualización de logs de Liferay utilizando Elastic Stack\n20:30: Despedida y networking.\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!\n\nPublicaremos la agenda definitiva unas semanas antes del evento 🚀 (https://emojipedia.org/rocket/).",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2019-04-24T19:00+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "486018749"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "261042081",
+              "title": "#AST - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/261042081",
+              "description": "Encuentro del Grupo en Asturias.\n\n¡Vamos creciendo!\n\nEn el mes de Abril inauguramos la sede de Sevilla, con una charla desde Sevilla y otra desde Asturias.\n\nLa agenda de este encuentro será la siguiente:\n\n19:00 - Bienvenida y anuncios\n19:15 - #SEV - \"Pruebas de carga y tuning con Liferay\", Daniel Martínez Cisneros y David Vega Perea.\n19:50 - #AST. \"Desarrollo frontend en Liferay 7.2\". Ivan Zaera.\n20:30: Despedida y networking.\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2019-06-05T19:00+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "486018749"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "261042144",
+              "title": "#MAD - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/261042144",
+              "description": "Encuentro del Grupo en Madrid.\n\n¡Vamos creciendo!\n\nEn el mes de Abril inauguramos la sede de Sevilla, con una charla desde Sevilla y otra desde Asturias.\n\nLa agenda de este encuentro será la siguiente:\n\n19:00 - Bienvenida y anuncios\n19:15 - #SEV - \"Pruebas de carga y tuning con Liferay\", Daniel Martínez Cisneros y David Vega Perea.\n19:50 - #AST. \"Desarrollo frontend en Liferay 7.2\". Ivan Zaera.\n20:30: Despedida y networking.\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "239022203",
+                "name": "Eduardo Garcia"
+              },
+              "dateTime": "2019-06-05T19:00+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "467142710"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "261858536",
+              "title": "#SEV - Encuentro del grupo de usuarios de Liferay en Sevilla.",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/261858536",
+              "description": "Encuentro del Grupo en Sevilla.\n\n¡Vamos creciendo!\n\nEn el mes de Abril volvemos a retomar la actividad y a juntarnos en los encuentros desde Sevilla, con una charla desde Sevilla y otra desde Asturias.\n\nLa agenda de este encuentro será la siguiente:\n\n19:00 - Bienvenida y anuncios\n19:15 - #SEV - \"Pruebas de carga y tuning con Liferay\", Daniel Martínez Cisneros y David Vega Perea.\n19:50 - #AST. \"Desarrollo frontend en Liferay 7.2\". Ivan Zaera.\n20:30: Despedida y networking.\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2019-06-05T19:00+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "486018749"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "265049478",
+              "title": "#AST - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/265049478",
+              "description": "Con ocasión de la celebración anual del Symposium de Liferay en Madrid, tendremos nuestro meetup de octubre el miércoles 23 de Octubre, a las 19h al finalizar la primera jornada del Symposium.\n\nEsta será una sesión un poco especial. Donde revisaremos cómo ha ido el último año para la comunidad y nos marcaremos objetivos para el siguiente.\n\nLa agenda de la sesión será la siguiente:\n1.- Balance: Revisión de las actividades y objetivos del año.\n2.- Sugerencias, actividades\n3.- Objetivos para el año próximo.\n\nPara el registro, todos aquellos que estáis registrados para el Symposium tendreis acceso automáticamente.\n\nAquellos que no estáis registrados para el Symposium, tendréis que registraros para el meetup, pero en esta ocasión, el registro será en eventbrite, en la web del Symposium.\n\nPodéis hacerlo utilizando el cupón LRESP19-LUG-Meetup durante el proceso de registro y seleccionando el ticket \"Meetup Comunidad\", o bien podéis hacerlo utilizando el siguiente enlace: https://www.eventbrite.com/e/entradas-liferay-symposium-espana-2019-62346859134?discount=LRESP19-LUG-Meetup\n\n¡ES IMPORTANTE QUE OS REGISTREIS EN la web de Eventbrite! porque con ello tendremos un badge especial para vosotros que os dará acceso al recinto del Symposium (zona de exhibición, zonas comunes y sala del meetup de la comunidad).\n\nPodéis acceder el miércoles 23 desde las 17.30h.\n\n¡Os esperamos!",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2019-10-23T19:00+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "485812082"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "265049482",
+              "title": "#MAD - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/265049482",
+              "description": "Con ocasión de la celebración anual del Symposium de Liferay en Madrid, tendremos nuestro meetup de octubre el miércoles 23 de Octubre, a las 19h al finalizar la primera jornada del Symposium.\n\nEsta será una sesión un poco especial. Donde revisaremos cómo ha ido el último año para la comunidad y nos marcaremos objetivos para el siguiente.\n\nLa agenda de la sesión será la siguiente:\n1.- Balance: Revisión de las actividades y objetivos del año.\n2.- Sugerencias, actividades\n3.- Objetivos para el año próximo.\n\nPara el registro, todos aquellos que estáis registrados para el Symposium tendreis acceso automáticamente.\n\nAquellos que no estáis registrados para el Symposium, tendréis que registraros para el meetup, pero en esta ocasión, el registro será en eventbrite, en la web del Symposium.\n\nPodéis hacerlo utilizando el cupón LRESP19-LUG-Meetup durante el proceso de registro y seleccionando el ticket \"Meetup Comunidad\", o bien podéis hacerlo utilizando el siguiente enlace: https://www.eventbrite.com/e/entradas-liferay-symposium-espana-2019-62346859134?discount=LRESP19-LUG-Meetup\n\n¡ES IMPORTANTE QUE OS REGISTREIS EN la web de Eventbrite! porque con ello tendremos un badge especial para vosotros que os dará acceso al recinto del Symposium (zona de exhibición, zonas comunes y sala del meetup de la comunidad).\n\nPodéis acceder el miércoles 23 desde las 17.30h.\n\n¡Os esperamos!",
+              "shortDescription": null,
+              "host": {
+                "id": "239022203",
+                "name": "Eduardo Garcia"
+              },
+              "dateTime": "2019-10-23T19:00+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "485812005"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "266364975",
+              "title": "#MAD - Docker y Liferay & Alexa con Headless APIs y GraphQL",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/266364975",
+              "description": "Encuentro del grupo en Madrid\n\nLa agenda de esta sesión será la siguiente:\n\n19:00 - Bienvenida y anuncios\n19:15 - #MAD - \"Docker y Liferay para torpes\", Ibai Ruiz.\n19:50 - #MAD. \"Integración de Alexa con Liferay gracias a GraphQL y Headless APIs. David Gómez .\n20:30: Despedida y networking.\n\nDurante la bienvenida y anuncios, revisaremos y actualizaremos alguno de los próximos pasos a dar que quedaron pendientes en la sesión que hicimos coincidiendo con el Symposium.",
+              "shortDescription": null,
+              "host": {
+                "id": "239022203",
+                "name": "Eduardo Garcia"
+              },
+              "dateTime": "2019-11-27T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "486794520"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "266553559",
+              "title": "#AST - Liferay y Docker & Alexa con Liferay Headless APIs y GraphQL",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/266553559",
+              "description": "Encuentro del Grupo en Asturias.\n\nLa agenda de esta sesión será la siguiente:\n\n19:00 - Bienvenida y anuncios\n19:15 - #MAD - \"Docker y Liferay para torpes\", Ibai Ruiz.\n19:50 - #MAD. \"Integración de Alexa con Liferay gracias a GraphQL y Headless APIs. David Gómez .\n20:30: Despedida y networking.\n\nDurante la bienvenida y anuncios, revisaremos y actualizaremos alguno de los próximos pasos a dar que quedaron pendientes en la sesión que hicimos coincidiendo con el Symposium.\n\nEl networking se hará en la cervecería Entrecalles en la Calle Instituto, 30.\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2019-11-27T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "486794463"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "266590004",
+              "title": "#SEV - Encuentro del Grupo de Usuarios de Liferay en Sevilla",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/266590004",
+              "description": "Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!\n\nPublicaremos la agenda definitiva unas semanas antes del evento 🚀 (https://emojipedia.org/rocket/).",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2019-11-27T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "486018749"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "266590026",
+              "title": "#SEV - Liferay y Docker, & Alexa con Headless APIs y GraphQL",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/266590026",
+              "description": "Encuentro del Grupo en Sevilla.\n\nLa agenda de esta sesión será la siguiente:\n\n19:00 - Bienvenida y anuncios\n19:15 - #MAD - \"Docker y Liferay para torpes\", Ibai Ruiz.\n19:50 - #MAD. \"Integración de Alexa con Liferay gracias a GraphQL y Headless APIs. David Gómez .\n20:30: Despedida y networking.\n\nDurante la bienvenida y anuncios, revisaremos y actualizaremos alguno de los próximos pasos a dar que quedaron pendientes en la sesión que hicimos coincidiendo con el Symposium.\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2019-11-27T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "486794446"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "267299301",
+              "title": "#AST - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/267299301",
+              "description": "Encuentro del Grupo en Asturias.\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!\n\nPublicaremos la agenda definitiva unas semanas antes del evento 🚀 (https://emojipedia.org/rocket/).",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2020-01-29T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "486018749"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "267299313",
+              "title": "#SEV - Encuentro del Grupo de Usuarios de Liferay en Sevilla",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/267299313",
+              "description": "Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!\n\nPublicaremos la agenda definitiva unas semanas antes del evento 🚀 (https://emojipedia.org/rocket/).",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2020-01-29T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "486018749"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "267637434",
+              "title": "#MAD - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/267637434",
+              "description": "Volvemos con nuestras reuniones mensuales tras el parón navideño. Vamos a contar con un par de charlas desde Gijón y Sevilla, puramente desde la comunidad.\n\nPero además, habrá anuncios y algunas propuestas interesantes para organizar los próximos meetups en Madrid, ¡no te lo pierdas!\n\nAntes de todo eso, acompañaremos a Gijón en la celebración de su primer aniversario y les ayudaremos a soplar la vela.\n\nTambién tendremos la oportunidad de ganar una entrada que sortearemos entre los interesados en asistir a WeCode (https://wecodefest.com/) mitad openSpace mitad conferencia de talleres, que se celebra en Valladolid los dias 7 y 8 de Febrero.\n\nLa agenda del evento será la siguiente:\n\n19:00 - Bienvenida y anuncios\n19:10 - Primer Aniversario LSUG en Gijón\n19:15 - #AST - Integración del Google Nest (voice Assistant) con Liferay usando Headless. Alberto Martínez\n19:50 - #SEV - Autenticación y OAuth2 entre dos instalaciones de Liferay basadas en Docker. Manuel Laboisse.\n20:30 - Despedida y networking.\n\nNos vemos el 29 en la oficina de Liferay España.\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "93113132",
+                "name": "Álvaro Saugar"
+              },
+              "dateTime": "2020-01-29T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "488525141"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "267940162",
+              "title": "#AST - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/267940162",
+              "description": "Volvemos con nuestras reuniones mensuales tras el parón navideño. y con alegría porque....\n\n¡Volvemos para celebrar el primer aniversario de LSUG en Gijón!\n\nAsí que veniros con ganas, que alguna sorpresa habrá. (y compartiremos nuestra celebración con la buena gente de Madrid y Sevilla, que los aniversarios son para juntar a los amigos). Alguna sorpresa tendremos para sortear entre los asistentes.\n\nDurante la sesión tendremos una charla presencial desde Gijón, a cargo de Alberto Martinez, y otra en remoto desde Sevilla.\n\nTambién tendremos la oportunidad de ganar una entrada que sortearemos entre los interesados en asistir a WeCode (https://wecodefest.com/) mitad openSpace mitad conferencia de talleres, que se celebra en Valladolid los dias 7 y 8 de Febrero.\n\nLa agenda del evento será la siguiente:\n\n19:00 - Bienvenida y anuncios\n19:10 - Primer Aniversario LSUG en Gijón\n19:15 - #AST - Integración del Google Nest (voice Assistant) con Liferay usando Headless. Alberto Martínez\n19:50 - #SEV - Autenticación y OAuth2 entre dos instalaciones de Liferay basadas en Docker. Manuel Laboisse.\n20:30 - Despedida y networking.\n\nNos vemos el 29 en el Aula 1 del antiguo Instituo Jovellanos..\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "219226731",
+                "name": "Alberto Martínez Ballesteros"
+              },
+              "dateTime": "2020-01-29T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "488525169"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "267957697",
+              "title": "#SEV - Encuentro del Grupo de Usuarios de Liferay en Sevilla",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/267957697",
+              "description": "Volvemos con nuestras reuniones mensuales tras el parón navideño. En esta ocasión cambiamos de ubicación, para variar un poco y conocer sitios nuevos. Atentos a los detalles del lugar que están aquí publicados.\n\nEn esta ocasión, vamos a tener una charla presencial en Sevilla y la otra en remoto desde Gijón.\n\nAdemás, acompañaremos a nuestros compañeros Asturianos en la celebración de su primer aniversario y les ayudaremos a soplar la vela.\n\nTambién tendremos la oportunidad de ganar una entrada que sortearemos entre los interesados en asistir a WeCode (https://wecodefest.com/) mitad openSpace mitad conferencia de talleres, que se celebra en Valladolid los dias 7 y 8 de Febrero.\n\nLa agenda del evento será la siguiente:\n\n19:00 - Bienvenida y anuncios\n19:10 - Primer Aniversario LSUG en Gijón\n19:15 - #AST - Integración del Google Nest (voice Assistant) con Liferay usando Headless. Alberto Martínez\n19:50 - #SEV - Autenticación y OAuth2 entre dos instalaciones de Liferay basadas en Docker. Manuel Laboisse.\n20:30 - Despedida y networking.\n\nNos vemos el 29 en la EOI Business School de la Calle Leonardo Da Vinci en la Isla de La Cartuja.\n\nÚnete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2020-01-29T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "488525107"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "268032000",
+              "title": "#MAD - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/268032000",
+              "description": "Para la sesión de Febrero, contaremos primero con una charla desde Madrid en la Pablo Agulla nos hará un repaso de las nuevas funcionalidades de la recién liberada versión 7.3 CE de Liferay Portal.\n\nTras eso, gracias a Javier Lora desde Asturias, podremos conocer como hacer provisionamiento de instancias Liferay con Terraform.\n\nLa agenda queda de la siguiente forma:\n19:00 - Bienvenida y anuncios.\n19:15 - #MAD - Novedades de Liferay 7.3 CE GA 1. Pablo Agulla\n19:50 - #AST - Provisionamiento de Liferay con Terraform en Cloud. Javier Loira.\n20:30 - Despedida y networking.\n\n¡Te esperamos!\n\nY no olvides que esperamos tus propuestas de charlas a través del siguiente formulario https://docs.google.com/forms/d/e/1FAIpQLSenUJlh3367hnOWaev5vqQfwMx2CU1SZJ4PWAeD6x-vArPVqA/viewform",
+              "shortDescription": null,
+              "host": {
+                "id": "239022203",
+                "name": "Eduardo Garcia"
+              },
+              "dateTime": "2020-02-26T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "489124300"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "268351567",
+              "title": "#AST - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/268351567",
+              "description": "Encuentro del Grupo en Asturias.\n\nPara el meetup de Febrero, contaremos con una charla desde Madrid, en la que conoceremos las novedades de la recién liberada release 7.3 CE GA 1, y después, nuestro compañero Javier Lora nos enseñará como hacer provisionamiento de instancias Liferay a través de Terraform.\n\nLa agenda queda así:\n\n19:00 - Bienvenida y anuncios.\n19:15 - #MAD - Novedades de Liferay 7.3 CE GA 1. Pablo Agulla\n19:50 - #AST - Provisionamiento de Liferay con Terraform en Cloud. Javier Lora.\n20:30 - Despedida y networking.\n\n¡Te esperamos!\n\nY no olvides que esperamos tus propuestas de charlas a través del siguiente formulario https://docs.google.com/forms/d/e/1FAIpQLSenUJlh3367hnOWaev5vqQfwMx2CU1SZJ4PWAeD6x-vArPVqA/viewform\n\nÚnete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "219226731",
+                "name": "Alberto Martínez Ballesteros"
+              },
+              "dateTime": "2020-02-26T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "489124382"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "268796333",
+              "title": "#SEV - Encuentro del Grupo de Usuarios de Liferay en Sevilla",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/268796333",
+              "description": "Para el encuentro de Febrero, tendremos la ocasión de conocer las novedades de la recién liberada Release 7.3 CE GA de Liferay Portal, gracias al equipo de Ingeniería de Liferay en Madrid.\n\nY después, desde Asturias, podremos conocer cómo realizar provisionamiento de instancias Liferay gracias a Terraform.\n\nLa agenda queda de la siguiente forma:\n19:00 - Bienvenida y anuncios.\n19:15 - #MAD - Novedades de Liferay 7.3 CE GA 1. Pablo Agulla\n19:50 - #AST - Provisionamiento de Liferay con Terraform en Cloud. Javier Loira.\n20:30 - Despedida y networking.\n\n¡Te esperamos!\n\nY no olvides que esperamos tus propuestas de charlas a través del siguiente formulario https://docs.google.com/forms/d/e/1FAIpQLSenUJlh3367hnOWaev5vqQfwMx2CU1SZJ4PWAeD6x-vArPVqA/viewform\n\nÚnete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!",
+              "shortDescription": null,
+              "host": {
+                "id": "204757759",
+                "name": "daniel martinez cisneros"
+              },
+              "dateTime": "2020-02-26T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "489124508"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "268801385",
+              "title": "#SEV - Encuentro del Grupo de Usuarios de Liferay en Sevilla",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/268801385",
+              "description": "Esperamos tus propuestas para compartir tus experiencias con el resto de la comunidad.\n\nPuedes enviarnos tu propuesta, o puedes decirnos de qué temas te gustaría que otro miembro de la comunidad nos hablase, rellenando el siguiente formulario: https://docs.google.com/forms/d/e/1FAIpQLSenUJlh3367hnOWaev5vqQfwMx2CU1SZJ4PWAeD6x-vArPVqA/viewform\n\nÚnete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!\n\nÚnete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!\n\nPublicaremos la agenda definitiva unas semanas antes del evento 🚀 (https://emojipedia.org/rocket/).",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2020-03-25T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "486018749"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "268801397",
+              "title": "#AST - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/268801397",
+              "description": "Encuentro del Grupo en Asturias.\n\nEsperamos tus propuestas para compartir tus experiencias con el resto de la comunidad.\n\nPuedes enviarnos tu propuesta, o puedes decirnos de qué temas te gustaría que otro miembro de la comunidad nos hablase, rellenando el siguiente formulario: https://docs.google.com/forms/d/e/1FAIpQLSenUJlh3367hnOWaev5vqQfwMx2CU1SZJ4PWAeD6x-vArPVqA/viewform\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!\n\nPublicaremos la agenda definitiva unas semanas antes del evento 🚀 (https://emojipedia.org/rocket/).",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2020-03-25T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "486018749"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "268801417",
+              "title": "#MAD - Encuentro del Grupo de Usuarios de Liferay en España",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/268801417",
+              "description": "Encuentro del Grupo en Madrid\n\nEsperamos tus propuestas para compartir tus experiencias con el resto de la comunidad.\n\nPuedes enviarnos tu propuesta, o puedes decirnos de qué temas te gustaría que otro miembro de la comunidad nos hablase, rellenando el siguiente formulario: https://docs.google.com/forms/d/e/1FAIpQLSenUJlh3367hnOWaev5vqQfwMx2CU1SZJ4PWAeD6x-vArPVqA/viewform\n\n¡Únete a la conversación en el canal de #lug-spain de Liferay Community en Slack (https://community-chat.liferay.com/)!\n\nPublicaremos la agenda definitiva unas semanas antes del evento 🚀 (https://emojipedia.org/rocket/).",
+              "shortDescription": null,
+              "host": {
+                "id": "239022203",
+                "name": "Eduardo Garcia"
+              },
+              "dateTime": "2020-03-25T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "467142710"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "270156721",
+              "title": "Encuentro Online del Grupo de Usuarios de Liferay.",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/270156721",
+              "description": "Aunque parece que empezamos a dejar atrás lo peor de esta crisis, aún nos queda un poco más de esfuerzo por hacer y de paciencia para estar desde casa.\n\nPero no queremos dejar de seguir teniendo tiempo para reunirnos y charlar sobre nuestra plataforma favorita. Así que hemos planificado una sesión completamente online para el último miércoles del mes: el 29 de Abril. Publicaremos en breve el link para la reunión.\n\nEn esta ocasión, hemos creído que sería bueno continuar de forma más oficial algunas de las interesantes conversaciones que surgieron en el networking del mes de Febrero.\n\nEn esta sesión tendremos una sesión de Q&A y/o un debate sobre el nuevo ciclo de releases de Liferay Portal 7.3.\n\nLa agenda quedará de la siguiente forma:\n\n18:00h - Bienvenida y Anuncios.\n18:05h - Breve revisión del nuevo Rolling Release cycle\n18:10h - Debate. Sesión Q&A. Feedback sobre el Rolling Release Cycle\n18:55h - Conclusiones.\n\nDos cosas a destacar:\n1.- Al estar todos en casa, hemos adelantado el horario a las 18h.\n2.- Como es una sesión online, dadle difusión y animar a gente interesada a unirse, no importa dónde vivan.\n\nPor último, para ir recopilando alguna de las preguntas y comentarios, hemos preparado este formulario.\n\nhttps://forms.liferay.com/web/forms/shared/-/form/229418\n\nTe animamos a que vayas dejando tu comentario o pregunta sobre el tema de la reunión aquí. Así tenemos ya un planteamiento por donde empezar.\n\nNos vemos en unos días.",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2020-04-29T18:00+02:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "490278778"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "270784771",
+              "title": "Encuentro Online - Seguridad ante todo (Sesión de Debate)",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/270784771",
+              "description": "Aunque parece que continuamos en el proceso de dejar atrás lo peor de esta crisis, aún nos queda un poco más de esfuerzo por hacer y de paciencia para estar desde casa.\n\nPero no queremos dejar de seguir teniendo tiempo para reunirnos y charlar sobre nuestra plataforma favorita. Así que hemos planificado una sesión completamente online para el último miércoles del mes: el 27 de Mayo. Publicaremos en breve el link para la reunión.\n\nEn esta ocasión, hemos creído que sería interesante tratar la gestión de la seguridad y actualización de los entornos, un tema bastante candente actualmente.\n\nEsta sesión se podría titular - \"Seguridad ante todo\".\n\nLa agenda quedará de la siguiente forma:\n\n18:00h - Bienvenida y presentación.\n18.05h - Jorge Diaz. Modulo para security-advisories.\n18.15h - Jose Jimenez. Blindemos Liferay CE.\n18.30h - Debate. ¿qué prácticas usas para mantener segura tu instalación de Liferay?\n18:55h - Conclusión.\n19:00h - Anuncios y Despedida.\n\nDos cosas a destacar:\n1.- Al estar todos en casa, hemos adelantado el horario a las 18h.\n2.- Como es una sesión online, dadle difusión y animar a gente interesada a unirse, no importa dónde vivan.\n\nPor último, os recordamos que podéis realizar sugerencias tanto para la comunidad como de propuestas de charlas en los formularios.\n\nNos vemos en unos días.",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2020-05-27T18:00+02:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "490531605"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "271333267",
+              "title": "Encuentro Online - Commerce CE (Sesión de Debate)",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/271333267",
+              "description": "Aunque parece que se termina el estado de alarma, no queremos arriesgar y creemos que nos toca un poco más de esfuerzo por hacer y de paciencia para estar desde casa.\n\nPero no queremos dejar de seguir teniendo tiempo para reunirnos y charlar sobre nuestra plataforma favorita. Así que hemos planificado una sesión completamente online para el último miércoles del mes: el 24 de Junio. Publicaremos en breve el link para la reunión.\n\nEn esta ocasión, hemos creído que sería interesante tratar un tema que hace mucho que no se toca, Commerce CE, y por eso tenemos una sesión en la que se mostrará un caso real.\n\nEsta sesión se podría titular - \"Commerce CE \".\n\nLa agenda quedará de la siguiente forma:\n\n18:00h - Bienvenida y presentación.\n18.05h - Roselaine Marques. Commerce 2.x CE overview y Use Case.\n18.45h - Debate. ¿Os resultaría interesante en vuestros proyectos, o ya tenéis desarrollos que realizan las funcionalidades que necesitáis?\n18:55h - Conclusión.\n19:00h - Anuncios y Despedida.\n\nDos cosas a destacar:\n1.- Al estar todos en casa, hemos adelantado el horario a las 18h.\n2.- Como es una sesión online, dadle difusión y animar a gente interesada a unirse, no importa dónde vivan.\n\nPor último, os recordamos que podéis realizar sugerencias tanto para la comunidad como de propuestas de charlas en los formularios.\n\nNos vemos en unos días.",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2020-06-24T18:00+02:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "490878410"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "273437498",
+              "title": "Encuentro Online - Especial /dev/24",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/273437498",
+              "description": "Seguro que ya lo sabéis, el 24 de septiembre habrá 24 horas non-stop con sesiones sobre Liferay DXP , Liferay Portal 7.3 (y versiones anteriores).\n\nDesde la Comunidad hay una amplia representación:\nAlejandro Tardin, Ambrin Chaudhary, Martín Domínguez, Carlos Lancha, Jorge Ferrer, Sarai Díaz, David Arques, Marcos Castro, Roselaine Marques, David Gómez, Patricia Hevia Teixeira, Mariano Álvaro Sáiz, Ibai Ruiz, Javier Gamarra x2 (es decir que da dos charlas, no que se multiplique ;P )\n\nPara que os hagáis una idea, a las 18:10, Marcos Castro hablará sobre Dynamic Styling in DXP.\n\nToda la información la podéis consultar en https://liferay.dev/24\nNOTA: Recordad que las horas están en UTC, para ayudaros a saber la hora podéis usar la web - https://www.zeitverschiebung.net/es/city/3117735",
+              "shortDescription": null,
+              "host": {
+                "id": "93113132",
+                "name": "Álvaro Saugar"
+              },
+              "dateTime": "2020-09-24T09:00+02:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "492478991"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "273436387",
+              "title": "Encuentro Online - Item Selector (Having fun)",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/273436387",
+              "description": "Comienza el año académico y los meetups de la Comunidad con él. A pesar de las restricciones y los datos que se muestran, creemos que es importante que nos sigamos viendo. Por eso, como es tradición, hemos planificado una sesión completamente online para el último miércoles del mes: el 30 de Septiembre. La sesión se realizará por jitsi, como las últimas, y también se podrá seguir por youtube, como habitualmente.\nPublicaremos en breve el link para la reunión.\n\nEsta sesión se podría titular - \"Having fun with the Item Selector\".\n\nLa agenda quedará de la siguiente forma:\n18h: Bienvenida y Anuncios.\n18.10h. Having fun with the Item Selector. Alejandro Tardin y (pendiente de confirmar disponibilidad: Ambrin Chaudhary)\n18.40h. Q&A y Debate.\n19h. Despedida.\n\nDos cosas a destacar:\n1.- Al estar todos en casa, hemos adelantado el horario a las 18h.\n2.- Como es una sesión online, dadle difusión y animar a gente interesada a unirse, no importa dónde vivan.\n\nPor último, os recordamos que podéis realizar sugerencias tanto para la comunidad como de propuestas de charlas en los formularios.\n\nNos vemos en unos días.",
+              "shortDescription": null,
+              "host": {
+                "id": "93113132",
+                "name": "Álvaro Saugar"
+              },
+              "dateTime": "2020-09-30T18:00+02:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "492478468"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "273972639",
+              "title": "Meetup Octubre. Revisión Anual e ideas para el nuevo año.",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/273972639",
+              "description": "Como es tradición, el mes de Octubre movemos nuestro meetup mensual coincidiendo con el Symposium de Liferay en España.\n\nEste será un meetup de retrospectiva, de echar la vista atrás en cómo ha ido este año para la comunidad y aprovecharemos, como otros años, para plantear ideas e iniciativas que nos gustaría ver en el grupo durante el próximo año.\n\nTrataremos de tenerlo en un formato un poco más especial que, aunque virtual, intente acercarnos un poco y hacerlo más \"familiar\". Publicaremos el enlace aquí, para personas registradas, una hora antes de empezar el evento.\n\nEstamos deseando ya vernos todos.",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2020-10-21T18:00+02:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "486018749"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "274688318",
+              "title": "Encuentro Online Noviembre - Multifactor Authentication con Liferay",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/274688318",
+              "description": "Para el mes de Noviembre, volvemos con nuestros meetups online.\n\nEn esta ocasión, tendremos una sesión sobre Multifactor Authentication con Liferay, la agenda de la sesión será la siguiente:\n\n18.00 h: Bienvenida y Anuncios.\n18.10 h: Multifactor Authentication con Liferay. Marta Medio.\n18.40 h: Q&A y Debate.\n19.00 h: Despedida.\n\nEl meetup lo tendremos por jitsi para la charla. Tras la despedida, si quereis, preparaos algo de picar y nos movemos a la sala virtual para charlar y tener nuestros corrillos.\n\nNos vemos allí.",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2020-11-25T18:00+01:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "493602494"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "275862601",
+              "title": "Encuentro Online Enero - Integra tu applicación React en Liferay",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/275862601",
+              "description": "Volvemos después del parón Navideño, con una sesión en la que veremos cómo integrar nuestras aplicaciones React dentro de Liferay.\n\nMantenemos las sesiones online por nuestros canales habituales y después de la sesión, podremos movernos al espacio de realidad virtual en Mozilla Hubs para charlar tranquilamente.\n\nEl enlace para unirse a la sesión lo publicaremos (solo para usuarios registrados) un poco antes de la sesión, y lo comunicaremos a través del canal de slack también.\n\nLa agenda de esta sesión queda así:\n18:00 - Bienvenida y Anuncios\n18:10 - Integrando tu applicación React en Liferay\n18:45 - Q & A y Cuestiones organizativas.\n19:00 - Netwrking y charla en Mozilla Hubs.\n19:30 - Despedida.",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2021-01-27T18:00+01:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "494409865"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "276309130",
+              "title": "Encuentro Online Febrero - Compartiendo librerías entre Angular y React",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/276309130",
+              "description": "Para el meetup de Febrero seguimos tratando temas de desarrollo frontend. En este caso, gracias a Roselaine Marqués, que nos contará como aligerar el tamaño de nuestros desarrollos Frontend compartiendo librerías entre distintos módulos, incluso desarrollados en React o Angular.\n\nLa sesión será online.\n\nLa agenda que tendremos será la siguiente.\n\n18h - Bienvenida y Anuncios\n18.10- Compartiendo librerías en módulos React y AngularJS en Liferay, por Roselaine Marques (@RoselaineMarq10)\n18.45 - Q & A y Cuestiones organizativas\n19 - Networking y charla en Mozilla Hubs\n19.30 - Despedida\n\nUn poco más de detalle sobre la charla de Roselaine:\n\nCon la mejora del soporte para tecnologías frontend en las ultimas versiones de Liferay podemos ir ya desarrollando Widgets y modulos que usen Angular, Vue o React para implementar la capa de interfaz con el usuario.\n\nPodemos incluso desplegar dos módulos distintos que utilicen React uno y Angular JS para implementar el Widget.\n\nPero estos módulos suelen tener que incluir las librerías necesarias para cada caso, pudiendo llegar a 20 mb en el caso de un módulo Angular o a 4 Mb en el caso de un módulo React.\n\nEs muy posible que haya librerías que se utilicen en más de un módulo.\n\nEn esta charla veremos cómo poder compartir una misma librería entre distintos módulos frontend, ya sean Angular o React, de forma que reduzcamos significativamente el tamaño de los módulos, al tiempo que podemos mejorar el control de las versiones de librerías que usamos.",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2021-02-24T18:00+01:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "494713869"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "276401889",
+              "title": "La DEVCON desde tu casa con la gente de la comunidad",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/276401889",
+              "description": "Vamos a aprovechar el final del primer día para juntarnos todos los miembros de la comunidad en Español, charlar, compartir impresiones sobre el primer día de DEVCON y ver las ideas que nos ha dado para hacer y probar cosas nuevas....\n\nTambién podemos pensar en qué temas hemos visto que nos hayan llamado la atención y planificar alguna actividad conjunta para, , cuando \"estemos de vuelta a casa\", profundizar juntos ver esos temas que más nos interesan un poco más despacio.\n\nPara este evento no utilizaremos el registro en meetup.com, Registrate en la web de DEVCON: https://www.liferay.com/es/web/events/devcon\n\nLa sala aparece en la agenda oficial de DEVCON en el track \"Community Events\".",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2021-03-09T20:25+01:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "495090204"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "277090128",
+              "title": "Encuentro Online Marzo - Liferay CE en la Universidad",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/277090128",
+              "description": "Para el encuentro de Marzo vamos a tener una sesión en la que podremos conocer algunos casos de uso de Liferay CE. En este caso, contaremos con dos Universidades: La Universidad de les Illes Balears (UIB) y la Universidad de Murcia (UMU).\n\nEn esta sesión podremos conocer mejor el contexto de cada una de las universidades, su historia y su aproximación a utilizar Liferay CE y también conoceremos a los equipos que están detrás del trabajo con Liferay en cada una de estas Universidades.\n\nLa sesión será online.\n\nLa agenda que tendremos será la siguiente.\n\n18h - Bienvenida y Anuncios\n18.10- Liferay CE en la Universidad (UIB & UMU)\n18.45 - Q & A y Cuestiones organizativas\n19 - Networking y charla en Mozilla Hubs\n19.30 - Despedida",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2021-03-24T18:00+01:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "495326145"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "277810459",
+              "title": "Meetup Abril 2021 - Novedades Liferay Portal 7.4 CE GA1",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/277810459",
+              "description": "Para el encuentro de Abril vamos a tener la clásica sesión que tenemos justo cuando una nueva release se libera. En esta ocasión, tendremos a Julia Molano, del departamento de Product Management de Liferay Portal, que nos guiará por las novedades de Liferay Portal 7.4 CE GA1\n\nLa sesión será online.\n\nLa agenda que tendremos será la siguiente.\n\n18h - Bienvenida y Anuncios\n18.10- Novedades Liferay Portal 7.4 CE GA 1. Julia Molano.\n18.45 - El 'Release testing' de Liferay 7.4 (Lighting talk). Manoel Cyreno.\n18.55 - Cuestiones organizativas.\n19 - Networking y charla en Mozilla Hubs\n19.30 - Despedida",
+              "shortDescription": null,
+              "host": {
+                "id": "31724612",
+                "name": "David Gómez"
+              },
+              "dateTime": "2021-04-28T18:00+02:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "495983443"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "278356118",
+              "title": "Meetup Mayo 2021 - Personalizando Liferay con Service Wrapper",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/278356118",
+              "description": "Llega el último miércoles de mes y vuelve el evento de la comunidad. En este caso, una sesión especial, ya que ha sido propuesta y va a ser compartida por un miembro de la comunidad, Carlos Durán.\n\nEn la sesión hará una demostración del uso de los proyectos Service Wrapper para personalizar el funcionamiento de un servicio de Liferay. En este caso concreto, Carlos ha conseguido modificar el método authenticateByScreenName para realizar suplantaciones. Estad preparados, que será una sesión muy dinámica.\n\nLa agenda de la sesión del este miércoles será la siguiente:\n18:30h - Bienvenida y Anuncios\n18:40- Personalizando Liferay con Service Wrapper\n19:25 - Q & A y Cuestiones organizativas\n19:30 - Networking y charla\n\nNOTA: En esta ocasión, se retrasa el meetup 30 minutos.",
+              "shortDescription": null,
+              "host": {
+                "id": "93113132",
+                "name": "Álvaro Saugar"
+              },
+              "dateTime": "2021-05-26T18:30+02:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "496455712"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "279122853",
+              "title": "Meetup Junio 2021 - Auditoría y Monitorización en Liferay-CE con Elastic stack",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/279122853",
+              "description": "Llega el último miércoles de mes y vuelve el evento de la comunidad. En este caso, una sesión especial, ya que ha sido propuesta y va a ser compartida por dos miembros de la comunidad, en este caso de la Universidad de Murcia, Javier García Ros y Javier Alpañez.\n\nEn la sesión nos explicarán cómo han conectado Liferay con Elastic stack para realizar la auditoría y monitorización del portal. Estad preparados, que será una sesión muy dinámica.\n\n18:00h - Bienvenida y Anuncios\n18:10- Auditoría y Monitorización en Liferay-CE con Elastic stack\n18:55 - Q & A y Cuestiones organizativas\n19:00 - Networking y charla\n\n¡Nos vemos el miércoles!",
+              "shortDescription": null,
+              "host": {
+                "id": "93113132",
+                "name": "Álvaro Saugar"
+              },
+              "dateTime": "2021-06-30T18:00+02:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "497199971"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "281050684",
+              "title": "Meetup Septiembre 2021-Programando el envío de suscripciones en Assets Publisher",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/281050684",
+              "description": "Termina la época de vacaciones, vuelve el colegio y llega el último miércoles de mes. Todo hace indicar que vuelve el evento de la comunidad. En este caso, una sesión especial, ya que ha sido propuesta y va a ser compartida por un miembro de la comunidad, Fernando Robisco.\n\nEn la sesión nos contará cómo se puede personalizar el Asset Publisher para que se puedan enviar notificaciones a quien se haya suscrito, tanto al crear una nueva entrada como al editarla.\n\nLa agenda de la sesión del este miércoles será la siguiente:\n18:30 - Bienvenida y Anuncios\n18:40 - Programando el envío de suscripciones en los Assets Publisher - Fernando Robisco\n19:25 - Q & A\n19:30 - Networking (Mozilla Hubs)",
+              "shortDescription": null,
+              "host": {
+                "id": "93113132",
+                "name": "Álvaro Saugar"
+              },
+              "dateTime": "2021-09-29T18:30+02:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "499115036"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "281491781",
+              "title": "Meetup Octubre 2021 - APIs, este es el camino",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/281491781",
+              "description": "Se acerca el final del mes y ya tenemos preparada la nueva sesión de la comunidad. En este caso la temática fue propuesta por la comunidad mediante los formularios, Mejores practicas para realizar módulos que expongan servicios, y que tendremos la suerte que será impartida por Javier de Arcos, miembro del equipo de Headless de Liferay.\n\nEn la sesión volveremos a los fundamentos y hablaremos de las mejores prácticas de APIs que te ayudarán a diseñar y desarrollar tu API en Liferay para crear grandes experiencias con las API. Algunas de ellas serán: cómo definir tus URIs, utilizar correctamente los métodos HTTP y el código de estado de respuesta, diseñar tus representaciones, añadir capacidades hypermedia, proporcionar características avanzadas y aplicarlas tanto a GraphQL como a REST.\n\nEn Liferay, se basan en gran medida en las buenas prácticas, y seguirlas facilitará tu experiencia de desarrollo, así como la experiencia del usuario. Intentaremos pasar de la teoría a la práctica para ver cómo el seguimiento de las buenas prácticas afecta al uso de las herramientas de Liferay como REST Builder para crear tu API personalizada.\nÚnete para conocer un poco más sobre el diseño de APIs y las herramientas de desarrollo de APIs de Liferay\n\nLa agenda de la sesión del este miércoles será la siguiente:\n18:30 - Bienvenida y Anuncios\n18:40 - APIs, este es el camino - Javier de Arcos\n19:25 - Q & A\n19:30 - Networking (Mozilla Hubs)",
+              "shortDescription": null,
+              "host": {
+                "id": "93113132",
+                "name": "Álvaro Saugar"
+              },
+              "dateTime": "2021-10-27T18:30+02:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "499561312"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "282185361",
+              "title": "Meetup Noviembre 2021 - Forms ¿pero eso no se había deprecado?",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/282185361",
+              "description": "Se acerca el final del mes y ya tenemos preparada la nueva sesión de la comunidad. En este caso la temática también fue propuesta por la comunidad mediante los formularios, y precisamente de Forms hablaremos.\n\nEn la sesión comenzaremos con un repaso de forms y evolución por las versiones y continuaremos con el objetivo principal de esta sesión, dar a conocer cuáles son las claves cuando quieres aprovechar toda la potencia de los formularios y crear tus propios campos personalizados. No importa lo que quieras hacer, si puedes hacerlo con React puedes tenerlo en Forms.\n\nAunque los equipos de documentación y Forms están trabajando duro para proporcionar documentación y ejemplos, mientras tanto, intentaremos arrojar algo de luz sobre las distintas piezas que puedes utilizar y como hacerlo\n\nLa agenda de la sesión de este miércoles será la siguiente:\n18:30 - Bienvenida y Anuncios\n18:40 - Forms ¿pero eso no se había deprecado? - Martín Domínguez con la colaboración de Álvaro Saugar.\n19:25 - Q & A\n19:30 - Networking (Mozilla Hubs)",
+              "shortDescription": null,
+              "host": {
+                "id": "93113132",
+                "name": "Álvaro Saugar"
+              },
+              "dateTime": "2021-11-24T18:30+01:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "500313094"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "283383050",
+              "title": "Meetup Enero 2022 - Mejora del rendimiento del componente TreeFilter ",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/283383050",
+              "description": "¡Feliz año! Se acerca el final del mes y ya tenemos preparada la primera sesión de la comunidad en 2022. Nos hace especial ilusión porque va a ser un meetup compartido con la comunidad MadridJS. En este caso veremos cómo el equipo de Liferay se planteó la necesidad de auditar el rendimiento del componente React TreeFilter y nos compartirán los resultados obtenidos.\n\nEn la sesión se aprenderá a detectar, analizar y resolver problemas de rendimiento en un componente React JS, para ello se realizará:\n* Detectar mediante la realización de pruebas pesadas\n* Analizar concluyendo sobre las métricas\n* Resolver implementando las tareas más eficientes y asequibles\n\nEn el camino mostraremos algunas implementaciones de JS dentro de los componentes de React, cómo probamos el rendimiento utilizando el componente OOTB Profiler de React, y las correcciones finales que implementamos en la rama master.\n\nPrimero se presentará el componente, sus principales funciones y los inconvenientes que detectamos en el camino, para después mostrar el test de rendimiento, los resultados y la implementación de las mejoras.\n\nLa agenda de la sesión de este miércoles será la siguiente:\n18:30 - Bienvenida y Anuncios\n18:40 - Meetup Enero 2022 - Mejora del rendimiento del componente TreeFilter en el panel de contenidos - Beltrán Rengifo.\n19:25 - Q & A\n19:30 - Networking (Mozilla Hubs)",
+              "shortDescription": null,
+              "host": {
+                "id": "93113132",
+                "name": "Álvaro Saugar"
+              },
+              "dateTime": "2022-01-26T18:30+01:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "501498842"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "284199508",
+              "title": "Meetup Marzo 2022 - Objects ¿Qué es y qué nos aporta?",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/284199508",
+              "description": "A Marco Leo ya le conocemos de otros meetups en los que, como responsable de Commerce, nos presentó todas las funcionalidades que ofrecía el producto. Ahora, como VP of Product and Technology Innovation nos viene a presentar qué es Objects y qué nos va a aportar y facilitar en nuestros desarrollos.\n\nLa agenda de la sesión del este miércoles será la siguiente:\n\n* 18:30 - Bienvenida y Anuncios\n* 18:40 - Objects ¿Qué es y qué nos aporta? - Marco Leo\n* 19:25 - Q & A\n* 19:30 - Networking (Mozilla Hubs)",
+              "shortDescription": null,
+              "host": {
+                "id": "93113132",
+                "name": "Álvaro Saugar"
+              },
+              "dateTime": "2022-03-02T18:30+01:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "502236478"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "284844593",
+              "title": "Meetup Marzo 2022 - Montando un developer portal con la (pen)última GA",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/284844593",
+              "description": "Último miércoles y evento de la comunidad. Como novedad, VOLVEMOS CON UNA SESIÓN PRESENCIAL. En esta ocasión será presencial en la sede de Madrid, pero seguiremos emitiendo en streaming intentando acercar a todo el mundo, tanto en presencial como en remoto (https://www.youtube.com/watch?v=gklVbsPt3Xk).\n\nEn esta sesión conoceremos la experiencia de utilizar Liferay Portal CE para montar el Developer Portal de una startup.\n\nLo haremos desde dos puntos de vista: El de quien no tiene experiencia previa con Liferay y se enfrenta a montar y coordinar los contenidos, apariencia, estructuras, infraestructura y administración del portal.\n\nSegundo desde el punto de vista del desarrollo las personalizaciones y proceso de customización el editor por defecto de contenidos de Liferay Portal para facilitar la creación de contenidos por parte de los usuarios.\n\nUna visión, por tanto, desde el punto de vista del Usuario administrador de Liferay y del desarrollo de alguna personalización\nLa agenda de la sesión del este miércoles será la siguiente:\n18:30 - Bienvenida y Anuncios\n18:40 - Montando un developer portal con la (pen)última GA de Liferay Portal CE - Noémi Lemonnier y David Gómez\n19:25 - Q & A\n19:30 - Networking (Presencial y Mozilla Hubs)",
+              "shortDescription": null,
+              "host": {
+                "id": "93113132",
+                "name": "Álvaro Saugar"
+              },
+              "dateTime": "2022-03-30T18:30+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "502913353"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "285062230",
+              "title": "Workshop - Automated end to end Tests and other Legendary Creatures",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/285062230",
+              "description": "Hola, como comentamos en el último meetup, va a haber disponibles unas plazas para asistir al taller presencialmente (9 debido a restricciones de aforo).\n\n¿Queréis saber cómo hacer los test de vuestras aplicaciones? Pues este es vuestro taller.\n\nLa sesión comienza el jueves a las 16:00 y puesto que será en directo para la DevCon se recomienda llegar con antelación.\n\nNota: la sesión, como es un taller de la DevCon, será en inglés.",
+              "shortDescription": null,
+              "host": {
+                "id": "93113132",
+                "name": "Álvaro Saugar"
+              },
+              "dateTime": "2022-04-07T16:00+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "503167372"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "285571215",
+              "title": "Meetup Abril 2022 - Fragmentos, React  y Widgets",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/285571215",
+              "description": "En esta ocasión, primer miércoles de mes, y toca evento de la comunidad. Seguiremos teniendo la opción de ver la sesión en la oficina de Madrid y por streaming (https://www.youtube.com/watch?v=Y0oyFqDJpAY).\n\nEn la sesión hablaremos de los Fragmentos que parecen simples, son trozos de HTML, CSS y JavaScript que se pueden añadir a una página y fácilmente desarrollados por programadores FrontEnd, pero han evolucionado tanto que hay veces que se pueden confundir con widgets. En esta evolución ha tenido importancia la creación de Fragment Toolkit. En la sesión hablaremos sobre estos puntos y veremos código para verlo funcionar.\n\nLa agenda de la sesión del este miércoles será la siguiente:\n19:00 - Bienvenida y Anuncios\n19:10 - Fragmentos, React y Widgets - Pablo Molina\n20:10 - Q & A\n20:15 - Networking (Presencial y Mozilla Hubs)",
+              "shortDescription": null,
+              "host": {
+                "id": "93113132",
+                "name": "Álvaro Saugar"
+              },
+              "dateTime": "2022-05-04T19:00+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "503723361"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "286032216",
+              "title": "Meetup Mayo 2022 - Automatización de las customizaciones de Liferay ",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/286032216",
+              "description": "Hola, último miércoles de mes y volvemos a tener sesión. Tendremos una sesión presencial (en las oficinas de Liferay en Madrid) pero también se podrá seguir on line ([a través de Youtube](https://www.youtube.com/watch?v=JnjxpmPjRTw)) si no podéis asistir presencialmente.\n\nEn la sesión hablaremos de un tema que ha sido solicitado por la comunidad a través del formulario. Automatización de las customizaciones de Liferay, es decir, cómo saber si tus desarrollos siguen haciendo lo que tienen que hacer aunque tengas que realizar modificaciones y garantizar así que no se rompe la aplicación. Será una sesión diferente a la que se hizo en la DevCon, aunque los ponentes serán también David y Meg (se han dejado engañar fácil).\n\nAquí os dejo el enlace al [repo](https://github.com/david-gutierrez-mesa/dev24-automation-of-liferay-customizations), en este caso no es tan importante tener todo instalado como en el workshop que se hizo en la DevCon, pero es interesante que lo podáis ver antes y así ir más preparados.\n\nLa agenda de la sesión del este miércoles será la siguiente:\n19:00 - Bienvenida y Anuncios\n19:10 - Automatización de las customizaciones de Liferay - Cómo saber si tus desarrollos siguen haciendo lo que tienen que hacer - Meg Jędraszak y David Gutiérrez\n20:10 - Q & A\n20:15 - Networking (Presencial y Mozilla Hubs)Al final\n\nNos vemos el miércoles. Un saludo.",
+              "shortDescription": null,
+              "host": {
+                "id": "93113132",
+                "name": "Álvaro Saugar"
+              },
+              "dateTime": "2022-05-25T19:00+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "504225901"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "286204177",
+              "title": "Mes de QA - Sesión 1 - Mesa redonda",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/286204177",
+              "description": "Hola,\n\nComo os anunciamos en el último evento de la comunidad, llega el ¡Mes de QA!\n\nComenzamos el mes de QA con una mesa redonda, y qué mejor forma de hacerlo que conociendo la situación del sector de la mano de expertos en el mismo. Hablaremos de buenas prácticas, errores comunes y un montón de topics que seguro irán saliendo. Pero no penséis que será sólo escuchar y tomar notas, no, podréis participar en directo y hacer las preguntas que queráis. Estad atentos!\n\nPodréis asistir en directo en las oficinas de Liferay o seguir el streaming por [youtube](https://www.youtube.com/watch?v=_Xhu8Bv2qS4).\n\nEn la [página del evento ](https://lugspain.github.io/mesdeqa/) podéis consultar más información sobre las sesiones, las comunidades y los ponentes que participan.\n\nNos vemos el martes. Un saludo.",
+              "shortDescription": null,
+              "host": {
+                "id": "93113132",
+                "name": "Álvaro Saugar"
+              },
+              "dateTime": "2022-05-31T19:00+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "504397820"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "286236223",
+              "title": "Mes de QA - Sesión 2 - QA en Liferay",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/286236223",
+              "description": "Hola,\n\nContinuamos con el ¡Mes de QA!\n\nUna de las mejores formas de aprender sobre algo es conocer cómo lo hacen los mejores ;) Hoy tenemos con nosotros a Manoel Cyreno y David Gutiérrez, dos pesos pesados del equipo de QA de Liferay quienes nos contarán cómo se gestiona el control de calidad, con qué herramientas, los procesos de automatización, los problemas y las soluciones... Toda una oportunidad para conocer de primera mano cómo una empresa de software se enfrenta a las problemáticas más comunes.\n\nPodréis asistir en directo en las oficinas de Liferay o seguir el streaming por [youtube](https://www.youtube.com/watch?v=0_TgZZCo3zA).\n\nEn la [página del evento ](https://lugspain.github.io/mesdeqa/) podéis consultar más información sobre las sesiones, las comunidades y los ponentes que participan.\n\nNos vemos. Un saludo.",
+              "shortDescription": null,
+              "host": {
+                "id": "93113132",
+                "name": "Álvaro Saugar"
+              },
+              "dateTime": "2022-06-09T19:00+02:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "504456730"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "286407366",
+              "title": "Mes de QA - Sesión 3 - The path to automation heaven (NorthemQuality)",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/286407366",
+              "description": "Hola,\n\nContinuamos con el ¡Mes de QA!\n\nNuestro día a día puede estar repleto de tareas manuales que hagan que no podamos avanzar con el trabajo y se convierta en un infierno. Para solucionarlo, Francisco Moreno nos contará una serie de recomendaciones y ayudas, basadas en su amplia experiencia, para mostrarnos la luz e indicarnos el camino que nos permita llegar al \"automation heaven\" sin morir en el intento.\n\nPodréis asistir en directo por streaming en [youtube](https://www.youtube.com/watch?v=8BGfDJ1j5-Q).\n\nEn la [página del evento ](https://lugspain.github.io/mesdeqa/) podéis consultar más información sobre las sesiones, las comunidades y los ponentes que participan.\n\nNos vemos. Un saludo.",
+              "shortDescription": null,
+              "host": {
+                "id": "93113132",
+                "name": "Álvaro Saugar"
+              },
+              "dateTime": "2022-06-16T19:00+02:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "504659792"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
