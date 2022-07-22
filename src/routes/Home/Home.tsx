@@ -1,12 +1,11 @@
-import { Link } from 'react-router-dom'
+import EventGrid from 'components/EventGrid/Eventgrid'
 
-export default function Home() {
+const Home = () => {
   return (
     <section className="home">
-      <p>I'm the homepage</p>
-      <p>
-        <Link to="1234">Go to event</Link>
-      </p>
+      <EventGrid />
     </section>
   )
 }
+
+export default Home

@@ -1,7 +1,8 @@
+import { HeaderStyled } from './HeaderStyled'
 const Header = () => (
-  <header>
+  <HeaderStyled>
     <p>I'm the header</p>
-  </header>
+  </HeaderStyled>
 )
 
 export default Header

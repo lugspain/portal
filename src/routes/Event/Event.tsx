@@ -1,12 +1,14 @@
 import { useParams } from 'react-router-dom'
 
-export default function Event() {
+const Event = () => {
   let { event } = useParams()
 
   return (
-    <section className="event">
+    <section>
       <p>I'm the Event</p>
       <p>This are the params: {event}</p>
     </section>
   )
 }
+
+export default Event
