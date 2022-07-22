@@ -1,19 +1,14 @@
 import '@clayui/css/lib/css/atlas.css'
-import Header from 'components/Header/Header'
-import Main from 'components/Main/Main'
-import Footer from 'components/Footer/Footer'
+
+import Footer from 'components/layout/Footer/Footer'
+import Header from 'components/layout/Header/Header'
+import Main from 'components/layout/Main/Main'
 
 const App = () => (
   <>
-    <Header>
-      <p>Header child</p>
-    </Header>
-    <Main>
-      <p>Main child</p>
-    </Main>
-    <Footer>
-      <p>Footer child</p>
-    </Footer>
+    <Header />
+    <Main />
+    <Footer />
   </>
 )
 
