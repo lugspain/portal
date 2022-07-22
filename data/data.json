@@ -1380,6 +1380,13 @@
             }
           }
         ]
+      },
+      "upcomingEvents": {
+        "count": 0,
+        "pageInfo": {
+          "endCursor": ""
+        },
+        "edges": []
       }
     }
   }

@@ -47,6 +47,31 @@ query ($urlname: String!) {
         }
       }
     }
+    upcomingEvents(input: { first: 50 }) {
+      count
+      pageInfo {
+        endCursor
+      }
+      edges {
+        node {
+          id
+          title
+          eventUrl
+          description
+          shortDescription
+          host {
+            id
+            name
+          }
+          dateTime
+          eventType
+          image {
+            baseUrl
+            id
+          }
+        }
+      }
+    }
   }
 }
 
