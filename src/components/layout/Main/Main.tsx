@@ -6,7 +6,7 @@ const Main = () => (
   <main>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path=":event" element={<Event />} />
+      <Route path="event/:event" element={<Event />} />
     </Routes>
   </main>
 )

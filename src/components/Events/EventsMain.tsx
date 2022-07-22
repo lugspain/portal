@@ -1,16 +1,37 @@
+import ClayLoadingIndicator from '@clayui/loading-indicator'
+
 import { useQuery } from '@tanstack/react-query'
 import fetchEvents from 'api/fetchEvents'
 
-const EventsMain = () => {
-  const { data, error, isError, isLoading } = useQuery(['events'], fetchEvents)
+import EventGrid from './EventGrid'
 
-  const [pastEvents, upcomingEvents] = data
+const EventsMain = () => {
+  const {
+    data = {},
+    error,
+    isError,
+    isLoading,
+  } = useQuery(['events'], () => fetchEvents({ start: 0 }))
+
+  const { pastEvents, upcomingEvents } = data
 
   return (
     <section>
-      <p>total: {pastEvents.count}</p>
+      {isLoading ? (
+        <ClayLoadingIndicator displayType="secondary" size="sm" />
+      ) : (
+        <>
+          <EventGrid featureFirst events={upcomingEvents} />
+          <EventGrid events={pastEvents} />
+        </>
+      )}
     </section>
   )
 }
 
 export default EventsMain
+
+interface EventsData {
+  pastEvents: Events
+  upcomingEvents: Events
+}
