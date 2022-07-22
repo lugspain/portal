@@ -1,4 +1,4 @@
-import EventGrid from 'components/EventGrid/Eventgrid'
+import EventGrid from 'components/Events/EventsMain'
 
 const Home = () => {
   return (
