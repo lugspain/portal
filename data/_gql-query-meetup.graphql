@@ -34,9 +34,14 @@ query ($urlname: String!) {
           eventUrl
           description
           shortDescription
-          host {
+          hosts {
             id
             name
+            memberUrl
+            memberPhoto {
+              baseUrl
+              id
+            }
           }
           dateTime
           eventType
@@ -59,9 +64,14 @@ query ($urlname: String!) {
           eventUrl
           description
           shortDescription
-          host {
+          hosts {
             id
             name
+            memberUrl
+            memberPhoto {
+              baseUrl
+              id
+            }
           }
           dateTime
           eventType
