@@ -1,16 +1,23 @@
 import http from './http'
-import { DEFAULT_PAGINATION_DELTA } from './config'
 
-const fetchEvents = async ({ start }: { start: number }) => {
-  const { data } = await http.get(`api/events`, {
-    params: {
-      pagination: {
-        start,
-        delta: DEFAULT_PAGINATION_DELTA,
+const fetchEvents = async ({
+  pageParam = 1,
+  upcomingEvents = false,
+}: {
+  pageParam?: number
+  upcomingEvents?: boolean
+}) => {
+  try {
+    const { data } = await http.get(`api/events`, {
+      params: {
+        page: pageParam,
+        upcomingEvents,
       },
-    },
-  })
-  return data
+    })
+    return data
+  } catch (error) {
+    return new Error('Failed to fetch content')
+  }
 }
 
 export default fetchEvents
