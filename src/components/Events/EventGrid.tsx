@@ -1,25 +1,39 @@
+import { Fragment } from 'react'
 import { Link } from 'react-router-dom'
+import { Events, MeetupEvent, Edge } from 'types'
 
-const EventGrid = ({ events, featureFirst = false }: IProps) => {
-  const { edges }: { edges: Edge[] } = events
+const EventGrid = ({ pages }: IProps) => {
+  if (!pages) {
+    return null
+  }
+
   return (
-    <ul>
-      {edges.map((edge) => {
-        const { node: item }: { node: MeetupEvent } = edge
-        return (
-          <li key={item.id}>
-            <Link to={`event/${item.id}`}>{item.title}</Link>
-          </li>
-        )
-      })}
-    </ul>
+    <section>
+      {pages.map((events: Events) => (
+        <Fragment key={events.nextPage}>
+          {events.edges.map((edge: Edge) => {
+            const { node: meetupEvent }: { node: MeetupEvent } = edge
+            return (
+              <article
+                style={{
+                  border: '1px solid gray',
+                  padding: '10px',
+                }}
+                key={meetupEvent.id}
+              >
+                <Link to={`event/${meetupEvent.id}`}>{meetupEvent.title}</Link>
+              </article>
+            )
+          })}
+        </Fragment>
+      ))}
+    </section>
   )
 }
 
 interface IProps {
   children?: React.ReactNode
-  events: Events
-  featureFirst?: boolean
+  pages: Events[] | undefined
 }
 
 export default EventGrid
