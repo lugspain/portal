@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Events, MeetupEvent, Edge } from 'types'
 
 const EventGrid = ({ pages }: IProps) => {
-  if (!pages) {
+  if (!pages || !pages.length) {
     return null
   }
 

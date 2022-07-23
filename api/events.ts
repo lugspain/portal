@@ -6,10 +6,12 @@ const DEFAULT_PAGE_SIZE: number = 8
 const GROUP_DATA: Group = (groupData as any).data.groupByUrlname
 
 const _getPastEvents = (pageNumber: number): Events => {
+  const pastEvents = GROUP_DATA.pastEvents.edges.reverse()
+  const totalEventsCount = GROUP_DATA.pastEvents.count
+
   const nextPage: number = pageNumber + 1
   const previousPage: number = pageNumber - 1
-
-  const pastEvents = [...GROUP_DATA.pastEvents.edges].reverse()
+  const hasNextPage: boolean = pageNumber * DEFAULT_PAGE_SIZE < totalEventsCount
 
   return {
     ...GROUP_DATA.pastEvents,
@@ -17,6 +19,7 @@ const _getPastEvents = (pageNumber: number): Events => {
       pageNumber * DEFAULT_PAGE_SIZE - DEFAULT_PAGE_SIZE,
       pageNumber * DEFAULT_PAGE_SIZE
     ),
+    hasNextPage,
     nextPage,
     previousPage,
   }

@@ -30,8 +30,9 @@ export interface Events {
   count: number
   pageInfo: PageInfo
   edges: Edge[]
-  nextPage: number
-  previousPage: number
+  nextPage: number | null
+  previousPage: number | null
+  hasNextPage: boolean
 }
 
 interface PageInfo {

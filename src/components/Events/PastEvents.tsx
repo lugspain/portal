@@ -1,10 +1,10 @@
-import ClayButton from '@clayui/button'
 import { ErrorBoundary } from 'react-error-boundary'
 import { useInfiniteQuery } from '@tanstack/react-query'
 import fetchEvents from 'api/fetchEvents'
 import ClayLoadingIndicator from '@clayui/loading-indicator'
 import EventGrid from './EventGrid'
 import ErrorFallback from 'components/ErrorFallback/ErrorFallback'
+import LoadMoreButton from './LoadMoreButton'
 
 const STALE_TIME_IN_MINUTES: number = 10
 
@@ -18,8 +18,9 @@ const PastEvents = () => {
     hasNextPage,
     refetch,
   } = useInfiniteQuery(['pastEvents'], fetchEvents, {
-    getPreviousPageParam: (firstPage) => firstPage.previousPage,
-    getNextPageParam: (lastPage) => lastPage.nextPage ?? undefined,
+    getPreviousPageParam: ({ previousPage }) => previousPage,
+    getNextPageParam: ({ hasNextPage, nextPage }) =>
+      hasNextPage ? nextPage : undefined,
     staleTime: STALE_TIME_IN_MINUTES * 60 * 1000,
   })
 
@@ -40,18 +41,11 @@ const PastEvents = () => {
         ) : (
           <>
             <EventGrid pages={data?.pages} />
-            <ClayButton displayType="primary" onClick={() => fetchNextPage()}>
-              {isFetchingNextPage && (
-                <span className="inline-item inline-item-before">
-                  <ClayLoadingIndicator
-                    displayType="secondary"
-                    size="sm"
-                    light
-                  />
-                </span>
-              )}
-              Ver más
-            </ClayButton>
+            <LoadMoreButton
+              hasNextPage={hasNextPage}
+              fetchNextPage={fetchNextPage}
+              isFetchingNextPage={isFetchingNextPage}
+            />
           </>
         )}
       </ErrorBoundary>
