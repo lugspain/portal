@@ -4,7 +4,7 @@ import fetchEvents from 'api/fetchEvents'
 import ClayLoadingIndicator from '@clayui/loading-indicator'
 import EventGrid from './EventGrid'
 import ErrorFallback from 'components/ErrorFallback/ErrorFallback'
-import LoadMoreButton from './LoadMoreButton'
+import LoadMoreButton from './LoadMoreButton/LoadMoreButton'
 
 const STALE_TIME_IN_MINUTES: number = 10
 
