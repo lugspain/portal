@@ -11,20 +11,23 @@ const EventGrid = ({ pages }: IProps) => {
     <section>
       {pages.map((events: Events) => (
         <Fragment key={events.nextPage}>
-          {events.edges.map((edge: Edge) => {
-            const { node: meetupEvent }: { node: MeetupEvent } = edge
-            return (
-              <article
-                style={{
-                  border: '1px solid gray',
-                  padding: '10px',
-                }}
-                key={meetupEvent.id}
-              >
-                <Link to={`event/${meetupEvent.id}`}>{meetupEvent.title}</Link>
-              </article>
-            )
-          })}
+          {events &&
+            events.edges.map((edge: Edge) => {
+              const { node: meetupEvent }: { node: MeetupEvent } = edge
+              return (
+                <article
+                  style={{
+                    border: '1px solid gray',
+                    padding: '10px',
+                  }}
+                  key={meetupEvent.id}
+                >
+                  <Link to={`event/${meetupEvent.id}`}>
+                    {meetupEvent.title}
+                  </Link>
+                </article>
+              )
+            })}
         </Fragment>
       ))}
     </section>
