@@ -41,6 +41,15 @@ const PastEvents = () => {
           <>
             <EventGrid pages={data?.pages} />
             <ClayButton displayType="primary" onClick={() => fetchNextPage()}>
+              {isFetchingNextPage && (
+                <span className="inline-item inline-item-before">
+                  <ClayLoadingIndicator
+                    displayType="secondary"
+                    size="sm"
+                    light
+                  />
+                </span>
+              )}
               Ver más
             </ClayButton>
           </>
