@@ -26,10 +26,12 @@ interface Edge {
   node: MeetupEvent
 }
 
-interface Events {
+export interface Events {
   count: number
   pageInfo: PageInfo
   edges: Edge[]
+  nextPage: number
+  previousPage: number
 }
 
 interface PageInfo {
