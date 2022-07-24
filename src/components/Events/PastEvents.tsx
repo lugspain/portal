@@ -2,7 +2,7 @@ import { ErrorBoundary } from 'react-error-boundary'
 import { useInfiniteQuery } from '@tanstack/react-query'
 import fetchEvents from 'api/fetchEvents'
 import ClayLoadingIndicator from '@clayui/loading-indicator'
-import EventGrid from './EventGrid'
+import Grid from '../UI/Grid/Grid'
 import ErrorFallback from 'components/ErrorFallback/ErrorFallback'
 import LoadMoreButton from './LoadMoreButton/LoadMoreButton'
 
@@ -28,6 +28,11 @@ const PastEvents = () => {
     throw error
   }
 
+  const items = data?.pages.reduce((acc, page) => {
+    const items = page.edges || []
+    return [...acc, ...items]
+  }, [])
+
   return (
     <>
       <ErrorBoundary
@@ -40,7 +45,7 @@ const PastEvents = () => {
           <ClayLoadingIndicator displayType="secondary" size="sm" />
         ) : (
           <>
-            <EventGrid pages={data?.pages} />
+            <Grid items={items} />
             <LoadMoreButton
               hasNextPage={hasNextPage}
               fetchNextPage={fetchNextPage}
