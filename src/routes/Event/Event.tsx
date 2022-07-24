@@ -4,10 +4,10 @@ const Event = () => {
   let { event } = useParams()
 
   return (
-    <section>
+    <div>
       <p>I'm the Event</p>
       <p>This are the params: {event}</p>
-    </section>
+    </div>
   )
 }
 
