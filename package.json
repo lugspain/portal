@@ -6,7 +6,12 @@
     "@clayui/alert": "^3.65.1",
     "@clayui/button": "^3.65.0",
     "@clayui/css": "^3.65.2",
+    "@clayui/empty-state": "^3.65.0",
+    "@clayui/form": "^3.65.0",
+    "@clayui/icon": "^3.56.0",
     "@clayui/loading-indicator": "^3.60.0",
+    "@clayui/management-toolbar": "^3.65.1",
+    "@clayui/modal": "^3.65.0",
     "@tanstack/react-query": "^4.0.5",
     "@tanstack/react-query-devtools": "^4.0.10",
     "@testing-library/jest-dom": "^5.16.4",
@@ -55,6 +60,7 @@
     ]
   },
   "devDependencies": {
+    "@types/debounce": "^1.2.1",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
