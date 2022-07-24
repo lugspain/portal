@@ -1,10 +1,10 @@
 import { ErrorBoundary } from 'react-error-boundary'
 import { useInfiniteQuery } from '@tanstack/react-query'
-import fetchEvents from 'api/fetchEvents'
+import fetchEvents from 'api/fetch-events'
 import ClayLoadingIndicator from '@clayui/loading-indicator'
-import Grid from '../UI/Grid/Grid'
+import Grid from 'components/UI/Grid/Grid'
 import ErrorFallback from 'components/ErrorFallback/ErrorFallback'
-import LoadMoreButton from './LoadMoreButton/LoadMoreButton'
+import LoadMoreButton from 'components/Events/LoadMoreButton/LoadMoreButton'
 
 const STALE_TIME_IN_MINUTES: number = 10
 
@@ -18,7 +18,6 @@ const PastEvents = () => {
     hasNextPage,
     refetch,
   } = useInfiniteQuery(['pastEvents'], fetchEvents, {
-    getPreviousPageParam: ({ previousPage }) => previousPage,
     getNextPageParam: ({ hasNextPage, nextPage }) =>
       hasNextPage ? nextPage : undefined,
     staleTime: STALE_TIME_IN_MINUTES * 60 * 1000,
