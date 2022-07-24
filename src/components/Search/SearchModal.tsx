@@ -36,6 +36,7 @@ const SearchModal = ({ open, observer, onClick }: IProps) => {
                 <ClayInput.Group>
                   <ClayInput.GroupItem>
                     <ClayInput
+                      autoFocus
                       placeholder="Buscar"
                       aria-label="Search"
                       className="form-control input-group-inset input-group-inset-after"
