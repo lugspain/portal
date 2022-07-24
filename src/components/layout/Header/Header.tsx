@@ -1,7 +1,15 @@
 import { HeaderStyled } from './HeaderStyled'
+import Logo from 'components/UI/Logo/Logo'
+import Search from 'components/Search/Search'
+
 const Header = () => (
   <HeaderStyled>
-    <p>I'm the header</p>
+    <div>
+      <Logo />
+    </div>
+    <div>
+      <Search buttonText="Buscar eventos..." />
+    </div>
   </HeaderStyled>
 )
 
