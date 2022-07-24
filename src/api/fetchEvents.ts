@@ -16,7 +16,8 @@ const fetchEvents = async ({
     })
     return data
   } catch (error) {
-    return new Error('Failed to fetch content')
+    console.error(error)
+    throw error
   }
 }
 
