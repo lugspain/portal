@@ -1,10 +1,10 @@
-import EventGrid from 'components/Events/EventsMain'
+import PastEvents from 'components/Events/PastEvents'
 
 const Home = () => {
   return (
-    <section className="home">
-      <EventGrid />
-    </section>
+    <div>
+      <PastEvents />
+    </div>
   )
 }
 
