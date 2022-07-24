@@ -1,4 +1,4 @@
-import PastEvents from 'components/Events/PastEvents'
+import PastEvents from 'components/Events/PastEvents/PastEvents'
 
 const Home = () => {
   return (
