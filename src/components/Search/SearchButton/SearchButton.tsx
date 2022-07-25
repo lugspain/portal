@@ -1,8 +1,9 @@
+import { DisplayType } from '@clayui/alert'
 import ClayButton from '@clayui/button'
 
-const SearchButton = ({ text, onClick }: IProps) => {
+const SearchButton = ({ small, text, onClick, displayType }: IProps) => {
   return (
-    <ClayButton onClick={onClick} displayType="secondary">
+    <ClayButton small={small} onClick={onClick} displayType={displayType}>
       {text}
     </ClayButton>
   )
@@ -11,6 +12,8 @@ const SearchButton = ({ text, onClick }: IProps) => {
 interface IProps {
   text: string
   onClick: () => void
+  small?: boolean
+  displayType: DisplayType | undefined
 }
 
 export default SearchButton

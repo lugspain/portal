@@ -1,9 +1,14 @@
+import { ContentContainer } from 'assets/styles/container'
 import PastEvents from 'components/Events/PastEvents/PastEvents'
+import Hero from 'components/UI/Hero/Hero'
 
 const Home = () => {
   return (
     <div>
-      <PastEvents />
+      <Hero />
+      <ContentContainer>
+        <PastEvents />
+      </ContentContainer>
     </div>
   )
 }
