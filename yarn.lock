@@ -1119,6 +1119,15 @@
     classnames "^2.2.6"
     warning "^4.0.3"
 
+"@clayui/label@^3.56.0":
+  version "3.56.0"
+  resolved "https://registry.yarnpkg.com/@clayui/label/-/label-3.56.0.tgz#462092762bcc950eec85f7d5acd2b94301e4c636"
+  integrity sha512-zmfm5RFVdb1MF+LDpssC0d8BFX+o2pROPEsKHFun3r2cPAZ49O+vCxN8CPERBx/rKEtbhdijLkelrxkkwqDzNg==
+  dependencies:
+    "@clayui/icon" "^3.56.0"
+    "@clayui/link" "^3.56.0"
+    classnames "^2.2.6"
+
 "@clayui/layout@^3.65.1":
   version "3.65.1"
   resolved "https://registry.yarnpkg.com/@clayui/layout/-/layout-3.65.1.tgz#98eda4eedcbf5c88615840f3834e16cf708c98ea"

@@ -14,21 +14,29 @@ import {
   GridItemContentStyled,
 } from './GridItemStyled'
 
+import ClayLabel from '@clayui/label'
+import spritemap from 'assets/images/icons.svg'
+
 const GridItem = ({ item }: IProps) => {
   const navigate = useNavigate()
 
   return (
     <GridItemStyled>
-      <figure>
-        <img src={buildImageUrl(item.image.id)} alt={item.title} />
-      </figure>
+      <Link to={`event/${item.id}`}>
+        <figure>
+          <img src={buildImageUrl(item.image.id)} alt={item.title} />
+        </figure>
+      </Link>
       <GridItemContentStyled>
         <Link to={`event/${item.id}`}>
           <GridItemTitle>{item.title}</GridItemTitle>
         </Link>
         <GridItemDescription>{item.description}</GridItemDescription>
         <GridItemDetails>
-          <time>{formatDate(item.dateTime)}</time>
+          <ClayLabel displayType="secondary" spritemap={spritemap} large>
+            <time>{formatDate(item.dateTime)}</time>
+          </ClayLabel>
+
           <ClayButton
             displayType="link"
             onClick={() => navigate(`event/${item.id}`)}
