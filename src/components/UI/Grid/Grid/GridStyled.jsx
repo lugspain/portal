@@ -1,8 +1,6 @@
 import styled from 'styled-components'
+import { GridContainer } from 'assets/styles/containers'
 
-export const GridStyled = styled.section`
+export const GridStyled = styled(GridContainer)`
   margin: 24px 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 48px 24px;
 `
