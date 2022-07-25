@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import ClayModal from '@clayui/modal'
 import ClayButton from '@clayui/button'
 import { Observer } from '@clayui/modal/lib/types'
@@ -9,22 +9,17 @@ import { ClayButtonWithIcon } from '@clayui/button'
 import SearchResults from './SearchResults'
 import fetchResults from 'api/fetch-results'
 import { useLocation } from 'react-router-dom'
+import { useQuery } from '@tanstack/react-query'
 
 const SearchModal = ({ open, observer, onClick }: IProps) => {
   const [value, setValue] = useState('')
-  const [results, setResults] = useState([])
   const location = useLocation()
+
+  const { data } = useQuery(['todos', value], () => fetchResults({ value }))
 
   useEffect(() => {
     onClick()
   }, [location, onClick])
-
-  useEffect(() => {
-    const search = async () => {
-      setResults(await fetchResults({ value }))
-    }
-    search()
-  }, [value])
 
   return (
     <>
@@ -57,7 +52,7 @@ const SearchModal = ({ open, observer, onClick }: IProps) => {
               </ClayManagementToolbar.Search>
             </ClayManagementToolbar>
 
-            <SearchResults results={results} />
+            <SearchResults results={data} />
           </ClayModal.Body>
           <ClayModal.Footer
             last={
