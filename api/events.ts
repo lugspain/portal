@@ -6,7 +6,9 @@ const DEFAULT_PAGE_SIZE: number = 6
 const GROUP_DATA: Group = (groupData as any).data.groupByUrlname
 
 const _getPastEvents = (pageNumber: number): Events => {
-  const pastEvents = GROUP_DATA.pastEvents.edges.reverse()
+  const pastEvents = JSON.parse(
+    JSON.stringify(GROUP_DATA.pastEvents.edges)
+  ).reverse()
   const totalEventsCount = GROUP_DATA.pastEvents.count
 
   const nextPage: number = pageNumber + 1
@@ -26,7 +28,7 @@ const _getPastEvents = (pageNumber: number): Events => {
 }
 
 const _getUpcomingEvents = (): Events => {
-  const upcomingEvents = GROUP_DATA.upcomingEvents.edges.reverse()
+  const upcomingEvents = GROUP_DATA.upcomingEvents.edges
 
   return {
     ...GROUP_DATA.upcomingEvents,
