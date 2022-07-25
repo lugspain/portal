@@ -9,7 +9,7 @@ import { useNavigate } from 'react-router-dom'
 const SearchResultsStyled = styled.section`
   padding: 24px;
 `
-const SearchResults = ({ results }: IProps) => {
+const SearchResults = ({ results, emptyStateText }: IProps) => {
   const navigate = useNavigate()
 
   return (
@@ -33,7 +33,11 @@ const SearchResults = ({ results }: IProps) => {
           )
         })
       ) : (
-        <ClayEmptyState description="" imgSrc={searchImage} title="" />
+        <ClayEmptyState
+          description=""
+          imgSrc={searchImage}
+          title={emptyStateText}
+        />
       )}
     </SearchResultsStyled>
   )
@@ -41,6 +45,7 @@ const SearchResults = ({ results }: IProps) => {
 
 interface IProps {
   results?: Edge[]
+  emptyStateText: string
 }
 
 export default SearchResults

@@ -10,6 +10,7 @@ export const ClayManagementToolbarStyled = styled(ClayManagementToolbar)`
 `
 
 export const ClayModalBodyStyled = styled(ClayModal.Body)`
-  max-height: 520px !important;
+  max-height: 580px !important;
+  min-height: 580px;
   padding-top: 0 !important;
 `

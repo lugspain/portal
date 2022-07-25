@@ -55,7 +55,14 @@ const SearchModal = ({ open, observer, onClick }: IProps) => {
               </ClayManagementToolbar.Search>
             </ClayManagementToolbarStyled>
 
-            <SearchResults results={data} />
+            <SearchResults
+              results={data}
+              emptyStateText={
+                value
+                  ? 'Vaya, no hemos encontrado nada'
+                  : 'Introduce un término de búsqueda'
+              }
+            />
           </ClayModalBodyStyled>
         </ClayModal>
       )}
