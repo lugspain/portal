@@ -1,5 +1,5 @@
 import { MeetupEvent, Edge } from 'types'
-import GridItem from './GridItem'
+import GridItem from '../GridItem/GridItem'
 import { GridStyled } from './GridStyled'
 const Grid = ({ items }: IProps) => {
   if (!items || !items.length) {
