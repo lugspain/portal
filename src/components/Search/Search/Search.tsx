@@ -1,6 +1,6 @@
 import { useCallback } from 'react'
-import SearchButton from './SearchButton'
-import SearchModal from './SearchModal'
+import SearchButton from '../SearchButton/SearchButton'
+import SearchModal from '../SearchModal/SearchModal'
 import { useModal } from '@clayui/modal'
 
 const Search = ({ buttonText }: IProps) => {
