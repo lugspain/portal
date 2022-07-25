@@ -37,11 +37,8 @@ const GridItem = ({ item }: IProps) => {
             <time>{formatDate(item.dateTime)}</time>
           </ClayLabel>
 
-          <ClayButton
-            displayType="link"
-            onClick={() => navigate(`event/${item.id}`)}
-          >
-            Ver más
+          <ClayButton small onClick={() => navigate(`event/${item.id}`)}>
+            Ver meetup
           </ClayButton>
         </GridItemDetails>
       </GridItemContentStyled>

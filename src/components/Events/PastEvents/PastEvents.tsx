@@ -5,6 +5,7 @@ import ClayLoadingIndicator from '@clayui/loading-indicator'
 import Grid from 'components/UI/Grid/Grid/Grid'
 import ErrorFallback from 'components/ErrorFallback/ErrorFallback'
 import LoadMoreButton from 'components/Events/LoadMoreButton/LoadMoreButton'
+import { H1Styled } from 'assets/styles/titles'
 
 const STALE_TIME_IN_MINUTES: number = 10
 
@@ -34,6 +35,7 @@ const PastEvents = () => {
 
   return (
     <>
+      <H1Styled>Eventos anteriores</H1Styled>
       <ErrorBoundary
         onReset={() => {
           refetch()

@@ -2,7 +2,7 @@ import type { VercelRequest, VercelResponse } from '@vercel/node'
 import { Events, Group } from '../src/types'
 const groupData = require('../data/data.json')
 
-const DEFAULT_PAGE_SIZE: number = 9
+const DEFAULT_PAGE_SIZE: number = 6
 const GROUP_DATA: Group = (groupData as any).data.groupByUrlname
 
 const _getPastEvents = (pageNumber: number): Events => {

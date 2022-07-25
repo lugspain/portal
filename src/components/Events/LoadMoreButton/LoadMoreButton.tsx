@@ -19,7 +19,7 @@ const LoadMoreButton = ({
             <ClayLoadingIndicator displayType="secondary" size="sm" light />
           </span>
         )}
-        {hasNextPage ? 'Ver más' : 'No hay más eventos :('}
+        {hasNextPage ? 'Cargar más eventos' : 'No hay más eventos'}
       </ClayButton>
     </LoadMoreButtonStyled>
   )
