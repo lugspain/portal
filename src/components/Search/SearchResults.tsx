@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { Edge } from 'types'
 import ClayEmptyState from '@clayui/empty-state'
 import searchImage from 'assets/images/search_state.gif'
-import Grid from 'components/UI/Grid/Grid'
+import Grid from 'components/UI/Grid/Grid/Grid'
 
 const SearchResultsStyled = styled.section`
   padding: 24px;

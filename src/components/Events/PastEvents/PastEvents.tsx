@@ -2,7 +2,7 @@ import { ErrorBoundary } from 'react-error-boundary'
 import { useInfiniteQuery } from '@tanstack/react-query'
 import fetchEvents from 'api/fetch-events'
 import ClayLoadingIndicator from '@clayui/loading-indicator'
-import Grid from 'components/UI/Grid/Grid'
+import Grid from 'components/UI/Grid/Grid/Grid'
 import ErrorFallback from 'components/ErrorFallback/ErrorFallback'
 import LoadMoreButton from 'components/Events/LoadMoreButton/LoadMoreButton'
 
