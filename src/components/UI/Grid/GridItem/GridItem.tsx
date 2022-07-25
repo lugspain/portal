@@ -12,6 +12,7 @@ import {
   GridItemDescription,
   GridItemDetails,
   GridItemContentStyled,
+  TimeStyled,
 } from './GridItemStyled'
 
 import ClayLabel from '@clayui/label'
@@ -31,12 +32,13 @@ const GridItem = ({ item }: IProps) => {
         <Link to={`event/${item.id}`}>
           <GridItemTitle>{item.title}</GridItemTitle>
         </Link>
-        <GridItemDescription>{item.description}</GridItemDescription>
-        <GridItemDetails>
+        <TimeStyled>
           <ClayLabel displayType="secondary" spritemap={spritemap} large>
             <time>{formatDate(item.dateTime)}</time>
           </ClayLabel>
-
+        </TimeStyled>
+        <GridItemDescription>{item.description}</GridItemDescription>
+        <GridItemDetails>
           <ClayButton small onClick={() => navigate(`event/${item.id}`)}>
             Ver meetup
           </ClayButton>

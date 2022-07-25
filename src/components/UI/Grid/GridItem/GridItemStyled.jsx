@@ -15,7 +15,6 @@ export const GridItemStyled = styled.article`
 
 export const GridItemTitle = styled.h2`
   margin: 12px 0;
-  min-height: 52px;
 `
 
 export const GridItemDescription = styled.p`
@@ -35,4 +34,8 @@ export const GridItemDetails = styled.div`
 
 export const GridItemContentStyled = styled.div`
   padding: 12px;
+`
+
+export const TimeStyled = styled.div`
+  margin: 12px 0;
 `
