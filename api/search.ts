@@ -10,8 +10,8 @@ const _getsearchResults = (query: string) => {
   }
 
   const events: Edge[] = [
-    ...GROUP_DATA.pastEvents.edges,
     ...GROUP_DATA.upcomingEvents.edges,
+    ...JSON.parse(JSON.stringify(GROUP_DATA.pastEvents.edges)).reverse(),
   ]
 
   return events.filter(({ node: meetupEvent }: { node: MeetupEvent }) => {
