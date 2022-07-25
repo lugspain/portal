@@ -5,6 +5,7 @@
   "dependencies": {
     "@clayui/alert": "^3.65.1",
     "@clayui/button": "^3.65.0",
+    "@clayui/card": "^3.66.0",
     "@clayui/css": "^3.65.2",
     "@clayui/empty-state": "^3.65.0",
     "@clayui/form": "^3.65.0",

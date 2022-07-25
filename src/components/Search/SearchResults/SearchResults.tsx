@@ -1,17 +1,37 @@
 import styled from 'styled-components'
-import { Edge } from 'types'
+import { Edge, MeetupEvent } from 'types'
 import ClayEmptyState from '@clayui/empty-state'
+import { ClayCardWithNavigation } from '@clayui/card'
+import spritemap from 'assets/images/icons.svg'
 import searchImage from 'assets/images/search_state.gif'
-import Grid from 'components/UI/Grid/Grid/Grid'
+import { useNavigate } from 'react-router-dom'
 
 const SearchResultsStyled = styled.section`
   padding: 24px;
 `
 const SearchResults = ({ results }: IProps) => {
+  const navigate = useNavigate()
+
   return (
     <SearchResultsStyled>
       {results?.length ? (
-        <Grid items={results} />
+        results.map((result: Edge) => {
+          const { node: item }: { node: MeetupEvent } = result
+          return (
+            <ClayCardWithNavigation
+              key={item.id}
+              description={item.description}
+              horizontal
+              horizontalSymbol="page"
+              onClick={() => navigate(`event/${item.id}`)}
+              onKeyDown={(event) =>
+                event.key === 'Enter' && navigate(`event/${item.id}`)
+              }
+              title={item.title}
+              spritemap={spritemap}
+            />
+          )
+        })
       ) : (
         <ClayEmptyState description="" imgSrc={searchImage} title="" />
       )}

@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import ClayModal from '@clayui/modal'
-import ClayButton from '@clayui/button'
 import { Observer } from '@clayui/modal/lib/types'
 import spritemap from 'assets/images/icons.svg'
 import ClayManagementToolbar from '@clayui/management-toolbar'
@@ -10,6 +9,10 @@ import SearchResults from '../SearchResults/SearchResults'
 import fetchResults from 'api/fetch-results'
 import { useLocation } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
+import {
+  ClayModalBodyStyled,
+  ClayManagementToolbarStyled,
+} from './SearchModalStyled'
 
 const SearchModal = ({ open, observer, onClick }: IProps) => {
   const [value, setValue] = useState('')
@@ -25,8 +28,8 @@ const SearchModal = ({ open, observer, onClick }: IProps) => {
     <>
       {open && (
         <ClayModal observer={observer} spritemap={spritemap}>
-          <ClayModal.Body>
-            <ClayManagementToolbar>
+          <ClayModalBodyStyled scrollable>
+            <ClayManagementToolbarStyled>
               <ClayManagementToolbar.Search onlySearch>
                 <ClayInput.Group>
                   <ClayInput.GroupItem>
@@ -50,17 +53,10 @@ const SearchModal = ({ open, observer, onClick }: IProps) => {
                   </ClayInput.GroupItem>
                 </ClayInput.Group>
               </ClayManagementToolbar.Search>
-            </ClayManagementToolbar>
+            </ClayManagementToolbarStyled>
 
             <SearchResults results={data} />
-          </ClayModal.Body>
-          <ClayModal.Footer
-            last={
-              <ClayButton displayType="secondary" onClick={onClick}>
-                {'Cerrar'}
-              </ClayButton>
-            }
-          />
+          </ClayModalBodyStyled>
         </ClayModal>
       )}
     </>
