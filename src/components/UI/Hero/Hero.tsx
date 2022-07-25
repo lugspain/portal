@@ -10,7 +10,7 @@ const Hero = () => {
         <img src={groupFoto} alt="Liferay User Group Spain group" />
       </figure>
       <HeroContent>
-        <h2>Liferay User group España</h2>
+        <h2>Liferay User Group España</h2>
         <p>El sitio para compartir y aprender sobre Liferay</p>
         <Search
           small

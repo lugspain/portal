@@ -21,7 +21,7 @@ export const HeroContent = styled.div`
   top: 50%;
   left: 15%;
   color: white;
-  background-color: #00000057;
+  background-color: rgb(0 0 0 / 60%);
   padding: 32px;
   border-radius: 12px;
 `
