@@ -3,9 +3,9 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 
 import '@clayui/css/lib/css/atlas.css'
 
-import Footer from 'components/layout/Footer/Footer'
-import Header from 'components/layout/Header/Header'
-import Main from 'components/layout/Main/Main'
+import Footer from 'components/Layout/Footer/Footer'
+import Header from 'components/Layout/Header/Header'
+import Main from 'components/Layout/Main/Main'
 
 import GlobalStyles from 'assets/styles/global'
 
