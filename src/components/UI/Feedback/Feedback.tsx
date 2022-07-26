@@ -4,13 +4,14 @@ import {
   FeedbackStyled,
   FeedbackContentStyled,
   FeedbacktitleStyled,
+  FeedbackImageStyled,
 } from './FeedbackStyled'
 
 const Feedback = () => {
   return (
     <FeedbackStyled>
       <figure>
-        <img src={feedbackImage} alt="Dar feedback" />
+        <FeedbackImageStyled src={feedbackImage} alt="Dar feedback" />
       </figure>
       <FeedbackContentStyled>
         <FeedbacktitleStyled>¿Tienes alguna sugerencia?</FeedbacktitleStyled>

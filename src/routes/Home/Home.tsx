@@ -15,7 +15,7 @@ const Home = () => {
         <GridContainer>
           <Timeline
             dataSource={{ sourceType: 'profile', screenName: 'LUGSpain' }}
-            options={{ height: '600' }}
+            options={{ height: '490' }}
           />
           <Feedback />
         </GridContainer>
