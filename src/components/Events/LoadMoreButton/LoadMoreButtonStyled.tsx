@@ -3,5 +3,5 @@ import styled from 'styled-components'
 export const LoadMoreButtonStyled = styled.section`
   display: flex;
   justify-content: center;
-  margin: 80px 0;
+  margin: 40px 0 80px;
 `

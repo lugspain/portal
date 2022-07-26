@@ -11,7 +11,7 @@ const LoadMoreButton = ({
     <LoadMoreButtonStyled>
       <ClayButton
         disabled={!hasNextPage}
-        displayType="primary"
+        displayType="secondary"
         onClick={() => fetchNextPage()}
       >
         {isFetchingNextPage && (
