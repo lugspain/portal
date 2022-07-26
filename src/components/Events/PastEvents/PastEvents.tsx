@@ -5,8 +5,10 @@ import ClayLoadingIndicator from '@clayui/loading-indicator'
 import Grid from 'components/UI/Grid/Grid/Grid'
 import ErrorFallback from 'components/ErrorFallback/ErrorFallback'
 import LoadMoreButton from 'components/Events/LoadMoreButton/LoadMoreButton'
-import { H1Styled } from 'assets/styles/titles'
-import { PastEventsStyled } from './PastEventsStyled'
+import {
+  PastEventsStyled,
+  ClayLoadingIndicatorWrapperStyled,
+} from './PastEventsStyled'
 
 const STALE_TIME_IN_MINUTES: number = 10
 
@@ -36,7 +38,7 @@ const PastEvents = () => {
 
   return (
     <PastEventsStyled>
-      <H1Styled>Eventos anteriores</H1Styled>
+      <h2>Eventos anteriores</h2>
       <ErrorBoundary
         onReset={() => {
           refetch()
@@ -44,7 +46,9 @@ const PastEvents = () => {
         FallbackComponent={ErrorFallback}
       >
         {status === 'loading' ? (
-          <ClayLoadingIndicator displayType="secondary" size="sm" />
+          <ClayLoadingIndicatorWrapperStyled>
+            <ClayLoadingIndicator displayType="secondary" size="sm" />
+          </ClayLoadingIndicatorWrapperStyled>
         ) : (
           <>
             <Grid items={items} />
