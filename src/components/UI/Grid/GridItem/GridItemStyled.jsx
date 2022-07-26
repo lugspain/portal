@@ -33,7 +33,7 @@ export const GridItemDetails = styled.div`
 `
 
 export const GridItemContentStyled = styled.div`
-  padding: 12px;
+  padding: 12px 12px 16px; ;
 `
 
 export const TimeStyled = styled.div`

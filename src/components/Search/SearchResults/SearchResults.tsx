@@ -22,7 +22,7 @@ const SearchResults = ({ results, emptyStateText }: IProps) => {
               key={item.id}
               description={item.description}
               horizontal
-              horizontalSymbol="page"
+              horizontalSymbol="display-content"
               onClick={() => navigate(`event/${item.id}`)}
               onKeyDown={(event) =>
                 event.key === 'Enter' && navigate(`event/${item.id}`)
