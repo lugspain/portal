@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
-import ClayIcon, { ClayIconSpriteContext } from '@clayui/icon'
-import spritemap from 'assets/images/icons.svg'
+import ClayIcon from '@clayui/icon'
 import styled from 'styled-components'
 
 export const ClayIconLogoStyled = styled(ClayIcon)`
@@ -11,9 +10,7 @@ export const ClayIconLogoStyled = styled(ClayIcon)`
 const ClayIconLogo = () => {
   return (
     <Link to="/">
-      <ClayIconSpriteContext.Provider value={spritemap}>
-        <ClayIconLogoStyled symbol="add-cell" />
-      </ClayIconSpriteContext.Provider>
+      <ClayIconLogoStyled symbol="add-cell" />
     </Link>
   )
 }

@@ -16,7 +16,6 @@ import {
 } from './GridItemStyled'
 
 import ClayLabel from '@clayui/label'
-import spritemap from 'assets/images/icons.svg'
 
 const GridItem = ({ item }: IProps) => {
   const navigate = useNavigate()
@@ -33,7 +32,7 @@ const GridItem = ({ item }: IProps) => {
           <GridItemTitle>{item.title}</GridItemTitle>
         </Link>
         <TimeStyled>
-          <ClayLabel displayType="secondary" spritemap={spritemap} large>
+          <ClayLabel displayType="secondary" large>
             <time>{formatDate(item.dateTime)}</time>
           </ClayLabel>
         </TimeStyled>

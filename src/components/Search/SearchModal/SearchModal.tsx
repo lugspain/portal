@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import ClayModal from '@clayui/modal'
 import { Observer } from '@clayui/modal/lib/types'
-import spritemap from 'assets/images/icons.svg'
 import ClayManagementToolbar from '@clayui/management-toolbar'
 import { ClayInput } from '@clayui/form'
 import { ClayButtonWithIcon } from '@clayui/button'
@@ -27,7 +26,7 @@ const SearchModal = ({ open, observer, onClick }: IProps) => {
   return (
     <>
       {open && (
-        <ClayModal observer={observer} spritemap={spritemap}>
+        <ClayModal observer={observer}>
           <ClayModalBodyStyled scrollable>
             <ClayManagementToolbarStyled>
               <ClayManagementToolbar.Search onlySearch>
@@ -44,7 +43,6 @@ const SearchModal = ({ open, observer, onClick }: IProps) => {
                     />
                     <ClayInput.GroupInsetItem after tag="span">
                       <ClayButtonWithIcon
-                        spritemap={spritemap}
                         displayType="unstyled"
                         symbol="search"
                         type="submit"
