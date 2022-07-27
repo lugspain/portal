@@ -8,7 +8,7 @@ const Grid = ({ items }: IProps) => {
 
   return (
     <GridStyled>
-      {items.map((item) => {
+      {items.map((item: Edge) => {
         const { node: meetupEvent }: { node: MeetupEvent } = item
 
         return <GridItem key={meetupEvent.id} item={meetupEvent} />

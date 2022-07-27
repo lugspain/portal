@@ -7,6 +7,7 @@ import ErrorFallback from 'components/ErrorFallback/ErrorFallback'
 import LoadMoreButton from 'components/Events/LoadMoreButton/LoadMoreButton'
 import { PastEventsStyled } from './PastEventsStyled'
 import { ClayLoadingIndicatorWrapperStyled } from 'assets/styles/containers'
+import { Edge } from 'types'
 
 const STALE_TIME_IN_MINUTES: number = 10
 
@@ -29,8 +30,8 @@ const PastEvents = () => {
     throw error
   }
 
-  const items = data?.pages.reduce((acc, page) => {
-    const items = page.edges || []
+  const items: Edge[] = data?.pages.reduce((acc, page) => {
+    const items: Edge[] = page.edges || []
     return [...acc, ...items]
   }, [])
 
