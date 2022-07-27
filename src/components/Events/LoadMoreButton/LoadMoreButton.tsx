@@ -16,7 +16,7 @@ const LoadMoreButton = ({
       >
         {isFetchingNextPage && (
           <span className="inline-item inline-item-before">
-            <ClayLoadingIndicator displayType="secondary" size="sm" light />
+            <ClayLoadingIndicator displayType="secondary" size="sm" />
           </span>
         )}
         {hasNextPage ? 'Cargar más eventos' : 'No hay más eventos'}
