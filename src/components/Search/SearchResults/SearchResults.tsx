@@ -1,20 +1,19 @@
 import styled from 'styled-components'
 import { Edge, MeetupEvent } from 'types'
-import ClayEmptyState from '@clayui/empty-state'
 import { ClayCardWithNavigation } from '@clayui/card'
 import spritemap from 'assets/images/icons.svg'
-import searchImage from 'assets/images/search_state.gif'
 import { useNavigate } from 'react-router-dom'
 
 const SearchResultsStyled = styled.section`
   padding: 24px;
 `
-const SearchResults = ({ results, emptyStateText }: IProps) => {
+
+const SearchResults = ({ results }: IProps) => {
   const navigate = useNavigate()
 
   return (
     <SearchResultsStyled>
-      {results?.length ? (
+      {results &&
         results.map((result: Edge) => {
           const { node: item }: { node: MeetupEvent } = result
           return (
@@ -31,21 +30,13 @@ const SearchResults = ({ results, emptyStateText }: IProps) => {
               spritemap={spritemap}
             />
           )
-        })
-      ) : (
-        <ClayEmptyState
-          description=""
-          imgSrc={searchImage}
-          title={emptyStateText}
-        />
-      )}
+        })}
     </SearchResultsStyled>
   )
 }
 
 interface IProps {
   results?: Edge[]
-  emptyStateText: string
 }
 
 export default SearchResults

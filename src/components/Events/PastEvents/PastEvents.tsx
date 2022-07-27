@@ -5,10 +5,8 @@ import ClayLoadingIndicator from '@clayui/loading-indicator'
 import Grid from 'components/UI/Grid/Grid/Grid'
 import ErrorFallback from 'components/ErrorFallback/ErrorFallback'
 import LoadMoreButton from 'components/Events/LoadMoreButton/LoadMoreButton'
-import {
-  PastEventsStyled,
-  ClayLoadingIndicatorWrapperStyled,
-} from './PastEventsStyled'
+import { PastEventsStyled } from './PastEventsStyled'
+import { ClayLoadingIndicatorWrapperStyled } from 'assets/styles/containers'
 
 const STALE_TIME_IN_MINUTES: number = 10
 

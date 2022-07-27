@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import ClayModal from '@clayui/modal'
+import ClayLoadingIndicator from '@clayui/loading-indicator'
 import { Observer } from '@clayui/modal/lib/types'
 import ClayManagementToolbar from '@clayui/management-toolbar'
 import { ClayInput } from '@clayui/form'
-import { ClayButtonWithIcon } from '@clayui/button'
 import SearchResults from '../SearchResults/SearchResults'
 import fetchResults from 'api/fetch-results'
 import { useLocation } from 'react-router-dom'
@@ -11,13 +11,20 @@ import { useQuery } from '@tanstack/react-query'
 import {
   ClayModalBodyStyled,
   ClayManagementToolbarStyled,
+  ClayEmptyStateStyled,
+  ClayButtonWithIconStyled,
 } from './SearchModalStyled'
+import { ClayLoadingIndicatorWrapperStyled } from 'assets/styles/containers'
+import searchImage from 'assets/images/search_state.gif'
+import emptyImage from 'assets/images/empty_state.gif'
 
 const SearchModal = ({ open, observer, onClick }: IProps) => {
   const [value, setValue] = useState('')
   const location = useLocation()
 
-  const { data } = useQuery(['todos', value], () => fetchResults({ value }))
+  const { data, isLoading } = useQuery(['todos', value], () =>
+    fetchResults({ value })
+  )
 
   useEffect(() => {
     onClick()
@@ -42,10 +49,13 @@ const SearchModal = ({ open, observer, onClick }: IProps) => {
                       value={value}
                     />
                     <ClayInput.GroupInsetItem after tag="span">
-                      <ClayButtonWithIcon
+                      <ClayButtonWithIconStyled
                         displayType="unstyled"
-                        symbol="search"
-                        type="submit"
+                        symbol={value ? 'times' : 'search'}
+                        onClick={() => {
+                          value && setValue('')
+                        }}
+                        value={value}
                       />
                     </ClayInput.GroupInsetItem>
                   </ClayInput.GroupItem>
@@ -53,14 +63,23 @@ const SearchModal = ({ open, observer, onClick }: IProps) => {
               </ClayManagementToolbar.Search>
             </ClayManagementToolbarStyled>
 
-            <SearchResults
-              results={data}
-              emptyStateText={
-                value
-                  ? 'Vaya, no hemos encontrado nada'
-                  : 'Introduce un término de búsqueda'
-              }
-            />
+            {data?.length ? (
+              <SearchResults results={data} />
+            ) : isLoading ? (
+              <ClayLoadingIndicatorWrapperStyled>
+                <ClayLoadingIndicator displayType="secondary" size="sm" />
+              </ClayLoadingIndicatorWrapperStyled>
+            ) : (
+              <ClayEmptyStateStyled
+                description=""
+                imgSrc={value ? emptyImage : searchImage}
+                title={
+                  value
+                    ? 'Vaya, no hemos encontrado nada'
+                    : 'Introduce un término de búsqueda'
+                }
+              />
+            )}
           </ClayModalBodyStyled>
         </ClayModal>
       )}

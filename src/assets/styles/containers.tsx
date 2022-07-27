@@ -11,3 +11,7 @@ export const GridContainer = styled.div`
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 48px 24px;
 `
+
+export const ClayLoadingIndicatorWrapperStyled = styled.div`
+  padding: 5rem 0;
+`
