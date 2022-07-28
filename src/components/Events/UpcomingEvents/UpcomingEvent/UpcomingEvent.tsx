@@ -1,16 +1,21 @@
 import { MeetupEvent } from 'types'
 import buildImageUrl from 'utils/build-image-url'
-import { FigureStyled } from './UpcomingEventStyled'
+import { FigureStyled, UpcomingEventStyled } from './UpcomingEventStyled'
+import ClayLink from '@clayui/link'
 
 const UpcomingEvent = ({ event }: IProps) => {
   return (
-    <article>
+    <UpcomingEventStyled>
+      <FigureStyled>
+        <img src={buildImageUrl(event.image.id)} alt={event.title} />
+      </FigureStyled>
       <div>
-        <FigureStyled>
-          <img src={buildImageUrl(event.image.id)} alt={event.title} />
-        </FigureStyled>
+        <h2>{event.title}</h2>
+        <ClayLink href={event.eventUrl} target="_blank">
+          Ver evento en Meetup
+        </ClayLink>
       </div>
-    </article>
+    </UpcomingEventStyled>
   )
 }
 

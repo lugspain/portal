@@ -7,6 +7,7 @@ import ClayLoadingIndicator from '@clayui/loading-indicator'
 import { ClayLoadingIndicatorWrapperStyled } from 'assets/styles/containers'
 import { Edge, MeetupEvent } from 'types'
 import UpcomingEvent from '../UpcomingEvent/UpcomingEvent'
+import { UpcomingEventsStyled } from './UpcomingEventsStyled'
 
 const UpcomingEvents = () => {
   const { status, data, error, refetch } = useQuery(['upcomingEvents'], () =>
@@ -18,7 +19,7 @@ const UpcomingEvents = () => {
   }
 
   return (
-    <div>
+    <UpcomingEventsStyled>
       <h2>Próximos eventos</h2>
       <ErrorBoundary
         onReset={() => {
@@ -40,7 +41,7 @@ const UpcomingEvents = () => {
           </>
         )}
       </ErrorBoundary>
-    </div>
+    </UpcomingEventsStyled>
   )
 }
 
