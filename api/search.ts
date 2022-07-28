@@ -22,8 +22,8 @@ const _getsearchResults = (query: string) => {
   })
 }
 
-const events = (request: VercelRequest, response: VercelResponse): void => {
+const search = (request: VercelRequest, response: VercelResponse): void => {
   response.status(200).json(_getsearchResults(request.query.query as string))
 }
 
-export default events
+export default search
