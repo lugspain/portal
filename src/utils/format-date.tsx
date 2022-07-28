@@ -1,5 +1,5 @@
-const formatDate = (dateString: string) => {
-  const date = new Date(dateString)
+const formatDate = (dateString: string): string => {
+  const date: Date = new Date(dateString)
 
   return date.toLocaleDateString('es-ES', {
     year: 'numeric',

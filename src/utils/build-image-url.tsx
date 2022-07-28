@@ -3,7 +3,7 @@ const MEETUP_IMAGES_BASE_URL: string =
 
 const MEETUP_IMAGE_SIZE_AND_EXTENSION: string = '676x380.webp'
 
-const buildImageUrl = (id: string) => {
+const buildImageUrl = (id: string): string => {
   return `${MEETUP_IMAGES_BASE_URL}/${id}/${MEETUP_IMAGE_SIZE_AND_EXTENSION}`
 }
 
