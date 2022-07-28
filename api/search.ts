@@ -4,7 +4,7 @@ const groupData = require('../data/data.json')
 
 const GROUP_DATA: Group = (groupData as any).data.groupByUrlname
 
-const _getsearchResults = (query: string) => {
+const _getSearchResults = (query: string) => {
   if (!query) {
     return []
   }
@@ -23,7 +23,7 @@ const _getsearchResults = (query: string) => {
 }
 
 const search = (request: VercelRequest, response: VercelResponse): void => {
-  response.status(200).json(_getsearchResults(request.query.query as string))
+  response.status(200).json(_getSearchResults(request.query.query as string))
 }
 
 export default search
