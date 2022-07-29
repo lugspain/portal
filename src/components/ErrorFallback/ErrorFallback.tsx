@@ -1,17 +1,26 @@
 import ClayAlert from '@clayui/alert'
 import ClayButton from '@clayui/button'
+import { CustomError } from 'types'
 import { ErrorFallbackStyled } from './ErrorFallbackStyled'
 
-const ErrorFallback = ({ resetErrorBoundary }: IProps) => {
+const ErrorFallback = ({ resetCallback, error }: IProps) => {
+  const castedError = error as CustomError
+
   return (
     <ErrorFallbackStyled>
-      <ClayAlert displayType="warning" title="Something went wrong">
-        Please try again
+      <ClayAlert displayType="warning" title="Something went wrong:">
+        <span>{castedError.message}.</span>
+        <code dangerouslySetInnerHTML={{ __html: castedError.response.data }} />
+        <code
+          dangerouslySetInnerHTML={{ __html: castedError.request.responseURL }}
+        />
         <ClayAlert.Footer>
           <ClayButton.Group>
-            <ClayButton alert onClick={resetErrorBoundary}>
-              Fetch events
-            </ClayButton>
+            {resetCallback && (
+              <ClayButton alert onClick={resetCallback}>
+                Re-fetch events
+              </ClayButton>
+            )}
           </ClayButton.Group>
         </ClayAlert.Footer>
       </ClayAlert>
@@ -20,7 +29,8 @@ const ErrorFallback = ({ resetErrorBoundary }: IProps) => {
 }
 
 interface IProps {
-  resetErrorBoundary: (...args: Array<unknown>) => void
+  resetCallback?: () => void
+  error?: CustomError
 }
 
 export default ErrorFallback

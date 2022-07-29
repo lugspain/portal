@@ -17,14 +17,14 @@ import {
 import { ClayLoadingIndicatorWrapperStyled } from 'assets/styles/containers'
 import searchImage from 'assets/images/search_state.gif'
 import emptyImage from 'assets/images/empty_state.gif'
-import { ErrorBoundary } from 'react-error-boundary'
 import ErrorFallback from 'components/ErrorFallback/ErrorFallback'
+import { CustomError } from 'types'
 
 const SearchModal = ({ open, observer, onClick }: IProps) => {
   const [value, setValue] = useState('')
   const location = useLocation()
 
-  const { data, isLoading } = useQuery(['todos', value], () =>
+  const { data, isLoading, error, refetch } = useQuery(['todos', value], () =>
     fetchResults({ value })
   )
 
@@ -64,25 +64,28 @@ const SearchModal = ({ open, observer, onClick }: IProps) => {
                 </ClayInput.Group>
               </ClayManagementToolbar.Search>
             </ClayManagementToolbarStyled>
-            <ErrorBoundary FallbackComponent={ErrorFallback}>
-              {data?.length ? (
-                <SearchResults results={data} />
-              ) : isLoading ? (
-                <ClayLoadingIndicatorWrapperStyled>
-                  <ClayLoadingIndicator displayType="secondary" size="sm" />
-                </ClayLoadingIndicatorWrapperStyled>
-              ) : (
-                <ClayEmptyStateStyled
-                  description=""
-                  imgSrc={value ? emptyImage : searchImage}
-                  title={
-                    value
-                      ? 'Vaya, no hemos encontrado nada'
-                      : 'Introduce un término de búsqueda'
-                  }
-                />
-              )}
-            </ErrorBoundary>
+            {data?.length ? (
+              <SearchResults results={data} />
+            ) : isLoading ? (
+              <ClayLoadingIndicatorWrapperStyled>
+                <ClayLoadingIndicator displayType="secondary" size="sm" />
+              </ClayLoadingIndicatorWrapperStyled>
+            ) : error ? (
+              <ErrorFallback
+                resetCallback={refetch}
+                error={error as CustomError}
+              />
+            ) : (
+              <ClayEmptyStateStyled
+                description=""
+                imgSrc={value ? emptyImage : searchImage}
+                title={
+                  value
+                    ? 'Vaya, no hemos encontrado nada'
+                    : 'Introduce un término de búsqueda'
+                }
+              />
+            )}
           </ClayModalBodyStyled>
         </ClayModal>
       )}

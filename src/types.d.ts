@@ -68,3 +68,10 @@ interface SponsorNode {
   url: string
   logo: string
 }
+
+interface AxiosExtendedError extends AxiosError {
+  response: any
+  request: any
+}
+
+type CustomError = Error & AxiosExtendedError

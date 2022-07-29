@@ -15,7 +15,7 @@ const fetchEvents = async ({
       },
     })
     return data
-  } catch (error) {
+  } catch (error: unknown) {
     console.error(error)
     throw error
   }
