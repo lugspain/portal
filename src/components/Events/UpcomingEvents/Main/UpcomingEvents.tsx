@@ -5,7 +5,7 @@ import fetchEvents from 'api/fetch-events'
 import ClayLoadingIndicator from '@clayui/loading-indicator'
 import { ClayLoadingIndicatorWrapperStyled } from 'assets/styles/containers'
 import { CustomError, Edge, MeetupEvent } from 'types'
-import UpcomingEvent from '../UpcomingEvent/UpcomingEvent'
+import UpcomingEvent from '../Event/UpcomingEvent'
 import { UpcomingEventsStyled } from './UpcomingEventsStyled'
 
 const UpcomingEvents = () => {
