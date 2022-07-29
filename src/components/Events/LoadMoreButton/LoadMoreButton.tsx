@@ -9,14 +9,10 @@ const LoadMoreButton = ({
 }: IProps) => {
   return (
     <LoadMoreButtonStyled>
-      <ClayButton
-        disabled={!hasNextPage}
-        displayType="secondary"
-        onClick={() => fetchNextPage()}
-      >
+      <ClayButton disabled={!hasNextPage} onClick={() => fetchNextPage()}>
         {isFetchingNextPage && (
           <span className="inline-item inline-item-before">
-            <ClayLoadingIndicator displayType="secondary" size="sm" />
+            <ClayLoadingIndicator displayType="secondary" size="sm" light />
           </span>
         )}
         {hasNextPage ? 'Cargar más eventos' : 'No hay más eventos'}
