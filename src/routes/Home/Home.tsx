@@ -1,6 +1,6 @@
 import { ContentContainer, GridContainer } from 'assets/styles/containers'
 import PastEvents from 'components/Events/PastEvents/Main/PastEvents'
-import UpcomingEvents from 'components/Events/UpcomingEvents/UpcomingEvents/UpcomingEvents'
+import UpcomingEvents from 'components/Events/UpcomingEvents/Main/UpcomingEvents'
 import Hero from 'components/UI/Hero/Hero'
 import Feedback from 'components/UI/Feedback/Feedback'
 import { Timeline } from 'react-twitter-widgets'
