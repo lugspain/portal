@@ -1,9 +1,12 @@
+import { useNavigate } from 'react-router-dom'
 import { MeetupEvent } from 'types'
 import buildImageUrl from 'utils/build-image-url'
 import { FigureStyled, UpcomingEventStyled } from './UpcomingEventStyled'
-import ClayLink from '@clayui/link'
+import ClayButton from '@clayui/button'
 
 const UpcomingEvent = ({ event }: IProps) => {
+  const navigate = useNavigate()
+
   return (
     <UpcomingEventStyled>
       <FigureStyled>
@@ -11,9 +14,9 @@ const UpcomingEvent = ({ event }: IProps) => {
       </FigureStyled>
       <div>
         <h2>{event.title}</h2>
-        <ClayLink href={event.eventUrl} target="_blank">
-          Ver evento en Meetup
-        </ClayLink>
+        <ClayButton onClick={() => navigate(`event/${event.id}`)}>
+          Ver más
+        </ClayButton>
       </div>
     </UpcomingEventStyled>
   )
