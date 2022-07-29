@@ -40,7 +40,11 @@ const PastEventsGridItem = ({ item }: IProps) => {
           {item.description}
         </PastEventGridItemDescription>
         <PastEventGridItemDetails>
-          <ClayButton small onClick={() => navigate(`event/${item.id}`)}>
+          <ClayButton
+            displayType="link"
+            small
+            onClick={() => navigate(`event/${item.id}`)}
+          >
             Ver meetup
           </ClayButton>
         </PastEventGridItemDetails>
