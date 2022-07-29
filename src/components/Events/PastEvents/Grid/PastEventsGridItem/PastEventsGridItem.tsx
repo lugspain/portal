@@ -7,43 +7,45 @@ import formatDate from 'utils/format-date'
 
 import { Link } from 'react-router-dom'
 import {
-  GridItemStyled,
-  GridItemTitle,
-  GridItemDescription,
-  GridItemDetails,
-  GridItemContentStyled,
-  TimeStyled,
-} from './GridItemStyled'
+  PastEventGridItemStyled,
+  PastEventGridItemTitle,
+  PastEventGridItemDescription,
+  PastEventGridItemDetails,
+  PastEventGridItemContentStyled,
+  PastEventTimeStyled,
+} from './PastEventsGridItemStyled'
 
 import ClayLabel from '@clayui/label'
 
-const GridItem = ({ item }: IProps) => {
+const PastEventsGridItem = ({ item }: IProps) => {
   const navigate = useNavigate()
 
   return (
-    <GridItemStyled>
+    <PastEventGridItemStyled>
       <Link to={`event/${item.id}`}>
         <figure>
           <img src={buildImageUrl(item.image.id)} alt={item.title} />
         </figure>
       </Link>
-      <GridItemContentStyled>
+      <PastEventGridItemContentStyled>
         <Link to={`event/${item.id}`}>
-          <GridItemTitle>{item.title}</GridItemTitle>
+          <PastEventGridItemTitle>{item.title}</PastEventGridItemTitle>
         </Link>
-        <TimeStyled>
+        <PastEventTimeStyled>
           <ClayLabel displayType="secondary" large>
             <time>{formatDate(item.dateTime)}</time>
           </ClayLabel>
-        </TimeStyled>
-        <GridItemDescription>{item.description}</GridItemDescription>
-        <GridItemDetails>
+        </PastEventTimeStyled>
+        <PastEventGridItemDescription>
+          {item.description}
+        </PastEventGridItemDescription>
+        <PastEventGridItemDetails>
           <ClayButton small onClick={() => navigate(`event/${item.id}`)}>
             Ver meetup
           </ClayButton>
-        </GridItemDetails>
-      </GridItemContentStyled>
-    </GridItemStyled>
+        </PastEventGridItemDetails>
+      </PastEventGridItemContentStyled>
+    </PastEventGridItemStyled>
   )
 }
 
@@ -52,4 +54,4 @@ interface IProps {
   item: MeetupEvent
 }
 
-export default GridItem
+export default PastEventsGridItem

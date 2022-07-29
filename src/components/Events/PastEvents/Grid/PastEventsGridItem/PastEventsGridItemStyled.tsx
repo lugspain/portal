@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const GridItemStyled = styled.article`
+export const PastEventGridItemStyled = styled.article`
   border-radius: 4px;
   overflow: hidden;
 
@@ -13,11 +13,11 @@ export const GridItemStyled = styled.article`
   }
 `
 
-export const GridItemTitle = styled.h2`
+export const PastEventGridItemTitle = styled.h2`
   margin: 12px 0;
 `
 
-export const GridItemDescription = styled.p`
+export const PastEventGridItemDescription = styled.p`
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -26,16 +26,16 @@ export const GridItemDescription = styled.p`
   -webkit-box-orient: vertical;
 `
 
-export const GridItemDetails = styled.div`
+export const PastEventGridItemDetails = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
 `
 
-export const GridItemContentStyled = styled.div`
+export const PastEventGridItemContentStyled = styled.div`
   padding: 12px 12px 16px; ;
 `
 
-export const TimeStyled = styled.div`
+export const PastEventTimeStyled = styled.div`
   margin: 12px 0;
 `

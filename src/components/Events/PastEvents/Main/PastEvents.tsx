@@ -2,7 +2,7 @@ import ErrorFallback from 'components/ErrorFallback/ErrorFallback'
 import { useInfiniteQuery } from '@tanstack/react-query'
 import fetchEvents from 'api/fetch-events'
 import ClayLoadingIndicator from '@clayui/loading-indicator'
-import Grid from 'components/UI/Grid/Grid/Grid'
+import PastEventsGrid from 'components/Events/PastEvents/Grid/PastEventsGrid/PastEventsGrid'
 import LoadMoreButton from 'components/Events/LoadMoreButton/LoadMoreButton'
 import { PastEventsStyled } from './PastEventsStyled'
 import { ClayLoadingIndicatorWrapperStyled } from 'assets/styles/containers'
@@ -42,7 +42,7 @@ const PastEvents = () => {
         <ErrorFallback resetCallback={refetch} error={error as CustomError} />
       ) : (
         <>
-          <Grid items={items} />
+          <PastEventsGrid items={items} />
           <LoadMoreButton
             hasNextPage={hasNextPage}
             fetchNextPage={fetchNextPage}
