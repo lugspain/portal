@@ -24,7 +24,7 @@ const SearchModal = ({ open, observer, onClick }: IProps) => {
   const [value, setValue] = useState('')
   const location = useLocation()
 
-  const { data, isLoading, error, refetch } = useQuery(['todos', value], () =>
+  const { data, isLoading, error, refetch } = useQuery(['search', value], () =>
     fetchResults({ value })
   )
 
