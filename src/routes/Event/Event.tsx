@@ -1,3 +1,4 @@
+import EventDetail from 'components/Events/EventDetail/EventDetail'
 import { useParams } from 'react-router-dom'
 
 const Event = () => {
@@ -5,8 +6,7 @@ const Event = () => {
 
   return (
     <div>
-      <p>I'm the Event</p>
-      <p>This are the params: {event}</p>
+      <EventDetail eventId={event} />
     </div>
   )
 }
