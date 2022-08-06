@@ -2,8 +2,7 @@ import { PastEventGridItemDescription } from 'components/Events/PastEvents/Grid/
 import styled from 'styled-components'
 
 export const UpcomingEventStyled = styled.article`
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-radius: 4px;
   overflow: hidden;
   margin-bottom: 1rem;
   display: flex;
@@ -11,11 +10,15 @@ export const UpcomingEventStyled = styled.article`
   &:first-of-type {
     margin-top: 24px;
   }
+
+  &:hover {
+    box-shadow: ${({ theme }) => theme.defaultBoxShadowOnHover};
+  }
 `
 
 export const ImageWrapper = styled.figure`
   margin: 0;
-  max-width: 46%;
+  max-width: 40%;
   flex-shrink: 0;
 `
 
@@ -31,7 +34,7 @@ export const UpcomingEventGridItemDescription = styled(
   PastEventGridItemDescription
 )`
   margin: 16px 0 32px 0;
-  -webkit-line-clamp: 4;
-  line-clamp: 4;
-  max-width: 80%;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  max-width: 90%;
 `
