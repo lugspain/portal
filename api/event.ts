@@ -6,6 +6,12 @@ const GROUP_DATA: Group = (groupData as any).data.groupByUrlname
 
 const _getEvent = (id: string): MeetupEvent => {
   console.log(id)
+
+  const result = GROUP_DATA.filter((obj: { id: string }) => {
+    return obj.id === id
+  })
+
+  return result
 }
 
 const event = (request: VercelRequest, response: VercelResponse): void => {
