@@ -1,3 +1,4 @@
+import { PastEventGridItemDescription } from 'components/Events/PastEvents/Grid/PastEventsGridItem/PastEventsGridItemStyled'
 import styled from 'styled-components'
 
 export const UpcomingEventStyled = styled.article`
@@ -12,7 +13,25 @@ export const UpcomingEventStyled = styled.article`
   }
 `
 
-export const FigureStyled = styled.figure`
+export const ImageWrapper = styled.figure`
   margin: 0;
-  max-width: 33.33%;
+  max-width: 46%;
+  flex-shrink: 0;
+`
+
+export const ContentWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+`
+
+export const UpcomingEventGridItemDescription = styled(
+  PastEventGridItemDescription
+)`
+  margin: 16px 0 32px 0;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  max-width: 80%;
 `
