@@ -1,17 +1,16 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
-import { Group, MeetupEvent } from 'types'
+import { Group, MeetupEvent, Edge } from 'types'
 const groupData = require('../data/data.json')
 
-const GROUP_DATA: Array<any> = (groupData as any).data.groupByUrlname.pastEvents
-  .edges
+const GROUP_DATA: Group = (groupData as any).data.groupByUrlname
 
-const _getEvent = (id: string): MeetupEvent => {
-  console.log(id)
+const edges: Edge[] = [
+  ...GROUP_DATA.upcomingEvents.edges,
+  ...GROUP_DATA.pastEvents.edges,
+]
 
-  let node = GROUP_DATA.find((event) => event.node.id === id)
-  console.log(node)
-
-  return node
+const _getEvent = (id: string): MeetupEvent | undefined => {
+  return edges.find((event) => event.node.id === id)?.node
 }
 
 const event = (request: VercelRequest, response: VercelResponse): void => {
