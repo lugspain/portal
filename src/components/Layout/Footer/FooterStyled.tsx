@@ -7,6 +7,7 @@ export const FooterStyled = styled.footer`
   display: flex;
   align-items: center;
   justify-content: end;
+  margin-top: 60px;
 
   figure {
     margin: 0;
