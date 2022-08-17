@@ -5,6 +5,7 @@ import {
   FeedbackContentStyled,
   FeedbacktitleStyled,
   FeedbackImageStyled,
+  FeedbackActions,
 } from './FeedbackStyled'
 
 const Feedback = () => {
@@ -19,16 +20,24 @@ const Feedback = () => {
           Si quieres hacernos llegar alguna sugerencia o quieres proponer algún
           tema a tratar, nos encantará recibirlas.
         </p>
-        <p>
-          <ClayLink href="https://forms.gle/zJa1NMce2Jgh8HaZA" target="_blank">
-            Buzón de sugerencias
-          </ClayLink>
-        </p>
-        <p>
-          <ClayLink href="https://forms.gle/3MDtQAV1z3xnLhtN8" target="_blank">
-            Propuesta de charla
-          </ClayLink>
-        </p>
+        <FeedbackActions>
+          <p>
+            <ClayLink
+              href="https://forms.gle/zJa1NMce2Jgh8HaZA"
+              target="_blank"
+            >
+              Buzón de sugerencias
+            </ClayLink>
+          </p>
+          <p>
+            <ClayLink
+              href="https://forms.gle/3MDtQAV1z3xnLhtN8"
+              target="_blank"
+            >
+              Propuesta de charla
+            </ClayLink>
+          </p>
+        </FeedbackActions>
       </FeedbackContentStyled>
     </FeedbackStyled>
   )
