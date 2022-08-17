@@ -5,7 +5,7 @@ export const PastEventGridItemStyled = styled.article`
   overflow: hidden;
 
   &:hover {
-    box-shadow: 0px 10px 50px #00000012;
+    box-shadow: ${({ theme }) => theme.defaultBoxShadowOnHover};
   }
 
   figure {

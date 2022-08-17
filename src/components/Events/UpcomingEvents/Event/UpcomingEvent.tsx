@@ -1,20 +1,39 @@
+import { Link, useNavigate } from 'react-router-dom'
 import { MeetupEvent } from 'types'
 import buildImageUrl from 'utils/build-image-url'
-import { FigureStyled, UpcomingEventStyled } from './UpcomingEventStyled'
-import ClayLink from '@clayui/link'
+import {
+  ImageWrapper,
+  UpcomingEventStyled,
+  ContentWrapper,
+  UpcomingEventGridItemDescription,
+} from './UpcomingEventStyled'
+import ClayButton from '@clayui/button'
 
 const UpcomingEvent = ({ event }: IProps) => {
+  const navigate = useNavigate()
+
   return (
     <UpcomingEventStyled>
-      <FigureStyled>
-        <img src={buildImageUrl(event.image.id)} alt={event.title} />
-      </FigureStyled>
-      <div>
-        <h2>{event.title}</h2>
-        <ClayLink href={event.eventUrl} target="_blank">
-          Ver evento en Meetup
-        </ClayLink>
-      </div>
+      <ImageWrapper>
+        <Link to={`event/${event.id}`}>
+          <img src={buildImageUrl(event.image.id)} alt={event.title} />
+        </Link>
+      </ImageWrapper>
+      <ContentWrapper>
+        <h2>
+          <Link to={`event/${event.id}`}>{event.title}</Link>
+        </h2>
+        <UpcomingEventGridItemDescription>
+          {event.description}
+        </UpcomingEventGridItemDescription>
+        <ClayButton
+          className="p-0"
+          displayType="link"
+          onClick={() => navigate(`event/${event.id}`)}
+        >
+          Ver detalles
+        </ClayButton>
+      </ContentWrapper>
     </UpcomingEventStyled>
   )
 }

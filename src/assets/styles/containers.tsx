@@ -13,5 +13,5 @@ export const GridContainer = styled.div`
 `
 
 export const ClayLoadingIndicatorWrapperStyled = styled.div`
-  padding: 5rem 0;
+  padding: 8rem 0;
 `

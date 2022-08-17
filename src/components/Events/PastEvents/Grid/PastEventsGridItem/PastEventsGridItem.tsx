@@ -45,7 +45,7 @@ const PastEventsGridItem = ({ item }: IProps) => {
             small
             onClick={() => navigate(`event/${item.id}`)}
           >
-            Ver meetup
+            Ver detalles
           </ClayButton>
         </PastEventGridItemDetails>
       </PastEventGridItemContentStyled>
