@@ -20,11 +20,9 @@ const EventDetail = ({ eventId }: IProps) => {
         </ClayLoadingIndicatorWrapperStyled>
       ) : (
         <>
-          <p>{eventId}</p>
           <MeetupYoutubeVideo
             description={data.description}
           ></MeetupYoutubeVideo>
-          <pre>{JSON.stringify(data.description, undefined, 2)}</pre>
         </>
       )}
     </>

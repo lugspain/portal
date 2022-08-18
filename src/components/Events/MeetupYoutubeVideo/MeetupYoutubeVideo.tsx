@@ -2,9 +2,10 @@ const MeetupYoutubeVideo = ({ description }: IProps) => {
   if (!description) {
     return null
   }
-  const arrayDescription = description.split('[youtube]')
+  const arrayDescription = description.split('https://www.youtu')
   const endOfYoutubeLink = arrayDescription[1].indexOf(')')
-  const youtubeLink = arrayDescription[1].slice(1, endOfYoutubeLink)
+  const youtubeLink =
+    'https://www.youtub' + arrayDescription[1].slice(1, endOfYoutubeLink)
 
   const rExp: RegExp = /https?:\/\/www\.youtube\.com/
   const rExp1: RegExp = /https?:\/\/www\.youtube\.com\/embed/
