@@ -6,9 +6,9 @@ export const ContentContainer = styled.div`
   width: 100%;
 `
 
-export const GridContainer = styled.div`
+export const GridContainer = styled.div<{ columns?: number }>`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: ${({ columns }) => `repeat(${columns || 3}, 1fr)`};
   grid-gap: 48px 24px;
 `
 
