@@ -6,30 +6,44 @@ import {
   UpcomingEventStyled,
   ContentWrapper,
   UpcomingEventGridItemDescription,
+  EventDetailsStyled,
 } from './UpcomingEventStyled'
 import ClayButton from '@clayui/button'
+import ClayLabel from '@clayui/label'
+import formatDate from 'utils/format-date'
+import capitalize from 'utils/capitalize'
 
-const UpcomingEvent = ({ event }: IProps) => {
+const UpcomingEvent = ({
+  event: { id, image, title, dateTime, description, eventType },
+}: IProps) => {
   const navigate = useNavigate()
 
   return (
     <UpcomingEventStyled>
       <ImageWrapper>
-        <Link to={`event/${event.id}`}>
-          <img src={buildImageUrl(event.image.id)} alt={event.title} />
+        <Link to={`event/${id}`}>
+          <img src={buildImageUrl(image.id)} alt={title} />
         </Link>
       </ImageWrapper>
       <ContentWrapper>
         <h2>
-          <Link to={`event/${event.id}`}>{event.title}</Link>
+          <Link to={`event/${id}`}>{title}</Link>
         </h2>
+        <EventDetailsStyled>
+          <ClayLabel displayType="secondary" large>
+            <time>{formatDate(dateTime)}</time>
+          </ClayLabel>
+          <ClayLabel displayType="info" large>
+            <span>{capitalize(eventType)}</span>
+          </ClayLabel>
+        </EventDetailsStyled>
         <UpcomingEventGridItemDescription>
-          {event.description}
+          {description}
         </UpcomingEventGridItemDescription>
         <ClayButton
           className="p-0"
           displayType="link"
-          onClick={() => navigate(`event/${event.id}`)}
+          onClick={() => navigate(`event/${id}`)}
         >
           Ver detalles
         </ClayButton>
