@@ -20,6 +20,12 @@ export const ImageWrapper = styled.figure`
   margin: 0;
   max-width: 40%;
   flex-shrink: 0;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+  }
 `
 
 export const ContentWrapper = styled.div`
