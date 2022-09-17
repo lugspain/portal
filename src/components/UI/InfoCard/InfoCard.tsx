@@ -18,7 +18,7 @@ const InfoCard = ({ actions, description, image, imageAlt, title }: IProps) => {
         <p>{description}</p>
         <InfoCardActions>
           {actions.map(({ label, link, target }) => (
-            <li>
+            <li key={link}>
               <ClayLink href={link} target={target}>
                 {label}
               </ClayLink>

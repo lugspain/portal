@@ -24,13 +24,13 @@ export const InfoCardImageStyled = styled.img`
 `
 
 export const InfoCardActions = styled.ul`
-  margin-top: 32px;
+  margin-top: 24px;
   list-style: none;
   padding: 0;
 
   li {
     &:not(:first-child) {
-      margin-top: 16px;
+      margin-top: 8px;
     }
   }
 `
