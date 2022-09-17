@@ -13,10 +13,6 @@ export const PastEventGridItemStyled = styled.article`
   }
 `
 
-export const PastEventGridItemTitle = styled.h2`
-  margin: 12px 0;
-`
-
 export const PastEventGridItemDescription = styled.p`
   overflow: hidden;
   text-overflow: ellipsis;
@@ -24,6 +20,7 @@ export const PastEventGridItemDescription = styled.p`
   -webkit-line-clamp: 3;
   line-clamp: 3;
   -webkit-box-orient: vertical;
+  margin: 16px 0 24px 0;
 `
 
 export const PastEventGridItemDetails = styled.div`
@@ -34,8 +31,4 @@ export const PastEventGridItemDetails = styled.div`
 
 export const PastEventGridItemContentStyled = styled.div`
   padding: 12px 12px 16px; ;
-`
-
-export const PastEventTimeStyled = styled.div`
-  margin: 12px 0;
 `

@@ -20,6 +20,12 @@ export const ImageWrapper = styled.figure`
   margin: 0;
   max-width: 40%;
   flex-shrink: 0;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+  }
 `
 
 export const ContentWrapper = styled.div`
@@ -33,8 +39,9 @@ export const ContentWrapper = styled.div`
 export const UpcomingEventGridItemDescription = styled(
   PastEventGridItemDescription
 )`
-  margin: 16px 0 32px 0;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
   max-width: 90%;
+`
+
+export const EventDetailsStyled = styled.div`
+  display: flex;
 `

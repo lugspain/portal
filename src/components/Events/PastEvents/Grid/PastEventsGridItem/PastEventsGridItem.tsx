@@ -8,12 +8,13 @@ import formatDate from 'utils/format-date'
 import { Link } from 'react-router-dom'
 import {
   PastEventGridItemStyled,
-  PastEventGridItemTitle,
   PastEventGridItemDescription,
   PastEventGridItemDetails,
   PastEventGridItemContentStyled,
-  PastEventTimeStyled,
 } from './PastEventsGridItemStyled'
+import capitalize from 'utils/capitalize'
+
+import { EventDetailsStyled } from 'components/Events/UpcomingEvents/Event/UpcomingEventStyled'
 
 import ClayLabel from '@clayui/label'
 
@@ -29,13 +30,16 @@ const PastEventsGridItem = ({ item }: IProps) => {
       </Link>
       <PastEventGridItemContentStyled>
         <Link to={`event/${item.id}`}>
-          <PastEventGridItemTitle>{item.title}</PastEventGridItemTitle>
+          <h2>{item.title}</h2>
         </Link>
-        <PastEventTimeStyled>
+        <EventDetailsStyled>
           <ClayLabel displayType="secondary" large>
             <time>{formatDate(item.dateTime)}</time>
           </ClayLabel>
-        </PastEventTimeStyled>
+          <ClayLabel displayType="info" large>
+            <span>{capitalize(item.eventType)}</span>
+          </ClayLabel>
+        </EventDetailsStyled>
         <PastEventGridItemDescription>
           {item.description}
         </PastEventGridItemDescription>
