@@ -6,8 +6,16 @@ import InfoCard from 'components/UI/InfoCard/InfoCard'
 import { Timeline } from 'react-twitter-widgets'
 import feedbackImage from 'assets/images/feedback.jpg'
 import qaMonthImage from 'assets/images/mes-de-qa.jpg'
+import { useState } from 'react'
+import ClayLoadingIndicator from '@clayui/loading-indicator'
+import { ClayLoadingIndicatorWrapperStyled } from 'assets/styles/containers'
 
 const Home = () => {
+  const [twitterIsLoading, setTwitterIsLoading] = useState(true)
+  const handleTwitterLoad = (): void => {
+    setTwitterIsLoading(false)
+  }
+
   return (
     <div>
       <Hero />
@@ -15,10 +23,16 @@ const Home = () => {
         <UpcomingEvents />
         <PastEvents />
         <GridContainer>
-          <Timeline
-            dataSource={{ sourceType: 'profile', screenName: 'LUGSpain' }}
-            options={{ height: '490' }}
-          />
+          <span className="d-flex flex-column justify-content-center">
+            {twitterIsLoading && (
+              <ClayLoadingIndicator displayType="secondary" size="sm" />
+            )}
+            <Timeline
+              dataSource={{ sourceType: 'profile', screenName: 'LUGSpain' }}
+              onLoad={handleTwitterLoad}
+              options={{ height: '490' }}
+            />
+          </span>
           <InfoCard
             image={feedbackImage}
             imageAlt="Dar Feedback Liferay USer Group Spain"
