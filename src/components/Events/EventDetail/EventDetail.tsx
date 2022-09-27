@@ -3,6 +3,7 @@ import { useQuery } from '@tanstack/react-query'
 import fetchEvent from 'api/fetch-event'
 import { ClayLoadingIndicatorWrapperStyled } from 'assets/styles/containers'
 import VideoPlayer from '../../UI/VideoPlayer/VideoPlayer'
+
 const EventDetail = ({ eventId }: IProps) => {
   const { status, data } = useQuery(['event'], () =>
     fetchEvent({ id: eventId })
@@ -12,6 +13,8 @@ const EventDetail = ({ eventId }: IProps) => {
     return null
   }
 
+  const { description, title } = data
+
   return (
     <>
       {status === 'loading' ? (
@@ -20,7 +23,7 @@ const EventDetail = ({ eventId }: IProps) => {
         </ClayLoadingIndicatorWrapperStyled>
       ) : (
         <>
-          <VideoPlayer text={data.description} />
+          <VideoPlayer text={description} title={title} />
         </>
       )}
     </>
