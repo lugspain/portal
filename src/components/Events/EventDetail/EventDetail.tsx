@@ -2,7 +2,7 @@ import ClayLoadingIndicator from '@clayui/loading-indicator'
 import { useQuery } from '@tanstack/react-query'
 import fetchEvent from 'api/fetch-event'
 import { ClayLoadingIndicatorWrapperStyled } from 'assets/styles/containers'
-import VideoPlayer from '../VideoPlayer/VideoPlayer'
+import VideoPlayer from '../../UI/VideoPlayer/VideoPlayer'
 const EventDetail = ({ eventId }: IProps) => {
   const { status, data } = useQuery(['event'], () =>
     fetchEvent({ id: eventId })
