@@ -18,7 +18,7 @@ interface Host {
   memberPhoto: Image
 }
 
-interface Image {
+export interface Image {
   baseUrl: string
   id: string
 }
