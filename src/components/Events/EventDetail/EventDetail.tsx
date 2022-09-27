@@ -2,7 +2,7 @@ import ClayLoadingIndicator from '@clayui/loading-indicator'
 import { useQuery } from '@tanstack/react-query'
 import fetchEvent from 'api/fetch-event'
 import { ClayLoadingIndicatorWrapperStyled } from 'assets/styles/containers'
-import MeetupYoutubeVideo from '../MeetupYoutubeVideo/MeetupYoutubeVideo'
+import VideoPlayer from '../VideoPlayer/VideoPlayer'
 const EventDetail = ({ eventId }: IProps) => {
   const { status, data } = useQuery(['event'], () =>
     fetchEvent({ id: eventId })
@@ -20,9 +20,7 @@ const EventDetail = ({ eventId }: IProps) => {
         </ClayLoadingIndicatorWrapperStyled>
       ) : (
         <>
-          <MeetupYoutubeVideo
-            description={data.description}
-          ></MeetupYoutubeVideo>
+          <VideoPlayer text={data.description} />
         </>
       )}
     </>
