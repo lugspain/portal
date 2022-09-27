@@ -13,7 +13,7 @@ const useYoutubeEmbedUrl = (text: string | undefined): string | undefined => {
     : undefined
 }
 
-const VideoPlayer = ({ text }: IProps) => {
+const VideoPlayer = ({ text, title }: IProps) => {
   const videoUrl = useYoutubeEmbedUrl(text)
 
   if (!videoUrl) {
@@ -21,17 +21,14 @@ const VideoPlayer = ({ text }: IProps) => {
   }
 
   return (
-    <iframe
-      title="myFrame"
-      width="560"
-      height="315"
-      src={videoUrl}
-      frameBorder="0"
-    />
+    <IframeWrapperStyled>
+      <iframe title={title} src={videoUrl} frameBorder="0" />
+    </IframeWrapperStyled>
   )
 }
 
 interface IProps {
   text: string | undefined
+  title: string
 }
 export default VideoPlayer
