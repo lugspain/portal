@@ -32,8 +32,6 @@ const PastEvents = () => {
 
   return (
     <PastEventsStyled>
-      <h2>Eventos anteriores</h2>
-
       {status === 'loading' ? (
         <ClayLoadingIndicatorWrapperStyled>
           <ClayLoadingIndicator displayType="secondary" size="sm" />
@@ -42,6 +40,7 @@ const PastEvents = () => {
         <ErrorFallback resetCallback={refetch} error={error as CustomError} />
       ) : (
         <>
+          {!!items.length && <h2>Eventos anteriores</h2>}
           <PastEventsGrid items={items} />
           <LoadMoreButton
             hasNextPage={hasNextPage}

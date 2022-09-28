@@ -15,7 +15,6 @@ const UpcomingEvents = () => {
 
   return (
     <UpcomingEventsStyled>
-      <h2>Próximos eventos</h2>
       {status === 'loading' ? (
         <ClayLoadingIndicatorWrapperStyled>
           <ClayLoadingIndicator displayType="secondary" size="sm" />
@@ -24,6 +23,7 @@ const UpcomingEvents = () => {
         <ErrorFallback resetCallback={refetch} error={error as CustomError} />
       ) : (
         <>
+          {data?.edges && !!data?.edges?.length && <h2>Próximos eventos</h2>}
           {data?.edges.map((edge: Edge) => {
             const { node: meetupEvent }: { node: MeetupEvent } = edge
 
