@@ -49,6 +49,14 @@ query ($urlname: String!) {
             baseUrl
             id
           }
+          comments(offset: 1, limit: 200) {
+            count
+            edges {
+              node {
+                text
+              }
+            }
+          }
         }
       }
     }

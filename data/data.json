@@ -72,6 +72,31 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "486018749"
+              },
+              "comments": {
+                "count": 4,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "A las personas en lista de espera os recuerdo que la inscripción se realizará a través de este enlace: https://forms.liferay.com/web/forms/shared/-/form/169634/ y podéis ganar una entrada al simposio :D"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Lástima ! Este año me lo perderé.\nUn saludo a todos los asistentes"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Oye yo si Jose Jimenez no se salta la lista de espera igual no se si merecerá la pena... que Javier está muy trabajado con tanto evento... ;)"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "xDDDD :) Por si hay algún despistado en lista de espera, todos podéis ir :D Sólo apuntaros aquí: https://forms.liferay.com/web/forms/shared/-/form/169634/"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -116,6 +141,36 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "486018749"
+              },
+              "comments": {
+                "count": 5,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "¡Ya tenemos agenda para el meetup!\n\n19:00 Llegada, anuncios\n19:15 Manuel de la Peña: Docker nightly builds de Liferay Portal CE\n19:45 Alejandro Hernández: Desarrollo de nuevas APIs en Liferay\n20:15 Elección del co-organizador del LSUG y otros temas/preguntas específicas del LSUG\n20:30 Pizzas\n\nPor si no lo habéis hecho ya, los que penséis asistir presencialmente por favor apuntaros a este evento. Para los que queráis participar en remoto, antes del encuentro facilitaremos la url del vídeo en streaming, y responderemos a las preguntas a través del canal de lug-spain de Liferay Community en Slack."
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "El enlace del streaming (que empezará en media hora) es: https://www.youtube.com/channel/UCNx2OKqFypdjCSbu-42UElw/live"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Una iniciativa muy interesante, para saber lo que se esta \"cocinando\" en el mundo de Liferay, mas allá del proyecto en el que este cada uno."
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Las slides de APIs están aquí, podéis comentar: https://docs.google.com/presentation/d/1a4nG6TsA7YZSoZVpxiAmygkRHTnYuPMOsc7wm6O8MII/edit"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "- El video con el meetup completo: https://youtu.be/p4YveyFTFCo\n\n- El workshop completo sobre Wedeploy, en el que se basó la charla del meetup: https://www.liferay.com/events?marketingEventId=231786937"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -160,6 +215,10 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "467142710"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           },
@@ -204,6 +263,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "467142710"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Para quién no pudiese asistir al meetup, aquí está el enlace del meetup https://www.youtube.com/watch?v=QGNFT0fHZXU"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -248,6 +317,10 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "467142710"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           },
@@ -292,6 +365,26 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "467142710"
+              },
+              "comments": {
+                "count": 3,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "La URL del streaming es: https://www.youtube.com/liferayagora/live"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Buenos días, ¿se ha colgado la ppt del meetup en algún sitio?"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Buenas! Ya hemos subido la presentación: https://docs.google.com/presentation/d/1wHU6XRE6emKBNlTeuoA348ApRYbCrQqVQ1WgNxWLSSo/edit#slide=id.g346afb222d_2_115 y el video: https://youtu.be/NOpdnnSXBak"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -336,6 +429,36 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "467142710"
+              },
+              "comments": {
+                "count": 5,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Podéis seguir el meetup en streaming a través de nuestro canal de Youtube: https://www.youtube.com/liferayagora/live"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Interesante conocer el punto de partida para migrar entre versiones."
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "El evento tuvo bastante información interesante y la exposición fue muy buena"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "El video del meetup https://youtu.be/ERhz5Iybx7M y la presentación https://es.slideshare.net/JoseAJimenez8/actualizaciones-presente-y-futuro-meetup-del-grupo-de-usuarios-de-liferay-espaa"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Video con slides: https://youtu.be/zM9JXmcs1s4 :D"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -389,6 +512,36 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "467142710"
+              },
+              "comments": {
+                "count": 5,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Buenas chic@s, habilitareis algun hangout o similar? Gracias!"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Hola Jordi, todos los meetups se emiten en streaming a través de nuestro canal de Youtube: https://www.youtube.com/liferayagora. Podrás participar a través del chat del canal."
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "El segundo de este año que me pierdo... A ver si con el siguiente hay más suerte. Pasadlo bien!"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "La url del streaming sera https://youtube.com/liferayagora/live"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "La grabación con las slides de las charlas sobre novedades de 7.1: https://youtu.be/PcU6S-YfL8g :D"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -433,6 +586,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "467142710"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Video de la charla: https://youtu.be/d7Wnh_iTDvQ :D"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -477,6 +640,21 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "467142710"
+              },
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Este meetup será el que marque el parón de vacaciones. Hablaremos de themes y después nos despediremos tomándonos algo. El grupo de usuarios de Liferay volverá en septiembre http://meetu.ps/e/.vfslfpyxmbjc/dKck8/d"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Video de la charla: https://youtu.be/yTOxerijJDo :D"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -503,6 +681,21 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "467142710"
+              },
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "No puedo, libero mi plaza"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Video subido: https://youtu.be/PJHkDyGYqTc"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -547,6 +740,10 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "467142710"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           },
@@ -591,6 +788,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "467142710"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Video con slides: https://youtu.be/Itvp5HsPauE (al fin!)"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -635,6 +842,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "467142710"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión compartida con MadridJUG: https://youtu.be/h6O23XsT4Yw"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -679,6 +896,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "467142710"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión: https://youtu.be/8kxOFFtdsvk"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -732,6 +959,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "486018749"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión: https://youtu.be/8kxOFFtdsvk"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -776,6 +1013,10 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "467142710"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           },
@@ -820,6 +1061,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "467142710"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión: https://youtu.be/Q1_68vkgIWY"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -873,6 +1124,10 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "486018749"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           },
@@ -926,6 +1181,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "486018749"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión: https://youtu.be/Q1_68vkgIWY"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -970,6 +1235,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "467142710"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión: https://youtu.be/IlA6qNse6h4"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -1023,6 +1298,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "486018749"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión: https://youtu.be/IlA6qNse6h4"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -1067,6 +1352,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "467142710"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión: https://youtu.be/8hzybAtSl5U"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -1120,6 +1415,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "486018749"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "¡¡Qué topic más bueno el del ELK!! ¿De grabará el Meetup? Me interesa porque en su día hicimos una POC para hacer lo mismo y nos gustó mucho el resultado."
+                    }
+                  }
+                ]
               }
             }
           },
@@ -1173,6 +1478,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "486018749"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo con la sesión: http://youtu.be/-lMCdhVbtbE"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -1217,6 +1532,26 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "467142710"
+              },
+              "comments": {
+                "count": 3,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Hacen streaming ?"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Desde Costa Rica, estoy bastante interesado, si me indican como puedo verlos desde aquí se los agradezco"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "El vídeo con la sesión: http://youtu.be/-lMCdhVbtbE"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -1270,6 +1605,41 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "486018749"
+              },
+              "comments": {
+                "count": 6,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "En esta ocasión no puedo asistir... ¡Me tomaré unos rebujitos a vuestra salud en El Rocío!  ;)"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Llegó el día! Expectación para ver lo que nos tienen preparados los compañeros del LSUG, Dani, David e Iván.\n\nGanazas!!"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Cómo se entra"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Segunda planta c. Los carteles de meet up se pierden y no coge nadie el tlf"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "terminado el evento todo genial, tanto por Everis que cedió su casa para el evento, como para los compañeros que expusieron, Dani o David e Ivan. Aspectos a mejorar el audio de las ponencias para verlo online, a Ivan se le oía bastante mal y sobre todo, el no haber pizza. La cerveza esta muy bien, pero la pizza esta mejor jejejeje. \nFuera de bromas, me quedo con las palabras de David, que esto no sea un meetup en el desierto, esto será lo que la comunidad quiera, así que animarse y ahora que viene el verano y las vacaciones, ir pensando la próxima, temas, fechas, etc. LSUG!!"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "El vídeo con la sesión: http://youtu.be/-lMCdhVbtbE"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -1323,6 +1693,10 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "485812082"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           },
@@ -1367,6 +1741,10 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "485812005"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           },
@@ -1411,6 +1789,21 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "486794520"
+              },
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "¿Se va a emitir por youtube?"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "La sesión se puede ver aquí: https://youtu.be/OOlvA3aQIcU"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -1464,6 +1857,21 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "486794463"
+              },
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "La sesión se puede ver aquí: https://youtu.be/OOlvA3aQIcU"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "muy buena. Deseando estoy que llegue el Echo del BlackFRiday :D"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -1490,6 +1898,10 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "486018749"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           },
@@ -1516,6 +1928,21 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "486794446"
+              },
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Buenas, la sala de la charla es en la planta 2 (sala multiusos) si alguien llega a la oficina puede avisar a este número si tiene problemas para localizar la sala 671678730"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "La sesión se puede ver aquí: https://youtu.be/OOlvA3aQIcU"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -1569,6 +1996,10 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "486018749"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           },
@@ -1595,6 +2026,10 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "486018749"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           },
@@ -1630,6 +2065,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "488525141"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión por si no habéis podido ir:\nhttps://www.youtube.com/watch?v=0KXslANrJBM"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -1674,6 +2119,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "488525169"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión por si no habéis podido ir:\nhttps://www.youtube.com/watch?v=0KXslANrJBM"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -1709,6 +2164,21 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "488525107"
+              },
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Hola a tod@s, estamos en la EOI, en la primera planta (al final del pasillo, subiendo las escaleras y a la derecha). Preguntad en recepción al llegar."
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión por si no habéis podido ir:\nhttps://www.youtube.com/watch?v=0KXslANrJBM"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -1753,6 +2223,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "489124300"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión:\nhttps://youtu.be/96Ln1Jqlnk8"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -1797,6 +2277,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "489124382"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión:\nhttps://youtu.be/96Ln1Jqlnk8"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -1823,6 +2313,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "489124508"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión:\nhttps://youtu.be/96Ln1Jqlnk8"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -1849,6 +2349,10 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "486018749"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           },
@@ -1902,6 +2406,10 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "486018749"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           },
@@ -1946,6 +2454,10 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "467142710"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           },
@@ -1972,6 +2484,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "490278778"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Aquí podéis acceder a la sesión grabada:\n  https://www.youtube.com/watch?v=hi80KMZmQjg"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -1998,6 +2520,21 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "490531605"
+              },
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Por si no pudisteis asistir, aquí está el vídeo de la sesión.\n https://www.youtube.com/watch?v=eq-9omR-1s0&feature=youtu.be"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Aquí las presentaciones:\n 1- https://docs.google.com/presentation/d/1eegOtph5VE9DFFGuvsYPxnqOJv8EeJVMN03epB92C1A/edit\n 2- https://www.slideshare.net/JoseAJimenez8/lets-shield-liferay"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2033,6 +2570,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "490878410"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión: https://www.youtube.com/watch?v=hbnO0X2cpgo&feature=youtu.be"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2059,6 +2606,21 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "492478991"
+              },
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El enlace del streaming en el que podéis seguir el evento https://www.youtube.com/watch?v=Mu0LcyOPadQ"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Hay nuevo enlace para el streaming. Ya han pasado 12 horas y para las siguientes 12 el enlace es éste: https://www.youtube.com/watch?v=K6uDFo8kilI&feature=emb_logo"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2103,6 +2665,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "492478468"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Por si queréis ver de nuevo la charla o por si no pudisteis asistir, aquí tenéis la grabación. \nhttps://www.youtube.com/watch?v=NUeTv_8DNww"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2156,6 +2728,10 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "486018749"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           },
@@ -2182,6 +2758,26 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "493602494"
+              },
+              "comments": {
+                "count": 3,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Esta me pareció una de las mejores quedadas del grupo: aprendiendo una API nueva de Liferay de las manos de alguien involucrada en su desarrollo y con ejemplos prácticos mostrando el código.\n¡Lujazo!\n¡Muchas gracias!"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Ésta fue la primera vez que asistí a una reunión del grupo y la verdad es que me encantó. Me pareció muy interesante que la nueva funcionalidad MFA sea tan facilmente customizable. \nNos vemos en las próximas quedadas.\nGracias!"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "El video de la sesión -  https://www.youtube.com/watch?v=ipsV_Rma9bo&feature=youtu.be"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2244,6 +2840,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "494409865"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión: https://www.youtube.com/watch?v=s7Htx7LUweg&t=3s"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2279,6 +2885,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "494713869"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión: https://www.youtube.com/watch?v=gxoV8rxT0Is&t=1142s"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2332,6 +2948,10 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "495090204"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           },
@@ -2367,6 +2987,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "495326145"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Por si no pudisteis asistir, aquí está el vídeo de la sesión. https://youtu.be/JnkkCU_hGTw"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2402,6 +3032,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "495983443"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión: https://www.youtube.com/watch?v=4VgCtA1FBQU"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2428,6 +3068,21 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "496455712"
+              },
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Para ayudar a seguir la sesión, Carlos ha preparado un repo de Github. Os recomendamos que lo echéis un ojo antes del miércoles para aprovechar al máximo el meetup.\nhttps://github.com/carlosdurannet/carlosdurannet.github.io/blob/main/20210526-lugspain.md"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión: https://www.youtube.com/watch?v=uMhtYhlvxIc"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2454,6 +3109,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "497199971"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Al final no puedo asistir, acabo de caer en que tenemos meetup con MadridJUG.... estaré pendiente para ver la grabación después y escuchar lo que han hecho en AticaUM."
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2480,6 +3145,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "499115036"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión - https://www.youtube.com/watch?v=v99hHRQnXVw"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2506,6 +3181,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "499561312"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión - https://www.youtube.com/watch?v=7C8VfXyCeRQ"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2532,6 +3217,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "500313094"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El vídeo de la sesión - https://www.youtube.com/watch?v=QRe190OhfYk"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2567,6 +3262,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "501498842"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Hola, no pude asistir al evento  se podria tener acceso a la version grabada del mismo? gracias."
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2602,6 +3307,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "502236478"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El enlace al vídeo - https://www.youtube.com/watch?v=uL_ZJkxh1FI"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2637,6 +3352,21 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "502913353"
+              },
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "He intentado acceder al formulario que habéis indicado cuando he comentado que asistire. Si necesitáis mis datos personales para el acceso al edificio escribirme a florencioangel.luis.moya@gmail.com\nMuchas Gracías."
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Enlace al vídeo - https://www.youtube.com/watch?v=gklVbsPt3Xk"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2672,6 +3402,10 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "503167372"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           },
@@ -2716,6 +3450,26 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "503723361"
+              },
+              "comments": {
+                "count": 3,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Hola buenas tardes, el evento se podra ver online? o se dispondran de los videos posteriormente? gracias"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Interesante tópico! Mañana participaremos for sure!"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Muchas gracias por vuestra asistencia e interés. Un meetup muy entretenido y práctico de Pablo Molina, gracias! https://twitter.com/p2kmgcl"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2760,6 +3514,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "504225901"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Vídeo de la sesión - https://www.youtube.com/watch?v=JnjxpmPjRTw"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2804,6 +3568,16 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "504397820"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Buenas, estoy interesado en el evento pero a través de YouTube. Hay una forma de inscribirse para asistir asi? O simplemente me acerco por YouTube cuando vaya a empezar?"
+                    }
+                  }
+                ]
               }
             }
           },
@@ -2848,6 +3622,10 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "504456730"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           },
@@ -2892,115 +3670,21 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "504659792"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           }
         ]
       },
       "upcomingEvents": {
-        "count": 2,
+        "count": 0,
         "pageInfo": {
           "endCursor": ""
         },
-        "edges": [
-          {
-            "node": {
-              "id": "276401889",
-              "title": "La DEVCON desde tu casa con la gente de la comunidad",
-              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/276401889",
-              "description": "Vamos a aprovechar el final del primer día para juntarnos todos los miembros de la comunidad en Español, charlar, compartir impresiones sobre el primer día de DEVCON y ver las ideas que nos ha dado para hacer y probar cosas nuevas....\n\nTambién podemos pensar en qué temas hemos visto que nos hayan llamado la atención y planificar alguna actividad conjunta para, , cuando \"estemos de vuelta a casa\", profundizar juntos ver esos temas que más nos interesan un poco más despacio.\n\nPara este evento no utilizaremos el registro en meetup.com, Registrate en la web de DEVCON: https://www.liferay.com/es/web/events/devcon\n\nLa sala aparece en la agenda oficial de DEVCON en el track \"Community Events\".",
-              "shortDescription": null,
-              "hosts": [
-                {
-                  "id": "31724612",
-                  "name": "David Gómez",
-                  "memberUrl": "https://www.meetup.com/members/31724612",
-                  "memberPhoto": {
-                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
-                    "id": "32193942"
-                  }
-                },
-                {
-                  "id": "93113132",
-                  "name": "Álvaro Saugar",
-                  "memberUrl": "https://www.meetup.com/members/93113132",
-                  "memberPhoto": {
-                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
-                    "id": "280322512"
-                  }
-                },
-                {
-                  "id": "235401172",
-                  "name": "Antonio",
-                  "memberUrl": "https://www.meetup.com/members/235401172",
-                  "memberPhoto": {
-                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
-                    "id": "309523310"
-                  }
-                },
-                {
-                  "id": "184973617",
-                  "name": "Santiago",
-                  "memberUrl": "https://www.meetup.com/members/184973617",
-                  "memberPhoto": {
-                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
-                    "id": "244294592"
-                  }
-                }
-              ],
-              "dateTime": "2021-03-09T20:25+01:00",
-              "eventType": "online",
-              "image": {
-                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
-                "id": "495090204"
-              }
-            }
-          },
-          {
-            "node": {
-              "id": "286407366",
-              "title": "Mes de QA - Sesión 3 - The path to automation heaven (NorthemQuality)",
-              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/286407366",
-              "description": "Hola,\n\nContinuamos con el ¡Mes de QA!\n\nNuestro día a día puede estar repleto de tareas manuales que hagan que no podamos avanzar con el trabajo y se convierta en un infierno. Para solucionarlo, Francisco Moreno nos contará una serie de recomendaciones y ayudas, basadas en su amplia experiencia, para mostrarnos la luz e indicarnos el camino que nos permita llegar al \"automation heaven\" sin morir en el intento.\n\nPodréis asistir en directo por streaming en [youtube](https://www.youtube.com/watch?v=8BGfDJ1j5-Q).\n\nEn la [página del evento ](https://lugspain.github.io/mesdeqa/) podéis consultar más información sobre las sesiones, las comunidades y los ponentes que participan.\n\nNos vemos. Un saludo.",
-              "shortDescription": null,
-              "hosts": [
-                {
-                  "id": "93113132",
-                  "name": "Álvaro Saugar",
-                  "memberUrl": "https://www.meetup.com/members/93113132",
-                  "memberPhoto": {
-                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
-                    "id": "280322512"
-                  }
-                },
-                {
-                  "id": "195652449",
-                  "name": "Carlos Durán ",
-                  "memberUrl": "https://www.meetup.com/members/195652449",
-                  "memberPhoto": {
-                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
-                    "id": "310734032"
-                  }
-                },
-                {
-                  "id": "134442352",
-                  "name": "Beltrán Rengifo",
-                  "memberUrl": "https://www.meetup.com/members/134442352",
-                  "memberPhoto": {
-                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
-                    "id": "272661346"
-                  }
-                }
-              ],
-              "dateTime": "2022-06-16T19:00+02:00",
-              "eventType": "online",
-              "image": {
-                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
-                "id": "504659792"
-              }
-            }
-          }
-        ]
+        "edges": []
       }
     }
   }
