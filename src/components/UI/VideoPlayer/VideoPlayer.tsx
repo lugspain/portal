@@ -1,4 +1,6 @@
-import { IframeWrapperStyled } from './VideoPlayerStyled'
+import { FallbackImageStyled, IframeWrapperStyled } from './VideoPlayerStyled'
+import { Image } from 'types'
+import buildImageUrl from 'utils/build-image-url'
 
 const YOUTUBE_EMBED_BASE_URL = 'https://www.youtube.com/embed'
 const YOUTUBE_LINK_REGEX =
@@ -26,21 +28,26 @@ const useYoutubeEmbedUrl = (text: string | undefined): string | undefined => {
     : undefined
 }
 
-const VideoPlayer = ({ text, title }: IProps) => {
+const VideoPlayer = ({ fallbackImage, text, title }: IProps) => {
   const videoUrl = useYoutubeEmbedUrl(text)
 
-  if (!videoUrl) {
-    return null
-  }
-
   return (
-    <IframeWrapperStyled>
-      <iframe title={title} src={videoUrl} frameBorder="0" />
-    </IframeWrapperStyled>
+    <>
+      {!!videoUrl ? (
+        <IframeWrapperStyled>
+          <iframe title={title} src={videoUrl} frameBorder="0" />
+        </IframeWrapperStyled>
+      ) : (
+        <FallbackImageStyled>
+          <img src={buildImageUrl(fallbackImage.id)} alt={title} />
+        </FallbackImageStyled>
+      )}
+    </>
   )
 }
 
 interface IProps {
+  fallbackImage: Image
   text: string | undefined
   title: string
 }

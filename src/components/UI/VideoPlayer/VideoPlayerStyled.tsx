@@ -14,3 +14,9 @@ export const IframeWrapperStyled = styled.div`
     height: 100%;
   }
 `
+
+export const FallbackImageStyled = styled.figure`
+  img {
+    width: 100%;
+  }
+`
