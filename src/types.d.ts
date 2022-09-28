@@ -27,9 +27,9 @@ interface Edge {
   node: MeetupEvent
 }
 
-interface Comments {
+export interface Comments {
   count: number
-  edged: CommentEdge[]
+  edges: CommentEdge[]
 }
 
 interface CommentEdge {
