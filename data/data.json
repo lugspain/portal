@@ -3680,11 +3680,109 @@
         ]
       },
       "upcomingEvents": {
-        "count": 0,
+        "count": 2,
         "pageInfo": {
           "endCursor": ""
         },
-        "edges": []
+        "edges": [
+          {
+            "node": {
+              "id": "276401889",
+              "title": "La DEVCON desde tu casa con la gente de la comunidad",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/276401889",
+              "description": "Vamos a aprovechar el final del primer día para juntarnos todos los miembros de la comunidad en Español, charlar, compartir impresiones sobre el primer día de DEVCON y ver las ideas que nos ha dado para hacer y probar cosas nuevas....\n\nTambién podemos pensar en qué temas hemos visto que nos hayan llamado la atención y planificar alguna actividad conjunta para, , cuando \"estemos de vuelta a casa\", profundizar juntos ver esos temas que más nos interesan un poco más despacio.\n\nPara este evento no utilizaremos el registro en meetup.com, Registrate en la web de DEVCON: https://www.liferay.com/es/web/events/devcon\n\nLa sala aparece en la agenda oficial de DEVCON en el track \"Community Events\".",
+              "shortDescription": null,
+              "hosts": [
+                {
+                  "id": "31724612",
+                  "name": "David Gómez",
+                  "memberUrl": "https://www.meetup.com/members/31724612",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "32193942"
+                  }
+                },
+                {
+                  "id": "93113132",
+                  "name": "Álvaro Saugar",
+                  "memberUrl": "https://www.meetup.com/members/93113132",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "280322512"
+                  }
+                },
+                {
+                  "id": "235401172",
+                  "name": "Antonio",
+                  "memberUrl": "https://www.meetup.com/members/235401172",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "309523310"
+                  }
+                },
+                {
+                  "id": "184973617",
+                  "name": "Santiago",
+                  "memberUrl": "https://www.meetup.com/members/184973617",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "244294592"
+                  }
+                }
+              ],
+              "dateTime": "2021-03-09T20:25+01:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "495090204"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "286407366",
+              "title": "Mes de QA - Sesión 3 - The path to automation heaven (NorthemQuality)",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/286407366",
+              "description": "Hola,\n\nContinuamos con el ¡Mes de QA!\n\nNuestro día a día puede estar repleto de tareas manuales que hagan que no podamos avanzar con el trabajo y se convierta en un infierno. Para solucionarlo, Francisco Moreno nos contará una serie de recomendaciones y ayudas, basadas en su amplia experiencia, para mostrarnos la luz e indicarnos el camino que nos permita llegar al \"automation heaven\" sin morir en el intento.\n\nPodréis asistir en directo por streaming en [youtube](https://www.youtube.com/watch?v=8BGfDJ1j5-Q).\n\nEn la [página del evento ](https://lugspain.github.io/mesdeqa/) podéis consultar más información sobre las sesiones, las comunidades y los ponentes que participan.\n\nNos vemos. Un saludo.",
+              "shortDescription": null,
+              "hosts": [
+                {
+                  "id": "93113132",
+                  "name": "Álvaro Saugar",
+                  "memberUrl": "https://www.meetup.com/members/93113132",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "280322512"
+                  }
+                },
+                {
+                  "id": "195652449",
+                  "name": "Carlos Durán ",
+                  "memberUrl": "https://www.meetup.com/members/195652449",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "310734032"
+                  }
+                },
+                {
+                  "id": "134442352",
+                  "name": "Beltrán Rengifo",
+                  "memberUrl": "https://www.meetup.com/members/134442352",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "272661346"
+                  }
+                }
+              ],
+              "dateTime": "2022-06-16T19:00+02:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "504659792"
+              }
+            }
+          }
+        ]
       }
     }
   }
