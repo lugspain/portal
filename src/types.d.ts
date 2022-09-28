@@ -8,6 +8,7 @@ interface MeetupEvent {
   dateTime: string
   eventType: string
   image: Image
+  comments: Comments
 }
 
 interface Host {
@@ -24,6 +25,19 @@ interface Image {
 
 interface Edge {
   node: MeetupEvent
+}
+
+interface Comments {
+  count: number
+  edged: CommentEdge[]
+}
+
+interface CommentEdge {
+  node: Comment
+}
+
+interface Comment {
+  text: string
 }
 
 export interface Events {
