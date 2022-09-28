@@ -19,6 +19,10 @@ const _getYoutubeVideoIdFromText = (string: string): string => {
 const _getYoutubeVideoIdFromComments = (
   comments: Comments
 ): string | undefined => {
+  if (!comments) {
+    return ''
+  }
+
   const { edges } = comments
 
   for (let edge of edges) {
