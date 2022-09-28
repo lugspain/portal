@@ -13,7 +13,7 @@ const EventDetail = ({ eventId }: IProps) => {
     return null
   }
 
-  const { description, title } = data
+  const { description, title, image } = data
 
   return (
     <>
@@ -23,7 +23,7 @@ const EventDetail = ({ eventId }: IProps) => {
         </ClayLoadingIndicatorWrapperStyled>
       ) : (
         <>
-          <VideoPlayer text={description} title={title} />
+          <VideoPlayer fallbackImage={image} text={description} title={title} />
         </>
       )}
     </>
