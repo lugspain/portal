@@ -12,9 +12,14 @@ import { ContentContainer } from 'assets/styles/containers'
 import ReactMarkdown from 'react-markdown'
 
 const EventDetail = ({ eventId }: IProps) => {
-  const { data, isFetching } = useQuery(['event'], () =>
-    fetchEvent({ id: eventId })
-  )
+  const { data, fetchStatus, isFetching, isLoading, status, ...rest } =
+    useQuery(['event'], () => fetchEvent({ id: eventId }))
+
+  const safeIsLoading =
+    fetchStatus === 'fetching' ||
+    status === 'loading' ||
+    isFetching ||
+    isLoading
 
   if (!data) {
     return null
@@ -30,7 +35,7 @@ const EventDetail = ({ eventId }: IProps) => {
 
   return (
     <>
-      {isFetching ? (
+      {safeIsLoading ? (
         <ClayLoadingIndicatorWrapperStyled>
           <ClayLoadingIndicator displayType="secondary" size="sm" />
         </ClayLoadingIndicatorWrapperStyled>
