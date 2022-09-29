@@ -6,7 +6,11 @@ export const ContentContainer = styled.div`
   width: 100%;
 `
 
-export const GridContainer = styled.div<{ columns?: number }>`
+export const GridContainer = styled.div<{
+  alignItems?: string
+  columns?: number
+}>`
+  align-items: ${({ alignItems }) => alignItems};
   display: grid;
   grid-template-columns: ${({ columns }) => `repeat(${columns || 3}, 1fr)`};
   grid-gap: 48px 24px;
