@@ -8,7 +8,7 @@ import EventTitle from './EventTitle'
 import { ContentContainer } from 'assets/styles/containers'
 
 const EventDetail = ({ eventId }: IProps) => {
-  const { status, data } = useQuery(['event'], () =>
+  const { data, isFetching } = useQuery(['event'], () =>
     fetchEvent({ id: eventId })
   )
 
@@ -26,7 +26,7 @@ const EventDetail = ({ eventId }: IProps) => {
 
   return (
     <>
-      {status === 'loading' ? (
+      {isFetching ? (
         <ClayLoadingIndicatorWrapperStyled>
           <ClayLoadingIndicator displayType="secondary" size="sm" />
         </ClayLoadingIndicatorWrapperStyled>
