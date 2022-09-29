@@ -4,7 +4,7 @@ import buildImageUrl from 'utils/build-image-url'
 
 const YOUTUBE_EMBED_BASE_URL = 'https://www.youtube.com/embed'
 const YOUTUBE_LINK_REGEX =
-  /http(?:s?):\/\/(?:www\.)?youtu(?:be\.com\/watch\?v=|\.be\/)([\w\-\_]*)(&(amp;)?‌​[\w?‌​=]*)?/gi
+  /http(?:s?):\/\/(?:www\.)?youtu(?:be\.com\/watch\?v=|\.be\/)([\w\-_]*)(&(amp;)?‌​[\w?‌​=]*)?/gi
 const YOUTUBE_ID_REGEX = /([A-Za-z0-9_-]{11})/gi
 
 const _getYoutubeVideoIdFromText = (string: string): string => {
