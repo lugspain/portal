@@ -10,6 +10,7 @@ import { Image, Comments } from 'types'
 import EventTitle from './EventTitle'
 import { ContentContainer } from 'assets/styles/containers'
 import ReactMarkdown from 'react-markdown'
+import { DescriptionStyled } from './EventDetailStyled'
 
 const EventDetail = ({ eventId }: IProps) => {
   const {
@@ -48,11 +49,11 @@ const EventDetail = ({ eventId }: IProps) => {
         <div>
           <EventTitle image={image} title={title} />
 
-          <ContentContainer>
+          <ContentContainer as="section" padY={50}>
             <GridContainer columns={2} alignItems="center">
-              <div>
+              <DescriptionStyled>
                 <ReactMarkdown children={description} linkTarget="_blank" />
-              </div>
+              </DescriptionStyled>
               <VideoPlayer
                 comments={comments}
                 fallbackImage={image}
