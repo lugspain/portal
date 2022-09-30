@@ -1,5 +1,5 @@
 import ClayLoadingIndicator from '@clayui/loading-indicator'
-import { useQuery } from '@tanstack/react-query'
+import { useIsFetching, useQuery } from '@tanstack/react-query'
 import fetchEvent from 'api/fetch-event'
 import {
   ClayLoadingIndicatorWrapperStyled,
@@ -12,18 +12,23 @@ import { ContentContainer } from 'assets/styles/containers'
 import ReactMarkdown from 'react-markdown'
 
 const EventDetail = ({ eventId }: IProps) => {
-  const { data, fetchStatus, isFetching, isLoading, status, ...rest } =
-    useQuery(['event'], () => fetchEvent({ id: eventId }))
+  const {
+    data = {},
+    fetchStatus,
+    isFetching,
+    isLoading,
+    status,
+  } = useQuery(['event'], () => fetchEvent({ id: eventId }))
 
-  const safeIsLoading =
+  const globalIsFetching = useIsFetching()
+
+  const globalIsLoading = !!(
     fetchStatus === 'fetching' ||
     status === 'loading' ||
     isFetching ||
-    isLoading
-
-  if (!data) {
-    return null
-  }
+    isLoading ||
+    globalIsFetching
+  )
 
   const {
     description,
@@ -35,7 +40,7 @@ const EventDetail = ({ eventId }: IProps) => {
 
   return (
     <>
-      {safeIsLoading ? (
+      {globalIsLoading ? (
         <ClayLoadingIndicatorWrapperStyled>
           <ClayLoadingIndicator displayType="secondary" size="sm" />
         </ClayLoadingIndicatorWrapperStyled>
