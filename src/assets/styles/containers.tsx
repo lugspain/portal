@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 
-export const ContentContainer = styled.div`
+export const ContentContainer = styled.div<{ padX?: number; padY?: number }>`
   max-width: 1280px;
   margin: 0 auto;
   width: 100%;
+  padding: ${({ padX, padY }) => `${padY || 0}px ${padX || 0}px`};
 `
 
 export const GridContainer = styled.div<{
