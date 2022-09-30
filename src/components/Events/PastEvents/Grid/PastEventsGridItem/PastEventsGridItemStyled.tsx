@@ -13,14 +13,18 @@ export const PastEventGridItemStyled = styled.article`
   }
 `
 
-export const PastEventGridItemDescription = styled.p`
+export const PastEventGridItemDescription = styled.div`
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
   -webkit-box-orient: vertical;
   margin: 16px 0 24px 0;
+
+  p {
+    margin-bottom: 0;
+  }
 `
 
 export const PastEventGridItemDetails = styled.div`

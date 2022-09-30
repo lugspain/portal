@@ -17,6 +17,7 @@ import capitalize from 'utils/capitalize'
 import { EventDetailsStyled } from 'components/Events/UpcomingEvents/Event/UpcomingEventStyled'
 
 import ClayLabel from '@clayui/label'
+import ReactMarkdown from 'react-markdown'
 
 const PastEventsGridItem = ({ item }: IProps) => {
   const navigate = useNavigate()
@@ -41,7 +42,7 @@ const PastEventsGridItem = ({ item }: IProps) => {
           </ClayLabel>
         </EventDetailsStyled>
         <PastEventGridItemDescription>
-          {item.description}
+          <ReactMarkdown children={item.description} linkTarget="_blank" />
         </PastEventGridItemDescription>
         <PastEventGridItemDetails>
           <ClayButton
