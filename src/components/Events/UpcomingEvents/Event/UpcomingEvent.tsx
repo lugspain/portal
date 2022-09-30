@@ -12,6 +12,7 @@ import ClayButton from '@clayui/button'
 import ClayLabel from '@clayui/label'
 import formatDate from 'utils/format-date'
 import capitalize from 'utils/capitalize'
+import ReactMarkdown from 'react-markdown'
 
 const UpcomingEvent = ({
   event: { id, image, title, dateTime, description, eventType },
@@ -38,7 +39,7 @@ const UpcomingEvent = ({
           </ClayLabel>
         </EventDetailsStyled>
         <UpcomingEventGridItemDescription>
-          {description}
+          <ReactMarkdown children={description} linkTarget="_blank" />
         </UpcomingEventGridItemDescription>
         <ClayButton
           className="p-0"
