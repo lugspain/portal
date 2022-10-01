@@ -50,17 +50,18 @@ const EventDetail = ({ eventId }: IProps) => {
           <EventTitle image={image} title={title} />
 
           <ContentContainer as="section" padY={50}>
-            <GridContainer columns={2} alignItems="center">
+            <GridContainer columns={2} columnTemplate="75% 25%">
               <DescriptionStyled>
                 <ReactMarkdown children={description} linkTarget="_blank" />
               </DescriptionStyled>
-              <VideoPlayer
-                comments={comments}
-                fallbackImage={image}
-                text={description}
-                title={title}
-              />
+              <div>details</div>
             </GridContainer>
+            <VideoPlayer
+              comments={comments}
+              fallbackImage={image}
+              text={description}
+              title={title}
+            />
           </ContentContainer>
         </div>
       )}
