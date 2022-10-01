@@ -10,11 +10,13 @@ export const ContentContainer = styled.div<{ padX?: number; padY?: number }>`
 export const GridContainer = styled.div<{
   alignItems?: string
   columns?: number
+  columnTemplate?: string
 }>`
   align-items: ${({ alignItems }) => alignItems};
   display: grid;
   grid-template-columns: ${({ columns }) => `repeat(${columns || 3}, 1fr)`};
   grid-gap: 48px 24px;
+  grid-template-columns: ${({ columnTemplate }) => columnTemplate};
 `
 
 export const ClayLoadingIndicatorWrapperStyled = styled.div`
