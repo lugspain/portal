@@ -13,6 +13,7 @@ import ClayLabel from '@clayui/label'
 import formatDate from 'utils/format-date'
 import capitalize from 'utils/capitalize'
 import ReactMarkdown from 'react-markdown'
+import getEventTypeName, { IOptions } from 'utils/event-type-name'
 
 const UpcomingEvent = ({
   event: { id, image, title, dateTime, description, eventType },
@@ -35,7 +36,9 @@ const UpcomingEvent = ({
             <time>{formatDate(dateTime)}</time>
           </ClayLabel>
           <ClayLabel displayType="info" large>
-            <span>{capitalize(eventType)}</span>
+            <span>
+              {capitalize(getEventTypeName(eventType as keyof IOptions))}
+            </span>
           </ClayLabel>
         </EventDetailsStyled>
         <UpcomingEventGridItemDescription>
