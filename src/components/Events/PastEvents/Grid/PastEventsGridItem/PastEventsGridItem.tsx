@@ -18,6 +18,7 @@ import { EventDetailsStyled } from 'components/Events/UpcomingEvents/Event/Upcom
 
 import ClayLabel from '@clayui/label'
 import ReactMarkdown from 'react-markdown'
+import getEventTypeName, { IOptions } from 'utils/event-type-name'
 
 const PastEventsGridItem = ({ item }: IProps) => {
   const navigate = useNavigate()
@@ -38,7 +39,9 @@ const PastEventsGridItem = ({ item }: IProps) => {
             <time>{formatDate(item.dateTime)}</time>
           </ClayLabel>
           <ClayLabel displayType="info" large>
-            <span>{capitalize(item.eventType)}</span>
+            <span>
+              {capitalize(getEventTypeName(item.eventType as keyof IOptions))}
+            </span>
           </ClayLabel>
         </EventDetailsStyled>
         <PastEventGridItemDescription>
