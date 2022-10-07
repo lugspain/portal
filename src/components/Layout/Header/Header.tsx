@@ -1,11 +1,11 @@
 import { HeaderStyled } from './HeaderStyled'
 import Search from 'components/Search/Search/Search'
-import ClayIconLogo from 'components/UI/Logo/ClayIconLogo'
+import SpainLogo from 'components/UI/Logo/SpainLogo'
 
 const Header = () => (
   <HeaderStyled>
     <div>
-      <ClayIconLogo />
+      <SpainLogo />
     </div>
     <div>
       <Search buttonText="Buscar eventos" />
