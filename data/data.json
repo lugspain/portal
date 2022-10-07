@@ -44,9 +44,9 @@
         ]
       },
       "pastEvents": {
-        "count": 70,
+        "count": 71,
         "pageInfo": {
-          "endCursor": "Mjg2NDA3MzY2OjE2NTU0MjA0MDAwMDA="
+          "endCursor": "Mjg4ODE2MzYzOjE2NjUwMTA4MDAwMDA="
         },
         "edges": [
           {
@@ -3676,15 +3676,7 @@
                 "edges": []
               }
             }
-          }
-        ]
-      },
-      "upcomingEvents": {
-        "count": 1,
-        "pageInfo": {
-          "endCursor": "Mjg4ODE2MzYzOjE2NjUwMTA4MDAwMDA="
-        },
-        "edges": [
+          },
           {
             "node": {
               "id": "288816363",
@@ -3726,10 +3718,21 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "507440249"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           }
         ]
+      },
+      "upcomingEvents": {
+        "count": 0,
+        "pageInfo": {
+          "endCursor": ""
+        },
+        "edges": []
       }
     }
   }
