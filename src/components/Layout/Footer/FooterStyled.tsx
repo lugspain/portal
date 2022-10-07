@@ -2,12 +2,11 @@ import styled from 'styled-components'
 
 export const FooterStyled = styled.footer`
   background-color: var(--gray-dark);
-  min-height: 60px;
+  height: ${({ theme }) => theme.footerHeight};
   color: white;
   display: flex;
   align-items: center;
   justify-content: end;
-  margin-top: 60px;
 
   figure {
     margin: 0;

@@ -45,7 +45,7 @@ const EventDetail = ({ eventId }: IProps) => {
   return (
     <>
       {globalIsLoading ? (
-        <ClayLoadingIndicatorWrapperStyled>
+        <ClayLoadingIndicatorWrapperStyled useScreenMinHeight>
           <ClayLoadingIndicator displayType="secondary" size="sm" />
         </ClayLoadingIndicatorWrapperStyled>
       ) : (

@@ -19,6 +19,15 @@ export const GridContainer = styled.div<{
   grid-template-columns: ${({ columnTemplate }) => columnTemplate};
 `
 
-export const ClayLoadingIndicatorWrapperStyled = styled.div`
-  padding: 8rem 0;
+export const ClayLoadingIndicatorWrapperStyled = styled.div<{
+  useScreenMinHeight?: boolean
+}>`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: ${({ useScreenMinHeight }) => (useScreenMinHeight ? '0' : '8rem 0')};
+  min-height: ${({ theme, useScreenMinHeight }) =>
+    useScreenMinHeight
+      ? `calc(100vh - (${theme.headerHeight} + ${theme.footerHeight} + ${theme.mainBottomPadding}))`
+      : 'auto'};
 `
