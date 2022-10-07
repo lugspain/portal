@@ -1,4 +1,6 @@
 import ClayLink from '@clayui/link'
+import Modal from 'components/UI/Modal/Modal'
+
 import {
   InfoCardStyled,
   InfoCardContentStyled,
@@ -17,13 +19,17 @@ const InfoCard = ({ actions, description, image, imageAlt, title }: IProps) => {
         <InfoCardtitleStyled>{title}</InfoCardtitleStyled>
         <p>{description}</p>
         <InfoCardActions>
-          {actions.map(({ label, link, target }) => (
-            <li key={link}>
-              <ClayLink href={link} target={target}>
-                {label}
-              </ClayLink>
-            </li>
-          ))}
+          {actions.map(({ label, link, target, useModal = false }) =>
+            useModal ? (
+              <Modal key={link} label={label} link={link} />
+            ) : (
+              <li key={link}>
+                <ClayLink href={link} target={target}>
+                  {label}
+                </ClayLink>
+              </li>
+            )
+          )}
         </InfoCardActions>
       </InfoCardContentStyled>
     </InfoCardStyled>
@@ -43,6 +49,7 @@ interface InfoCardAction {
   link: string
   target: string
   label: string
+  useModal?: boolean
 }
 
 export default InfoCard
