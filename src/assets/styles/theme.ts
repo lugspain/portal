@@ -1,5 +1,8 @@
 const theme = {
   defaultBoxShadowOnHover: '0px 10px 50px #00000012',
+  footerHeight: '60px',
+  headerHeight: '80px',
+  mainBottomPadding: '40px',
 }
 
 export default theme
