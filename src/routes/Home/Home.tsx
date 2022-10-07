@@ -75,23 +75,27 @@ const Home = () => {
             actions={[
               {
                 link: 'https://www.youtube.com/watch?v=_Xhu8Bv2qS4',
-                target: '_blank',
                 label: 'Sesión 1: Mesa redonda',
+                target: '_blank',
+                useModal: true,
               },
               {
                 link: 'https://www.youtube.com/watch?v=0_TgZZCo3zA',
-                target: '_blank',
                 label: 'Sesión 2: QA en Liferay',
+                target: '_blank',
+                useModal: true,
               },
               {
                 link: 'https://www.youtube.com/watch?v=8BGfDJ1j5-Q',
-                target: '_blank',
                 label: 'Sesión 3: The path to automation heaven',
+                target: '_blank',
+                useModal: true,
               },
               {
                 link: 'https://www.youtube.com/watch?v=Q_44Zulmu0s',
-                target: '_blank',
                 label: 'Sesión 4: Pruebas con Zahorí',
+                target: '_blank',
+                useModal: true,
               },
             ]}
           />

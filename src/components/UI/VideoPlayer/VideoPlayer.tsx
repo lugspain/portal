@@ -59,7 +59,12 @@ const useYoutubeEmbedUrl = ({
     : undefined
 }
 
-const VideoPlayer = ({ comments, fallbackImage, text, title }: IProps) => {
+const VideoPlayer = ({
+  comments = {} as Comments,
+  fallbackImage,
+  text,
+  title,
+}: IProps) => {
   const videoUrl = useYoutubeEmbedUrl({ comments, text })
 
   return (
@@ -69,17 +74,19 @@ const VideoPlayer = ({ comments, fallbackImage, text, title }: IProps) => {
           <iframe title={title} src={videoUrl} frameBorder="0" />
         </IframeWrapperStyled>
       ) : (
-        <FallbackImageStyled>
-          <img src={buildImageUrl(fallbackImage.id)} alt={title} />
-        </FallbackImageStyled>
+        fallbackImage && (
+          <FallbackImageStyled>
+            <img src={buildImageUrl(fallbackImage.id)} alt={title} />
+          </FallbackImageStyled>
+        )
       )}
     </>
   )
 }
 
 interface IProps {
-  comments: Comments
-  fallbackImage: Image
+  comments?: Comments
+  fallbackImage?: Image
   text: string | undefined
   title: string
 }
