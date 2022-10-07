@@ -6,11 +6,12 @@ import {
   GridContainer,
 } from 'assets/styles/containers'
 import VideoPlayer from 'components/UI/VideoPlayer/VideoPlayer'
-import { Image, Comments } from 'types'
+import { MeetupEvent } from 'types'
 import EventTitle from './EventTitle'
 import { ContentContainer } from 'assets/styles/containers'
 import ReactMarkdown from 'react-markdown'
 import { DescriptionStyled } from './EventDetailStyled'
+import EventDetails from './EventDetails'
 
 const EventDetail = ({ eventId }: IProps) => {
   const {
@@ -36,8 +37,10 @@ const EventDetail = ({ eventId }: IProps) => {
     image,
     title,
     comments,
-  }: { description: string; image: Image; title: string; comments: Comments } =
-    data
+    dateTime,
+    eventType,
+    eventUrl,
+  }: MeetupEvent = data
 
   return (
     <>
@@ -54,14 +57,20 @@ const EventDetail = ({ eventId }: IProps) => {
               <DescriptionStyled>
                 <ReactMarkdown children={description} linkTarget="_blank" />
               </DescriptionStyled>
-              <div>details</div>
+              <EventDetails
+                dateTime={dateTime}
+                eventType={eventType}
+                eventUrl={eventUrl}
+              />
             </GridContainer>
-            <VideoPlayer
-              comments={comments}
-              fallbackImage={image}
-              text={description}
-              title={title}
-            />
+            <div className="my-5">
+              <VideoPlayer
+                comments={comments}
+                fallbackImage={image}
+                text={description}
+                title={title}
+              />
+            </div>
           </ContentContainer>
         </div>
       )}
