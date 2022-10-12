@@ -1,7 +1,7 @@
 const getEventTypeName = (eventType: keyof IOptions): string => {
   const options: IOptions = {
     online: 'Online',
-    physical: 'Presencial',
+    physical: 'Presencial y streaming',
     default: '',
   }
   return options[eventType]
