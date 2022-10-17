@@ -1,5 +1,5 @@
 import ClayAlert from '@clayui/alert'
-import { ContentContainer, GridContainer } from 'assets/styles/containers'
+import { ContentContainer } from 'assets/styles/containers'
 import { useNavigate } from 'react-router-dom'
 import ClayButton from '@clayui/button'
 import { HistoryLocation } from 'types'
