@@ -89,3 +89,11 @@ interface AxiosExtendedError extends AxiosError {
 }
 
 type CustomError = Error & AxiosExtendedError
+
+export interface HistoryLocation {
+  pathname: string
+  search: string
+  hash: string
+  state: unknown
+  key: string
+}
