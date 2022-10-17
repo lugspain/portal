@@ -1,10 +1,22 @@
 import styled from 'styled-components'
+import theme from 'assets/styles/theme'
 
-export const ContentContainer = styled.div<{ padX?: number; padY?: number }>`
+const _getScreenMinHeight = (useScreenMinHeight: boolean | undefined): string =>
+  useScreenMinHeight
+    ? `calc(100vh - (${theme.headerHeight} + ${theme.footerHeight} + ${theme.mainBottomPadding}))`
+    : 'auto'
+
+export const ContentContainer = styled.div<{
+  padX?: number
+  padY?: number
+  useScreenMinHeight?: boolean
+}>`
   max-width: 1280px;
   margin: 0 auto;
   width: 100%;
   padding: ${({ padX, padY }) => `${padY || 0}px ${padX || 0}px`};
+  min-height: ${({ useScreenMinHeight }) =>
+    _getScreenMinHeight(useScreenMinHeight)};
 `
 
 export const GridContainer = styled.div<{
@@ -26,8 +38,6 @@ export const ClayLoadingIndicatorWrapperStyled = styled.div<{
   align-items: center;
   justify-content: center;
   padding: ${({ useScreenMinHeight }) => (useScreenMinHeight ? '0' : '8rem 0')};
-  min-height: ${({ theme, useScreenMinHeight }) =>
-    useScreenMinHeight
-      ? `calc(100vh - (${theme.headerHeight} + ${theme.footerHeight} + ${theme.mainBottomPadding}))`
-      : 'auto'};
+  min-height: ${({ useScreenMinHeight }) =>
+    _getScreenMinHeight(useScreenMinHeight)};
 `
