@@ -5,6 +5,7 @@ import ClayButton from '@clayui/button'
 import { HistoryLocation } from 'types'
 import { useEffect } from 'react'
 import { useUiContext } from 'context/ui-context'
+import pleaseDisperse from 'assets/images/please-disperse.gif'
 
 const PageNotFound = ({ location }: IProps) => {
   const { state }: any = useLocation()
@@ -37,10 +38,14 @@ const PageNotFound = ({ location }: IProps) => {
         <ClayAlert displayType="danger" variant="feedback">
           Página no encontrada
         </ClayAlert>
-        {displayPath && (
+        {displayPath ? (
           <p>
             La ruta <code>`{displayPath}`</code> no está disponible.
           </p>
+        ) : (
+          <figure>
+            <img src={pleaseDisperse} alt="Nothing to see here" />
+          </figure>
         )}
         <div>
           <ClayButton onClick={() => navigate('/')}>Home</ClayButton>
