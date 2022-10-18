@@ -11,10 +11,14 @@ import ClayLoadingIndicator from '@clayui/loading-indicator'
 import styled from 'styled-components'
 
 const TimelineWrapperStyled = styled.div<{ isLoading: boolean }>`
-  height: ${({ isLoading }) => (isLoading ? 0 : 'auto')};
+  height: ${({ isLoading }) => (isLoading ? 0 : '100%')};
   overflow: ${({ isLoading }) => (isLoading ? 'hidden' : 'unset')};
   opacity: ${({ isLoading }) => (isLoading ? 0 : 1)};
   transition: all 0.25s ease-out;
+
+  iframe {
+    max-width: 100%;
+  }
 `
 
 const FlexWrap = styled.div`
