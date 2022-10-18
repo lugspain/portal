@@ -1,6 +1,6 @@
 import { createContext, useContext, useReducer } from 'react'
 
-const initialValue: any = {}
+const initialValue: any = { showSearch: true, pepe: true }
 
 const UiContext = createContext(initialValue)
 UiContext.displayName = 'UiContext'

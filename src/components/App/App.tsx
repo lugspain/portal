@@ -12,6 +12,7 @@ import Main from 'components/Layout/Main/Main'
 
 import GlobalStyles from 'assets/styles/global'
 import { ThemeProvider } from 'styled-components'
+import { UiProvider } from 'context/ui-context'
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -27,9 +28,13 @@ const App = () => (
     <QueryClientProvider client={queryClient}>
       <ClayIconSpriteContext.Provider value={spritemap}>
         <ThemeProvider theme={theme}>
-          <Header />
-          <Main />
-          <Footer />
+          <UiProvider>
+            <>
+              <Header />
+              <Main />
+              <Footer />
+            </>
+          </UiProvider>
         </ThemeProvider>
       </ClayIconSpriteContext.Provider>
       <ReactQueryDevtools initialIsOpen={false} />
