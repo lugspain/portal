@@ -5,7 +5,15 @@ export const HeroStyled = styled.section`
 
   figure {
     overflow: hidden;
-    height: 420px;
+    height: 220px;
+
+    @media ${({ theme }) => theme.devices.tablet} {
+      height: 340px;
+    }
+
+    @media ${({ theme }) => theme.devices.laptop} {
+      height: 420px;
+    }
 
     img {
       width: 100%;
