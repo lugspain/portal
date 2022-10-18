@@ -9,8 +9,8 @@ const edges: Edge[] = [
   ...GROUP_DATA.pastEvents.edges,
 ]
 
-const _getEvent = (id: string): MeetupEvent | undefined => {
-  return edges.find((event) => event.node.id === id)?.node
+const _getEvent = (id: string): MeetupEvent | { notFound: boolean } => {
+  return edges.find((event) => event.node.id === id)?.node || { notFound: true }
 }
 
 const event = (request: VercelRequest, response: VercelResponse): void => {

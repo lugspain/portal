@@ -11,6 +11,10 @@ interface MeetupEvent {
   comments: Comments
 }
 
+interface MeetupEventExtended extends MeetupEvent {
+  notFound: boolean
+}
+
 interface Host {
   id: string
   name: string
