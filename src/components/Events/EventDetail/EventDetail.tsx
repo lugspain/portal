@@ -6,12 +6,13 @@ import {
   GridContainer,
 } from 'assets/styles/containers'
 import VideoPlayer from 'components/UI/VideoPlayer/VideoPlayer'
-import { MeetupEvent } from 'types'
+import { MeetupEventExtended } from 'types'
 import EventTitle from './EventTitle'
 import { ContentContainer } from 'assets/styles/containers'
 import ReactMarkdown from 'react-markdown'
 import { DescriptionStyled } from './EventDetailStyled'
 import EventDetails from './EventDetails'
+import { Navigate } from 'react-router-dom'
 
 const EventDetail = ({ eventId }: IProps) => {
   const {
@@ -40,7 +41,8 @@ const EventDetail = ({ eventId }: IProps) => {
     dateTime,
     eventType,
     eventUrl,
-  }: MeetupEvent = data
+    notFound,
+  }: MeetupEventExtended = data
 
   return (
     <>
@@ -48,6 +50,12 @@ const EventDetail = ({ eventId }: IProps) => {
         <ClayLoadingIndicatorWrapperStyled useScreenMinHeight>
           <ClayLoadingIndicator displayType="secondary" size="sm" />
         </ClayLoadingIndicatorWrapperStyled>
+      ) : notFound ? (
+        <Navigate
+          to="/404"
+          replace={true}
+          state={{ route: `event/${eventId}` }}
+        />
       ) : (
         <div>
           <EventTitle image={image} title={title} />

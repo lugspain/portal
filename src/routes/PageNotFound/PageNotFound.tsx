@@ -1,16 +1,26 @@
 import ClayAlert from '@clayui/alert'
 import { ContentContainer } from 'assets/styles/containers'
-import { useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import ClayButton from '@clayui/button'
 import { HistoryLocation } from 'types'
-import { useUiContext } from 'context/ui-context'
 import { useEffect } from 'react'
+import { useUiContext } from 'context/ui-context'
 
 const PageNotFound = ({ location }: IProps) => {
-  const { pathname } = location
+  const { state }: any = useLocation()
+  const { route } = state || {}
+
+  const { pathname } = location || {}
+
   const navigate = useNavigate()
 
   const { dispatch: uiDispatch } = useUiContext()
+
+  const displayPath: string | undefined = route
+    ? route
+    : !pathname?.includes('404')
+    ? pathname
+    : ''
 
   useEffect(() => {
     uiDispatch({ type: 'HIDE_SEARCH' })
@@ -27,9 +37,11 @@ const PageNotFound = ({ location }: IProps) => {
         <ClayAlert displayType="danger" variant="feedback">
           Página no encontrada
         </ClayAlert>
-        <p>
-          La ruta <code>`{pathname}`</code> no está disponible.
-        </p>
+        {displayPath && (
+          <p>
+            La ruta <code>`{displayPath}`</code> no está disponible.
+          </p>
+        )}
         <div>
           <ClayButton onClick={() => navigate('/')}>Home</ClayButton>
         </div>
@@ -39,7 +51,8 @@ const PageNotFound = ({ location }: IProps) => {
 }
 
 interface IProps {
-  location: HistoryLocation
+  location?: HistoryLocation | undefined
+  state?: any
 }
 
 export default PageNotFound
