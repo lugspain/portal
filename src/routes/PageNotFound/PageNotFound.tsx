@@ -3,10 +3,22 @@ import { ContentContainer } from 'assets/styles/containers'
 import { useNavigate } from 'react-router-dom'
 import ClayButton from '@clayui/button'
 import { HistoryLocation } from 'types'
+import { useUiContext } from 'context/ui-context'
+import { useEffect } from 'react'
 
 const PageNotFound = ({ location }: IProps) => {
   const { pathname } = location
   const navigate = useNavigate()
+
+  const { dispatch: uiDispatch } = useUiContext()
+
+  useEffect(() => {
+    uiDispatch({ type: 'HIDE_SEARCH' })
+
+    return () => {
+      uiDispatch({ type: 'SHOW_SEARCH' })
+    }
+  }, [uiDispatch])
 
   return (
     <div>
