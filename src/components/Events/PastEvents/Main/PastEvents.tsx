@@ -40,7 +40,9 @@ const PastEvents = () => {
         <ErrorFallback resetCallback={refetch} error={error as CustomError} />
       ) : (
         <>
-          {!!items.length && <h2>Eventos anteriores</h2>}
+          {!!items.length && (
+            <h2 data-cy="past-events-title">Eventos anteriores</h2>
+          )}
           <PastEventsGrid items={items} />
           <LoadMoreButton
             hasNextPage={hasNextPage}

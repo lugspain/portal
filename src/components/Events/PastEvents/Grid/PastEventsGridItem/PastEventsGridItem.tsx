@@ -24,7 +24,7 @@ const PastEventsGridItem = ({ item }: IProps) => {
   const navigate = useNavigate()
 
   return (
-    <PastEventGridItemStyled>
+    <PastEventGridItemStyled data-cy="past-event-item-grid">
       <Link to={`event/${item.id}`}>
         <figure>
           <img src={buildImageUrl(item.image.id)} alt={item.title} />
