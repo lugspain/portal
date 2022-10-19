@@ -23,14 +23,15 @@ export const GridContainer = styled.div<{
   alignItems?: string
   columns?: number
   columnTemplate?: string
+  columnTemplateTablet?: string
 }>`
   align-items: ${({ alignItems }) => alignItems};
   display: grid;
-  grid-gap: 48px 24px;
   grid-template-columns: repeat(1, 1fr);
 
   @media ${({ theme }) => theme.devices.tablet} {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: ${({ columnTemplateTablet }) =>
+      columnTemplateTablet || `repeat(2, 1fr)`};
   }
 
   @media ${({ theme }) => theme.devices.laptop} {

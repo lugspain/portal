@@ -3,10 +3,21 @@ import formatDate from 'utils/format-date'
 import capitalize from 'utils/capitalize'
 import getEventTypeName, { IOptions } from 'utils/event-type-name'
 import ClayLink from '@clayui/link'
+import styled from 'styled-components'
+
+const EventDetailsStyled = styled.div`
+  order: -1;
+  margin-bottom: 24px;
+
+  @media ${({ theme }) => theme.devices.tablet} {
+    order: 1;
+    margin-bottom: 0;
+  }
+`
 
 const EventDetails = ({ dateTime, eventType, eventUrl }: IEventDetails) => {
   return (
-    <div>
+    <EventDetailsStyled>
       <div>
         <ClayLabel displayType="secondary" large>
           <time>{formatDate(dateTime)}</time>
@@ -24,7 +35,7 @@ const EventDetails = ({ dateTime, eventType, eventUrl }: IEventDetails) => {
           Ver evento en Meetup
         </ClayLink>
       </div>
-    </div>
+    </EventDetailsStyled>
   )
 }
 
