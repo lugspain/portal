@@ -14,7 +14,7 @@ export const ContentContainer = styled.div<{
   max-width: 1280px;
   margin: 0 auto;
   width: 100%;
-  padding: ${({ padX, padY }) => `${padY || 0}px ${padX || 0}px`};
+  padding: ${({ padX, padY }) => `${padY || 0}px ${padX || 8}px`};
   min-height: ${({ useScreenMinHeight }) =>
     _getScreenMinHeight(useScreenMinHeight)};
 `
@@ -26,9 +26,17 @@ export const GridContainer = styled.div<{
 }>`
   align-items: ${({ alignItems }) => alignItems};
   display: grid;
-  grid-template-columns: ${({ columns }) => `repeat(${columns || 3}, 1fr)`};
   grid-gap: 48px 24px;
-  grid-template-columns: ${({ columnTemplate }) => columnTemplate};
+  grid-template-columns: repeat(1, 1fr);
+
+  @media ${({ theme }) => theme.devices.tablet} {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media ${({ theme }) => theme.devices.laptop} {
+    grid-template-columns: ${({ columns, columnTemplate }) =>
+      columnTemplate || `repeat(${columns || 3}, 1fr)`};
+  }
 `
 
 export const ClayLoadingIndicatorWrapperStyled = styled.div<{
