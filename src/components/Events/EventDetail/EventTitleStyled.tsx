@@ -19,7 +19,21 @@ export const BannerStyled = styled.section`
 
 export const TitleStyled = styled.h1`
   background: white;
-  padding: 24px;
   position: absolute;
-  top: 40%;
+  padding: 12px;
+  top: 25%;
+  font-size: 1.2rem;
+  max-width: calc(100% - 24px);
+
+  @media ${({ theme }) => theme.devices.tablet} {
+    padding: 16px 48px 16px 16px;
+    top: 30%;
+    font-size: 1.4rem;
+  }
+
+  @media ${({ theme }) => theme.devices.laptop} {
+    padding: 24px;
+    top: 40%;
+    font-size: 1.625rem;
+  }
 `

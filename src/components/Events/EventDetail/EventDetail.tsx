@@ -61,7 +61,10 @@ const EventDetail = ({ eventId }: IProps) => {
           <EventTitle image={image} title={title} />
 
           <ContentContainer as="section" padY={50}>
-            <GridContainer columnTemplate="75% 25%">
+            <GridContainer
+              columnTemplate="75% 25%"
+              columnTemplateTablet="75% 25%"
+            >
               <DescriptionStyled>
                 <ReactMarkdown children={description} linkTarget="_blank" />
               </DescriptionStyled>
