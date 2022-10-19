@@ -13,6 +13,7 @@ import {
   ClayManagementToolbarStyled,
   ClayEmptyStateStyled,
   ClayButtonWithIconStyled,
+  CloseButtonStyled,
 } from './SearchModalStyled'
 import { ClayLoadingIndicatorWrapperStyled } from 'assets/styles/containers'
 import searchImage from 'assets/images/search_state.gif'
@@ -37,6 +38,13 @@ const SearchModal = ({ open, observer, onClick }: IProps) => {
       {open && (
         <ClayModal observer={observer}>
           <ClayModalBodyStyled scrollable>
+            <CloseButtonStyled
+              displayType="unstyled"
+              symbol="times"
+              onClick={() => {
+                onClick()
+              }}
+            />
             <ClayManagementToolbarStyled>
               <ClayManagementToolbar.Search onlySearch>
                 <ClayInput.Group>

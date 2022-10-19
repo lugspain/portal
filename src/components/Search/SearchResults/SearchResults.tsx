@@ -5,7 +5,11 @@ import spritemap from 'assets/images/icons.svg'
 import { useNavigate } from 'react-router-dom'
 
 const SearchResultsStyled = styled.section`
-  padding: 24px;
+  padding: 8px;
+
+  @media ${({ theme }) => theme.devices.tablet} {
+    padding: 24px;
+  }
 `
 
 const SearchResults = ({ results }: IProps) => {
