@@ -32,11 +32,13 @@ export const GridContainer = styled.div<{
   @media ${({ theme }) => theme.devices.tablet} {
     grid-template-columns: ${({ columnTemplateTablet }) =>
       columnTemplateTablet || `repeat(2, 1fr)`};
+    grid-gap: 32px 16px;
   }
 
   @media ${({ theme }) => theme.devices.laptop} {
     grid-template-columns: ${({ columns, columnTemplate }) =>
       columnTemplate || `repeat(${columns || 3}, 1fr)`};
+    grid-gap: 48px 24px;
   }
 `
 
