@@ -1,9 +1,11 @@
 /// <reference types="cypress" />
 
 describe('Hero section...', () => {
-  it('...has proper texts and HTML tags', () => {
+  before(() => {
     cy.visit('/')
+  })
 
+  it('...has proper texts and HTML tags', () => {
     cy.get('h1').contains('Liferay User Group España')
     cy.get('h1 + p').contains(
       'El sitio para compartir y aprender sobre Liferay'
