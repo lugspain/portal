@@ -9,6 +9,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: cypress-io/github-action@v4
         with:
-          start: vercel dev --token=${{ secrets.VERCEL_TOKEN }}
+          start: vercel dev --token=${{ secrets.VERCEL_TOKEN }} --yes
           wait-on: 'http://localhost:3000'
           browser: chrome
