@@ -14,6 +14,8 @@ describe('Hero section...', () => {
 
   it('...has a button that opens the Search', () => {
     cy.contains('Buscar eventos').click()
-    cy.contains('Introduce un término de búsqueda')
+    cy.contains('Introduce un término de búsqueda', {
+      timeout: 10000,
+    })
   })
 })

@@ -22,14 +22,18 @@ describe('Past events section in home...', () => {
   })
 
   it.only('...allows to navigate to each event', () => {
-    cy.get('[data-cy="past-event-item-grid"]')
+    cy.get('[data-cy="past-event-item-grid"]', {
+      timeout: 10000,
+    })
       .first()
       .find('a')
       .first()
       .should('have.attr', 'href')
       .and('include', 'event/')
 
-    cy.get('[data-cy="past-event-item-grid"]')
+    cy.get('[data-cy="past-event-item-grid"]', {
+      timeout: 10000,
+    })
       .first()
       .find('a')
       .first()
