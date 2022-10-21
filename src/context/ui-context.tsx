@@ -1,6 +1,6 @@
-import { createContext, useContext, useReducer } from 'react'
+import { createContext, useCallback, useContext, useReducer } from 'react'
 
-const initialValue: any = { showSearch: true, pepe: true }
+const initialValue: any = { showSearch: true }
 
 const UiContext = createContext(initialValue)
 UiContext.displayName = 'UiContext'
@@ -28,8 +28,16 @@ const uiReducer = (state: any, action: any) => {
 const UiProvider = ({ children }: { children: JSX.Element }) => {
   const [state, dispatch] = useReducer(uiReducer, initialValue)
 
+  const showSearch = useCallback(() => dispatch({ type: 'SHOW_SEARCH' }), [])
+  const hideSearch = useCallback(() => dispatch({ type: 'HIDE_SEARCH' }), [])
+
+  const actions = {
+    showSearch,
+    hideSearch,
+  }
+
   return (
-    <UiContext.Provider value={{ state, dispatch }}>
+    <UiContext.Provider value={{ state, actions }}>
       {children}
     </UiContext.Provider>
   )

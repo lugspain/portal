@@ -15,7 +15,9 @@ const PageNotFound = ({ location }: IProps) => {
 
   const navigate = useNavigate()
 
-  const { dispatch: uiDispatch } = useUiContext()
+  const {
+    actions: { showSearch, hideSearch },
+  } = useUiContext()
 
   const displayPath: string | undefined = route
     ? route
@@ -24,12 +26,12 @@ const PageNotFound = ({ location }: IProps) => {
     : ''
 
   useEffect(() => {
-    uiDispatch({ type: 'HIDE_SEARCH' })
+    hideSearch()
 
     return () => {
-      uiDispatch({ type: 'SHOW_SEARCH' })
+      showSearch()
     }
-  }, [uiDispatch])
+  }, [hideSearch, showSearch])
 
   return (
     <div>
