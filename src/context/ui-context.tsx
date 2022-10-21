@@ -1,16 +1,31 @@
 import { createContext, useCallback, useContext, useReducer } from 'react'
 
-const initialValue: any = { showSearch: true }
+interface IUiState {
+  showSearch: boolean
+}
+
+const initialValue: IUiState = {
+  showSearch: true,
+}
 
 const UiContext = createContext(initialValue)
 UiContext.displayName = 'UiContext'
 
-const ACTIONS = {
-  SHOW_SEARCH: 'SHOW_SEARCH',
-  HIDE_SEARCH: 'HIDE_SEARCH',
+enum ACTIONS {
+  SHOW_SEARCH = 'SHOW_SEARCH',
+  HIDE_SEARCH = 'HIDE_SEARCH',
 }
 
-const uiReducer = (state: any, action: any) => {
+interface IUiActionTypes {
+  type: ACTIONS.SHOW_SEARCH | ACTIONS.HIDE_SEARCH
+}
+
+interface IActions {
+  showSearch: () => void
+  hideSearch: () => void
+}
+
+const uiReducer = (state: IUiState, action: IUiActionTypes) => {
   switch (action.type) {
     case 'HIDE_SEARCH': {
       return {
@@ -42,13 +57,15 @@ const UiProvider = ({ children }: { children: JSX.Element }) => {
     []
   )
 
-  const actions = {
+  const actions: IActions = {
     showSearch,
     hideSearch,
   }
 
   return (
-    <UiContext.Provider value={{ state, actions }}>
+    <UiContext.Provider
+      value={{ state, actions } as { state: IUiState; actions: IActions }}
+    >
       {children}
     </UiContext.Provider>
   )
