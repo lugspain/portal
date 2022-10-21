@@ -5,6 +5,11 @@ const initialValue: any = { showSearch: true }
 const UiContext = createContext(initialValue)
 UiContext.displayName = 'UiContext'
 
+const ACTIONS = {
+  SHOW_SEARCH: 'SHOW_SEARCH',
+  HIDE_SEARCH: 'HIDE_SEARCH',
+}
+
 const uiReducer = (state: any, action: any) => {
   switch (action.type) {
     case 'HIDE_SEARCH': {
@@ -28,8 +33,14 @@ const uiReducer = (state: any, action: any) => {
 const UiProvider = ({ children }: { children: JSX.Element }) => {
   const [state, dispatch] = useReducer(uiReducer, initialValue)
 
-  const showSearch = useCallback(() => dispatch({ type: 'SHOW_SEARCH' }), [])
-  const hideSearch = useCallback(() => dispatch({ type: 'HIDE_SEARCH' }), [])
+  const showSearch = useCallback(
+    () => dispatch({ type: ACTIONS.SHOW_SEARCH }),
+    []
+  )
+  const hideSearch = useCallback(
+    () => dispatch({ type: ACTIONS.HIDE_SEARCH }),
+    []
+  )
 
   const actions = {
     showSearch,
