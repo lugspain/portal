@@ -14,7 +14,7 @@ const TimelineWrapperStyled = styled.div<{ isLoading: boolean }>`
   }
 `
 
-const FlexWrap = styled.div`
+const FlexWrapTwitterWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,7 +32,7 @@ const TwitterTimeline = () => {
   }
 
   return (
-    <FlexWrap>
+    <FlexWrapTwitterWrapper>
       {twitterIsLoading && (
         <ClayLoadingIndicator displayType="secondary" size="sm" />
       )}
@@ -43,7 +43,7 @@ const TwitterTimeline = () => {
           options={{ height: '490' }}
         />
       </TimelineWrapperStyled>
-    </FlexWrap>
+    </FlexWrapTwitterWrapper>
   )
 }
 
