@@ -36,7 +36,7 @@ const SearchModal = ({ open, observer, onClick }: IProps) => {
   return (
     <>
       {open && (
-        <ClayModal observer={observer}>
+        <ClayModal observer={observer} data-cy="search-modal">
           <ClayModalBodyStyled scrollable>
             <CloseButtonStyled
               displayType="unstyled"

@@ -27,7 +27,7 @@ export const LogoStyled = styled.div`
 
 const Logo = () => {
   return (
-    <LinkStyled to="/">
+    <LinkStyled to="/" data-cy="logo">
       <LogoStyled>
         <span>~</span>
       </LogoStyled>

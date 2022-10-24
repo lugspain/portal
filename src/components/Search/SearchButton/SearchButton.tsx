@@ -3,7 +3,12 @@ import ClayButton from '@clayui/button'
 
 const SearchButton = ({ small, text, onClick, displayType }: IProps) => {
   return (
-    <ClayButton small={small} onClick={onClick} displayType={displayType}>
+    <ClayButton
+      small={small}
+      onClick={onClick}
+      displayType={displayType}
+      data-cy="search-button"
+    >
       {text}
     </ClayButton>
   )
