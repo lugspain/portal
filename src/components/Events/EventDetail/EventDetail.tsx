@@ -14,6 +14,8 @@ import { DescriptionStyled } from './EventDetailStyled'
 import EventDetails from './EventDetails'
 import { Navigate } from 'react-router-dom'
 
+const STALE_TIME_IN_MINUTES: number = 30
+
 const EventDetail = ({ eventId }: IProps) => {
   const {
     data = {},
@@ -21,7 +23,9 @@ const EventDetail = ({ eventId }: IProps) => {
     isFetching,
     isLoading,
     status,
-  } = useQuery(['event'], () => fetchEvent({ id: eventId }))
+  } = useQuery([`event-${eventId}`], () => fetchEvent({ id: eventId }), {
+    staleTime: STALE_TIME_IN_MINUTES * 60 * 1000,
+  })
 
   const globalIsFetching = useIsFetching()
 
