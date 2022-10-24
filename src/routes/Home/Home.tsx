@@ -3,41 +3,12 @@ import PastEvents from 'components/Events/PastEvents/Main/PastEvents'
 import UpcomingEvents from 'components/Events/UpcomingEvents/Main/UpcomingEvents'
 import Hero from 'components/UI/Hero/Hero'
 import InfoCard from 'components/UI/InfoCard/InfoCard'
-import { Timeline } from 'react-twitter-widgets'
+
 import feedbackImage from 'assets/images/feedback.jpg'
 import qaMonthImage from 'assets/images/mes-de-qa.jpg'
-import { useState } from 'react'
-import ClayLoadingIndicator from '@clayui/loading-indicator'
-import styled from 'styled-components'
-
-const TimelineWrapperStyled = styled.div<{ isLoading: boolean }>`
-  height: ${({ isLoading }) => (isLoading ? 0 : '100%')};
-  overflow: ${({ isLoading }) => (isLoading ? 'hidden' : 'unset')};
-  opacity: ${({ isLoading }) => (isLoading ? 0 : 1)};
-  transition: all 0.25s ease-out;
-
-  iframe {
-    max-width: 100%;
-  }
-`
-
-const FlexWrap = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  order: 1;
-
-  @media ${({ theme }) => theme.devices.laptop} {
-    order: 0;
-  }
-`
+import TwitterTimeline from 'components/UI/TwitterTimeline/TwitterTimeline'
 
 const Home = () => {
-  const [twitterIsLoading, setTwitterIsLoading] = useState(true)
-  const handleTwitterLoad = (): void => {
-    setTimeout(() => setTwitterIsLoading(false), 500)
-  }
-
   return (
     <div>
       <Hero />
@@ -45,18 +16,7 @@ const Home = () => {
         <UpcomingEvents />
         <PastEvents />
         <GridContainer>
-          <FlexWrap>
-            {twitterIsLoading && (
-              <ClayLoadingIndicator displayType="secondary" size="sm" />
-            )}
-            <TimelineWrapperStyled isLoading={twitterIsLoading}>
-              <Timeline
-                dataSource={{ sourceType: 'profile', screenName: 'LUGSpain' }}
-                onLoad={handleTwitterLoad}
-                options={{ height: '490' }}
-              />
-            </TimelineWrapperStyled>
-          </FlexWrap>
+          <TwitterTimeline />
           <InfoCard
             image={feedbackImage}
             imageAlt="Dar Feedback Liferay USer Group Spain"
