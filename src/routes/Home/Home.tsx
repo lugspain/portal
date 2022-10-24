@@ -6,7 +6,7 @@ import InfoCard from 'components/UI/InfoCard/InfoCard'
 
 import feedbackImage from 'assets/images/feedback.jpg'
 import qaMonthImage from 'assets/images/mes-de-qa.jpg'
-import TwitterTimeline from 'components/UI/TwitterTimeline/TwitterTimeline'
+import TwitterTimeline from 'components/TwitterTimeline/TwitterTimeline'
 
 const Home = () => {
   return (
