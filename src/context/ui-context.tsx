@@ -1,50 +1,37 @@
-import { createContext, useCallback, useContext, useReducer } from 'react'
+import { createContext, useCallback, useContext, useState } from 'react'
 
-const initialValue: any = { showSearch: true }
+interface IUiContext {
+  state: IUiState
+  actions: IUiActions
+}
 
-const UiContext = createContext(initialValue)
+interface IUiState {
+  showSearch: boolean
+}
+
+interface IUiActions {
+  handleShowSearch: () => void
+  handleHideSearch: () => void
+}
+
+const UiContext = createContext<IUiContext | null>(null)
 UiContext.displayName = 'UiContext'
 
-const ACTIONS = {
-  SHOW_SEARCH: 'SHOW_SEARCH',
-  HIDE_SEARCH: 'HIDE_SEARCH',
-}
-
-const uiReducer = (state: any, action: any) => {
-  switch (action.type) {
-    case 'HIDE_SEARCH': {
-      return {
-        ...state,
-        showSearch: false,
-      }
-    }
-    case 'SHOW_SEARCH': {
-      return {
-        ...state,
-        showSearch: true,
-      }
-    }
-    default: {
-      throw new Error(`Unhandled action type: ${action.type}`)
-    }
-  }
-}
-
 const UiProvider = ({ children }: { children: JSX.Element }) => {
-  const [state, dispatch] = useReducer(uiReducer, initialValue)
+  const [state, setState] = useState({ showSearch: true } as IUiState)
 
-  const showSearch = useCallback(
-    () => dispatch({ type: ACTIONS.SHOW_SEARCH }),
+  const handleShowSearch = useCallback(
+    () => setState((prev) => ({ ...prev, showSearch: true })),
     []
   )
-  const hideSearch = useCallback(
-    () => dispatch({ type: ACTIONS.HIDE_SEARCH }),
+  const handleHideSearch = useCallback(
+    () => setState((prev) => ({ ...prev, showSearch: false })),
     []
   )
 
-  const actions = {
-    showSearch,
-    hideSearch,
+  const actions: IUiActions = {
+    handleShowSearch,
+    handleHideSearch,
   }
 
   return (
@@ -57,7 +44,7 @@ const UiProvider = ({ children }: { children: JSX.Element }) => {
 const useUiContext = () => {
   const context = useContext(UiContext)
 
-  if (!Object.keys(context).length) {
+  if (!context) {
     throw new Error(`useUiContext must be used within a UiProvider`)
   }
 
