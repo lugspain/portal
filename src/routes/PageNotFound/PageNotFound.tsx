@@ -16,7 +16,7 @@ const PageNotFound = ({ location }: IProps) => {
   const navigate = useNavigate()
 
   const {
-    actions: { showSearch, hideSearch },
+    actions: { handleShowSearch, handleHideSearch },
   } = useUiContext()
 
   const displayPath: string | undefined = route
@@ -26,12 +26,12 @@ const PageNotFound = ({ location }: IProps) => {
     : ''
 
   useEffect(() => {
-    hideSearch()
+    handleHideSearch()
 
     return () => {
-      showSearch()
+      handleShowSearch()
     }
-  }, [hideSearch, showSearch])
+  }, [handleHideSearch, handleShowSearch])
 
   return (
     <div>
