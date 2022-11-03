@@ -3720,19 +3720,75 @@
                 "id": "507440249"
               },
               "comments": {
-                "count": 0,
-                "edges": []
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El enlace a la sesión para que la podáis ver si no pudisteis en directo - https://www.youtube.com/watch?v=EOzDM2so3RM\n\nAdemás,aquí podéis ver la sesión sobre monitorización (Auditoría y Monitorización en Liferay-CE con Elastic stack) que comentó Javier García y que también hicieron desde la Universidad de Murcia - https://www.youtube.com/watch?v=74HRraZujW0"
+                    }
+                  },
+                  {
+                    "node": {
+                      "text": "Si preferís ver la entrada de la sesión en la web de la comunidad , aquí está - https://www.lugspain.tk/event/288816363"
+                    }
+                  }
+                ]
               }
             }
           }
         ]
       },
       "upcomingEvents": {
-        "count": 0,
+        "count": 1,
         "pageInfo": {
-          "endCursor": ""
+          "endCursor": "Mjg5Mzk0NzAzOjE2Njc1MTY0MDAwMDA="
         },
-        "edges": []
+        "edges": [
+          {
+            "node": {
+              "id": "289394703",
+              "title": "Meetup Noviembre 2022 - Todo sobre upgrades: dudas, presente y futuro ",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/289394703",
+              "description": "Hola,\n\nVolvemos con la **segunda parte de la sesión sobre Upgrades**. Si en la primera, *Javier García y José Luis Marín* nos hablaron de su caso práctico de migración de Liferay CE 6.2 a 7.2 y análisis de nueva migración a 7.3 o 7.4 en la *Universidad de Murcia*, ahora **Alberto Chaparro** (Team Lead del equipo de Upgrades y experto en upgrades, con gran cantidad de upgrades a sus espaldas) nos hablará de los upgrades desde dentro.\n\nEn esta segunda sesión tratará, además de **responder a los temas que surgieron en la sesión anterior**, las **mejoras** que se han hecho para facilitar los upgrades y la línea que hay pensada a **futuro**.\n\nLa agenda de la sesión del este miércoles será la siguiente:\n19:00 - Bienvenida y Anuncios\n19:10 - Todo sobre upgrades: dudas, presente y futuro - Alberto Chaparro\n20:00 - Q & A\n20:15 - Networking (Mozilla Hubs)\n\nYa sabéis, traed preparadas vuestras dudas, sugerencias, etc para poder preguntar a Alberto Chaparro, o como se le conoce Upgrade-man ;P\n\n¡Ah! La sesión se podrá seguir a través de [youtube](https://www.youtube.com/watch?v=4XJBm8KvfbY), pero si venís presencialmente, volveremos con el networking alrededor de las **PIZZAS**.\n\nNos vemos el jueves. Un saludo.",
+              "shortDescription": null,
+              "hosts": [
+                {
+                  "id": "93113132",
+                  "name": "Álvaro Saugar",
+                  "memberUrl": "https://www.meetup.com/members/93113132",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "280322512"
+                  }
+                },
+                {
+                  "id": "195652449",
+                  "name": "Carlos Durán ",
+                  "memberUrl": "https://www.meetup.com/members/195652449",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "310734032"
+                  }
+                },
+                {
+                  "id": "134442352",
+                  "name": "Beltrán Rengifo",
+                  "memberUrl": "https://www.meetup.com/members/134442352",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "272661346"
+                  }
+                }
+              ],
+              "dateTime": "2022-11-03T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "508136176"
+              }
+            }
+          }
+        ]
       }
     }
   }
