@@ -44,9 +44,9 @@
         ]
       },
       "pastEvents": {
-        "count": 71,
+        "count": 72,
         "pageInfo": {
-          "endCursor": "Mjg4ODE2MzYzOjE2NjUwMTA4MDAwMDA="
+          "endCursor": "Mjg5Mzk0NzAzOjE2Njc1MTY0MDAwMDA="
         },
         "edges": [
           {
@@ -1934,7 +1934,7 @@
                 "edges": [
                   {
                     "node": {
-                      "text": "Buenas, la sala de la charla es en la planta 2 (sala multiusos) si alguien llega a la oficina puede avisar a este número si tiene problemas para localizar la sala[masked]"
+                      "text": "Buenas, la sala de la charla es en la planta 2 (sala multiusos) si alguien llega a la oficina puede avisar a este número si tiene problemas para localizar la sala 671678730"
                     }
                   },
                   {
@@ -3358,7 +3358,7 @@
                 "edges": [
                   {
                     "node": {
-                      "text": "He intentado acceder al formulario que habéis indicado cuando he comentado que asistire. Si necesitáis mis datos personales para el acceso al edificio escribirme a [masked]\nMuchas Gracías."
+                      "text": "He intentado acceder al formulario que habéis indicado cuando he comentado que asistire. Si necesitáis mis datos personales para el acceso al edificio escribirme a florencioangel.luis.moya@gmail.com\nMuchas Gracías."
                     }
                   },
                   {
@@ -3735,15 +3735,7 @@
                 ]
               }
             }
-          }
-        ]
-      },
-      "upcomingEvents": {
-        "count": 1,
-        "pageInfo": {
-          "endCursor": "Mjg5Mzk0NzAzOjE2Njc1MTY0MDAwMDA="
-        },
-        "edges": [
+          },
           {
             "node": {
               "id": "289394703",
@@ -3785,10 +3777,21 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "508136176"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           }
         ]
+      },
+      "upcomingEvents": {
+        "count": 0,
+        "pageInfo": {
+          "endCursor": ""
+        },
+        "edges": []
       }
     }
   }
