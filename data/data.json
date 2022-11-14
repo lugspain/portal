@@ -3787,11 +3787,56 @@
         ]
       },
       "upcomingEvents": {
-        "count": 0,
+        "count": 1,
         "pageInfo": {
-          "endCursor": ""
+          "endCursor": "Mjg5NzQ1Mzg5OjE2NjkzMzQ0MDAwMDA="
         },
-        "edges": []
+        "edges": [
+          {
+            "node": {
+              "id": "289745389",
+              "title": "Meetup Noviembre 2022 - Creando aplicaciones low code con Liferay Objects",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/289745389",
+              "description": "Hola,\n\nTras las sesiones de upgrades que nos ofrecieron Javier García y José Luis Marín (Uninversidad de Murcia) y Alberto Chaparro (Liferay), volvemos con un tema que surgió durante estas sesiones, **cómo realizar las personalizaciones para facilitar los upgrades**.\n\nSi la línea en la que se está trabajando Liferay a corto plazo es intentar utilizar las herramientas proporcionadas para facilitar los upgrades, habrá que conocer estas herramientas y qué permiten hacer. Para ello, **Daniel de Francisco** nos hablará de una de las opciones para realizar nuestras personalizaciones en el portal y que más está evolucionando en este año, la creación de aplicaciones **low code**, que en Liferay se llama, como ya sabéis, **Liferay Objects**.\n\nLa agenda de la sesión del este miércoles será la siguiente:\n19:00 - Bienvenida y Anuncios\n19:10 - Creando aplicaciones low code con Liferay Objects - Daniel de Francisco\n20:00 - Q & A\n20:15 - Networking\n\n¡Ah! La sesión se podrá seguir a través de youtube (también registrándose al evento), pero si venís **presencialmente** (en las oficinas de Liferay - P.º de la Castellana, 280) , volveremos con el networking alrededor de las **PIZZAS**.\n\nNos vemos el jueves. Un saludo.",
+              "shortDescription": null,
+              "hosts": [
+                {
+                  "id": "93113132",
+                  "name": "Álvaro Saugar",
+                  "memberUrl": "https://www.meetup.com/members/93113132",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "280322512"
+                  }
+                },
+                {
+                  "id": "195652449",
+                  "name": "Carlos Durán ",
+                  "memberUrl": "https://www.meetup.com/members/195652449",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "310734032"
+                  }
+                },
+                {
+                  "id": "134442352",
+                  "name": "Beltrán Rengifo",
+                  "memberUrl": "https://www.meetup.com/members/134442352",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "272661346"
+                  }
+                }
+              ],
+              "dateTime": "2022-11-24T19:00+01:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "508596671"
+              }
+            }
+          }
+        ]
       }
     }
   }
