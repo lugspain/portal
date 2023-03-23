@@ -44,9 +44,9 @@
         ]
       },
       "pastEvents": {
-        "count": 72,
+        "count": 76,
         "pageInfo": {
-          "endCursor": "Mjg5Mzk0NzAzOjE2Njc1MTY0MDAwMDA="
+          "endCursor": "MjkxNzkyNDU0OjE2Nzg0MDY0MDAwMDA="
         },
         "edges": [
           {
@@ -3432,7 +3432,7 @@
                   "memberUrl": "https://www.meetup.com/members/195652449",
                   "memberPhoto": {
                     "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
-                    "id": "310734032"
+                    "id": "314129807"
                   }
                 },
                 {
@@ -3496,7 +3496,7 @@
                   "memberUrl": "https://www.meetup.com/members/195652449",
                   "memberPhoto": {
                     "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
-                    "id": "310734032"
+                    "id": "314129807"
                   }
                 },
                 {
@@ -3550,7 +3550,7 @@
                   "memberUrl": "https://www.meetup.com/members/195652449",
                   "memberPhoto": {
                     "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
-                    "id": "310734032"
+                    "id": "314129807"
                   }
                 },
                 {
@@ -3604,7 +3604,7 @@
                   "memberUrl": "https://www.meetup.com/members/195652449",
                   "memberPhoto": {
                     "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
-                    "id": "310734032"
+                    "id": "314129807"
                   }
                 },
                 {
@@ -3652,7 +3652,7 @@
                   "memberUrl": "https://www.meetup.com/members/195652449",
                   "memberPhoto": {
                     "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
-                    "id": "310734032"
+                    "id": "314129807"
                   }
                 },
                 {
@@ -3700,7 +3700,7 @@
                   "memberUrl": "https://www.meetup.com/members/195652449",
                   "memberPhoto": {
                     "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
-                    "id": "310734032"
+                    "id": "314129807"
                   }
                 },
                 {
@@ -3759,7 +3759,7 @@
                   "memberUrl": "https://www.meetup.com/members/195652449",
                   "memberPhoto": {
                     "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
-                    "id": "310734032"
+                    "id": "314129807"
                   }
                 },
                 {
@@ -3783,15 +3783,7 @@
                 "edges": []
               }
             }
-          }
-        ]
-      },
-      "upcomingEvents": {
-        "count": 1,
-        "pageInfo": {
-          "endCursor": "Mjg5NzQ1Mzg5OjE2NjkzMzQ0MDAwMDA="
-        },
-        "edges": [
+          },
           {
             "node": {
               "id": "289745389",
@@ -3815,7 +3807,7 @@
                   "memberUrl": "https://www.meetup.com/members/195652449",
                   "memberPhoto": {
                     "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
-                    "id": "310734032"
+                    "id": "314129807"
                   }
                 },
                 {
@@ -3833,10 +3825,159 @@
               "image": {
                 "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
                 "id": "508596671"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "El enlace al vídeo de la sesión - https://www.youtube.com/watch?v=SOhGTYefHDA"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "290088812",
+              "title": "Meetup Diciembre 2022 - Todo sobre: Liferay PizzApp",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/290088812",
+              "description": "Hola,\n\nDespués de tanto tiempo de eventos por streaming y algunos meses con la vuelta haciendo sesiones en directo, creemos que es un buen momento para juntarnos un día y poder, simplemente, hablar tomando unas pizzas, por lo tanto, tenemos el placer de anunciar al ponente del mes de diciembre, **LAS PIZZAS** y su aplicación PizzApp.\n\nSi os animáis a venir podremos hablar, jugar al *futbolín* y al *billar holandés* (si no sabes lo que es, ya tienes otro motivo para venir).\n\nSi podéis venir **registraros en el evento para saber cuántas personas y poder organizarlo**.\n\nUn saludo y nos vemos el martes 13 (no tiene porqué ser un mal día ;P )",
+              "shortDescription": null,
+              "hosts": [
+                {
+                  "id": "93113132",
+                  "name": "Álvaro Saugar",
+                  "memberUrl": "https://www.meetup.com/members/93113132",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "280322512"
+                  }
+                },
+                {
+                  "id": "195652449",
+                  "name": "Carlos Durán ",
+                  "memberUrl": "https://www.meetup.com/members/195652449",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "314129807"
+                  }
+                },
+                {
+                  "id": "134442352",
+                  "name": "Beltrán Rengifo",
+                  "memberUrl": "https://www.meetup.com/members/134442352",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "272661346"
+                  }
+                }
+              ],
+              "dateTime": "2022-12-13T19:00+01:00",
+              "eventType": "physical",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "508947564"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "291247557",
+              "title": "Meetup Febrero 2023 - Diseño en Liferay: ¿Investigamos?",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/291247557",
+              "description": "Hola,\n\nTras el parón de la Navidades volvemos con la primera sesión del 2023. Como hacemos siempre, la temática de las sesiones sale de las propuestas que nos hacéis (bien que queráis hacer o bien que queréis que hagamos) y de temas que creemos son interesante. En esta ocasión, nos preguntamos ¿Qué hace Diseño? ¿por qué es tan importante en en un producto tener un buen diseño? ¿y cómo surge ese Diseño? ¿por magia? Para resolver estas dudas fuimos a hablar con el equipo de Diseño de Liferay y nos propusieron el siguiente recorrido de tres sesiones para explicárnoslo;\n\n*A día de hoy Liferay cuenta con casi 40 diseñadores entre los diseñadores de producto, comunicación, soluciones, operaciones, investigación, etc. En esta \"trilogía\" de charlas queremos compartir con vosotros cómo los diseñadores contribuimos en Liferay, quiénes somos y cómo funcionamos. Además queremos descubriros tres interesantes mundos dentro del diseño: la investigación, la accesibilidad y los sistemas de diseño (Lexicon). Os contaremos qué y cómo investigamos, y el rol que podéis desempeñar vosotros mismos en la investigación; también hablaremos de qué es lo que hace Liferay para mejorar la accesibilidad y cómo la usamos de puente de unión entre la conceptualización y el lado técnico; además hablaremos de Lexicon, nuestro sistema de diseño, os hablaremos sobre su éxito, fracaso, estrategias y política.*\n\nEn este caso, la trilogía la empezamos por el principio (no todas las sagas pueden decir lo mismo jeje). A modo de introducción, en esta charla, **Miriam Manso** nos presentará al equipo de diseño, os descubriremos quiénes somos, explicaremos **cómo funcionamos** dentro de Liferay y **cómo contribuimos al producto**. Más adelante, nos centraremos en la **investigación en diseño**. Hablaremos del **departamento de investigación en Liferay**, cómo funciona, qué, cómo y cuándo investigamos, **casos reales.**..Y os haremos saber cuál es el rol que vosotros podéis desempañar en este mundo de la investigación en diseño.\n\n**Si queréis ver casos en los que os explotará la cabeza y creeréis que os están leyendo la mente, no podéis faltar a esta sesión.**\n\nLa agenda de la sesión del este miércoles será la siguiente:\n19:00 - Bienvenida y Anuncios\n19:10 - Diseño en Liferay: ¿Investigamos?\n20:00 - Q & A\n20:15 - Networking\n\n¡Ah! La sesión se podrá seguir a través de youtube (también registrándose al evento), pero si venís **presencialmente** (en las oficinas de Liferay - P.º de la Castellana, 280) , volveremos con el networking alrededor de las **PIZZAS**.\n\nNos vemos el jueves. Un saludo.",
+              "shortDescription": null,
+              "hosts": [
+                {
+                  "id": "93113132",
+                  "name": "Álvaro Saugar",
+                  "memberUrl": "https://www.meetup.com/members/93113132",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "280322512"
+                  }
+                },
+                {
+                  "id": "195652449",
+                  "name": "Carlos Durán ",
+                  "memberUrl": "https://www.meetup.com/members/195652449",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "314129807"
+                  }
+                },
+                {
+                  "id": "371680398",
+                  "name": "LUG Spain",
+                  "memberUrl": "https://www.meetup.com/members/371680398",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "314498824"
+                  }
+                }
+              ],
+              "dateTime": "2023-02-02T19:00+01:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "510189670"
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Hay link youtube? No he podido verlo."
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "291792454",
+              "title": "Meetup Marzo 2023 - El Maravilloso Mundo de los Site Initializers",
+              "eventUrl": "https://www.meetup.com/liferay-spain-user-group/events/291792454",
+              "description": "Hola,\nEn esta sesión, José María, Senior Sales Engineering aunque, anteriormente, ha podido disfrutar unos años en el equipo de soporte Liferay nos presentará qué son los Site Initializers y qué pueden hacer por ti como desarrollador de Liferay.\n\nEn esta sesión profundizaremos en el \"qué\", el \"por qué\" y el \"cómo\" de los inicializadores de sitios para ayudarte a comprender cómo usarlos como punto de partida para crear sitios efectivos y reutilizables. También hablaremos del futuro de los Site Initializers en Liferay Experience Cloud.\n\n¡No te lo puedes perder!\n\nLa agenda de la sesión del este miércoles será la siguiente:\n19:00 - Bienvenida y Anuncios\n19:10 - El Maravilloso Mundo de los Site Initializers con José María Muñoz\n20:00 - Q & A\n20:15 - Networking\n\n¡Ah! La sesión se podrá seguir a través de youtube (también registrándose al evento), pero si venís **presencialmente** (en las oficinas de Liferay - P.º de la Castellana, 280) , **volveremos con el networking alrededor de las PIZZAS**.\n\nPara los asistentes que asistan presencialmente, información sobre [medidas preventivas frente al Covid19 y emergencia en caso de una evacuación](https://docs.google.com/forms/d/e/1FAIpQLSesTnz8O7pWI1cIUDBoe4_Pt8rzOtB568xd6klLUu9yw55mYQ/viewform).\n\nNos vemos el jueves 9. Un saludo.",
+              "shortDescription": null,
+              "hosts": [
+                {
+                  "id": "371680398",
+                  "name": "LUG Spain",
+                  "memberUrl": "https://www.meetup.com/members/371680398",
+                  "memberPhoto": {
+                    "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+                    "id": "314498824"
+                  }
+                }
+              ],
+              "dateTime": "2023-03-09T19:00+01:00",
+              "eventType": "online",
+              "image": {
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                "id": "510831119"
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
               }
             }
           }
         ]
+      },
+      "upcomingEvents": {
+        "count": 0,
+        "pageInfo": {
+          "endCursor": ""
+        },
+        "edges": []
       }
     }
   }
